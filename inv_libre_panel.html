@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Inventario Libre / Prepago — CeluCenter</title>
+<style>
+  :root {
+    --bg: #0f1419;
+    --panel: #1a1f2e;
+    --panel-2: #232938;
+    --border: #2d3548;
+    --text: #e8eaed;
+    --text-dim: #9aa0a6;
+    --accent: #66bb6a;
+    --accent-2: #81c784;
+    --warn: #ffb74d;
+    --danger: #e57373;
+    --success: #66bb6a;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.4;
+  }
+  header {
+    background: linear-gradient(135deg, #1b5e20 0%, #2e7d32 100%);
+    padding: 16px 24px;
+    border-bottom: 1px solid var(--border);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+  header h1 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  header .meta {
+    color: var(--text-dim);
+    font-size: 12px;
+    margin-top: 4px;
+  }
+  nav.topnav {
+    background: #0a0e14;
+    padding: 8px 24px;
+    display: flex;
+    gap: 8px;
+    border-bottom: 1px solid var(--border);
+  }
+  nav.topnav a {
+    color: var(--text-dim);
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-size: 13px;
+    font-weight: 500;
+    transition: all 0.15s;
+  }
+  nav.topnav a:hover { background: var(--panel-2); color: var(--text); }
+  nav.topnav a.active {
+    background: var(--success);
+    color: #0f1419;
+    font-weight: 600;
+  }
+  .container {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 16px 24px;
+  }
+  .summary {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 12px;
+    margin-bottom: 24px;
+  }
+  .card {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 16px;
+    position: relative;
+    transition: all 0.15s;
+  }
+  .card .label {
+    color: var(--text-dim);
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  .card .value {
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 4px;
+  }
+  .card.alert .value { color: var(--warn); }
+  .card.danger .value { color: var(--danger); }
+  .card.success .value { color: var(--success); }
+  .card.filtered {
+    border-color: var(--success);
+    background: linear-gradient(135deg, #0a1f0d 0%, #0d3314 100%);
+    box-shadow: 0 0 12px rgba(102, 187, 106, 0.15);
+  }
+  .card.filtered::after {
+    content: "⚡ filtrado";
+    position: absolute;
+    top: 6px;
+    right: 8px;
+    font-size: 10px;
+    color: var(--success);
+    font-weight: 600;
+    letter-spacing: 0.3px;
+  }
+  .controls {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 16px;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  input, select, button {
+    background: var(--panel-2);
+    color: var(--text);
+    border: 1px solid var(--border);
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-size: 13px;
+  }
+  button {
+    cursor: pointer;
+    background: var(--accent);
+    color: #0f1419;
+    border: none;
+    font-weight: 600;
+  }
+  button:hover { opacity: 0.9; }
+  .store-card {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    margin-bottom: 16px;
+    overflow: hidden;
+  }
+  .store-header {
+    padding: 12px 16px;
+    background: var(--panel-2);
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    user-select: none;
+  }
+  .store-header:hover { background: #2a3142; }
+  .store-header h2 {
+    margin: 0;
+    font-size: 15px;
+    font-weight: 600;
+  }
+  .store-stats {
+    display: flex;
+    gap: 16px;
+    font-size: 12px;
+    color: var(--text-dim);
+  }
+  .store-stats span { white-space: nowrap; }
+  .store-body { display: none; }
+  .store-card.open .store-body { display: block; }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 12px;
+  }
+  th, td {
+    text-align: left;
+    padding: 8px 12px;
+    border-bottom: 1px solid var(--border);
+  }
+  th {
+    background: var(--panel-2);
+    color: var(--text-dim);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-size: 10px;
+    position: sticky;
+    top: 0;
+  }
+  td.serie { font-family: 'SF Mono', Monaco, monospace; font-size: 11px; }
+  td.num { text-align: right; font-variant-numeric: tabular-nums; }
+  tr:hover td { background: rgba(79, 195, 247, 0.05); }
+  .badge {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  .badge.recent { background: rgba(102, 187, 106, 0.15); color: var(--success); }
+  .badge.medium { background: rgba(255, 183, 77, 0.15); color: var(--warn); }
+  .badge.old { background: rgba(229, 115, 115, 0.15); color: var(--danger); }
+  .badge.ancient { background: rgba(229, 115, 115, 0.3); color: var(--danger); font-weight: 700; }
+  .empty {
+    text-align: center;
+    padding: 40px;
+    color: var(--text-dim);
+  }
+  .footer {
+    text-align: center;
+    padding: 24px;
+    color: var(--text-dim);
+    font-size: 11px;
+  }
+  .pulse {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: var(--success);
+    margin-right: 6px;
+    animation: pulse 2s infinite;
+  }
+  @keyframes pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.4; }
+  }
+</style>
+</head>
+<body>
+<nav class="topnav">
+  <a href="inv_telcel_panel.html">📱 Telcel IU/KIT</a>
+  <a href="inv_libre_panel.html" class="active">🆓 Libre / Prepago</a>
+</nav>
+<header>
+  <h1>🆓 Inventario Libre / Prepago — CeluCenter</h1>
+  <div class="meta">
+    <span class="pulse"></span> Datos actualizados al <span id="updated">—</span>
+    &middot; <span id="autoRefresh">próximo refresh en <b id="countdown">60</b>s</span>
+    &middot; <a href="#" onclick="loadData(); return false;" style="color: var(--accent);">refrescar ahora</a>
+  </div>
+</header>
+
+<div class="container">
+  <div class="summary">
+    <div class="card">
+      <div class="label">Total unidades</div>
+      <div class="value" id="totalUnidades">—</div>
+    </div>
+    <div class="card alert">
+      <div class="label">Costo total inventario</div>
+      <div class="value" id="totalCosto">—</div>
+    </div>
+    <div class="card">
+      <div class="label">Sucursales</div>
+      <div class="value" id="numSucursales">—</div>
+    </div>
+    <div class="card danger">
+      <div class="label">Más antiguos (>3 años)</div>
+      <div class="value" id="totalOld">—</div>
+    </div>
+  </div>
+
+  <div class="controls">
+    <input type="search" id="search" placeholder="🔍 Buscar por modelo, código, serie, factura..." style="flex:1; min-width: 280px;">
+    <select id="filterAntiguedad">
+      <option value="">Todas las antigüedades</option>
+      <option value="<1 mes">Menos de 1 mes (0-30 días)</option>
+      <option value="<2 meses">Menos de 2 meses (1-60 días)</option>
+      <option value="<3 meses">Menos de 3 meses (1-90 días)</option>
+      <option value="1-3 meses">1 a 3 meses (30-90 días)</option>
+      <option value="3-6 meses">3-6 meses (90-180 días)</option>
+      <option value="6-12 meses">6-12 meses (180-365 días)</option>
+      <option value="1-3 años">1-3 años (365-1095 días)</option>
+      <option value="3-5 años">3-5 años (1095-1825 días)</option>
+      <option value=">5 años">Más de 5 años (&gt;1825 días)</option>
+    </select>
+    <select id="filterMarca">
+      <option value="">Todas las marcas</option>
+    </select>
+    <label style="display: flex; align-items: center; gap: 6px; padding: 8px 12px; background: var(--panel-2); border: 1px solid var(--border); border-radius: 6px; cursor: pointer; font-size: 13px;">
+      <input type="checkbox" id="filterMinPrice" style="margin: 0; cursor: pointer;">
+      💰 Solo costo o Lista F &gt; $999
+    </label>
+    <button onclick="expandAll()">Expandir todo</button>
+    <button onclick="collapseAll()">Colapsar todo</button>
+  </div>
+
+  <div id="stores"></div>
+
+  <div class="footer">
+    Datos desde <code>dat_inventario_saldos</code> · STX Read-Only
+    &middot; Filtrado: solo productos LIBRE/PREPAGO (no IU/KIT), todos los días en inventario
+    &middot; 27 tiendas retail
+  </div>
+</div>
+
+<script>
+let panelData = null;
+let autoRefreshTimer = null;
+let countdownTimer = null;
+let countdown = 60;
+
+async function loadData() {
+  try {
+    const res = await fetch('inv_libre_panel.json?t=' + Date.now());
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    panelData = await res.json();
+    populateMarcas();
+    render();
+    scheduleAutoRefresh();
+  } catch (err) {
+    document.getElementById('stores').innerHTML =
+      `<div class="empty">⚠️ Error cargando datos: ${err.message}<br><br>
+       Verifica que <code>data/inv_telcel_panel.json</code> exista y el servidor web esté corriendo.</div>`;
+  }
+}
+
+function itemMatches(it, ctx) {
+  const { filtro, marcaSel, minPrice, search } = ctx;
+  if (filtro) {
+    const d = it.dias;
+    if (filtro === '<1 mes' && d > 30) return false;
+    if (filtro === '<2 meses' && d > 60) return false;
+    if (filtro === '<3 meses' && d > 90) return false;
+    if (filtro === '1-3 meses' && (d < 30 || d > 90)) return false;
+    if (filtro === '3-6 meses' && (d < 90 || d > 180)) return false;
+    if (filtro === '6-12 meses' && (d < 180 || d > 365)) return false;
+    if (filtro === '1-3 años' && (d < 365 || d > 1095)) return false;
+    if (filtro === '3-5 años' && (d < 1095 || d > 1825)) return false;
+    if (filtro === '>5 años' && d <= 1825) return false;
+  }
+  if (marcaSel && extractMarca(it.nombre) !== marcaSel) return false;
+  if (minPrice && it.costo <= 999 && it.lista_f <= 999) return false;
+  if (search) {
+    const haystack = [it.codigo, it.nombre, it.serie, it.factura].join(' ').toLowerCase();
+    if (!haystack.includes(search)) return false;
+  }
+  return true;
+}
+
+function render() {
+  if (!panelData) return;
+
+  // Header (timestamp)
+  const d = new Date(panelData.generated_at);
+  document.getElementById('updated').textContent =
+    d.toLocaleString('es-MX', { dateStyle: 'short', timeStyle: 'short' });
+
+  // Contexto de filtros
+  const ctx = {
+    filtro: document.getElementById('filterAntiguedad').value,
+    marcaSel: document.getElementById('filterMarca').value,
+    minPrice: document.getElementById('filterMinPrice').checked,
+    search: document.getElementById('search').value.toLowerCase(),
+  };
+  const hasFilter = !!(ctx.filtro || ctx.marcaSel || ctx.minPrice || ctx.search);
+
+  // Aplanar + filtrar todo
+  const allFiltered = [];
+  for (const s of panelData.stores) {
+    for (const it of s.items) {
+      if (itemMatches(it, ctx)) {
+        allFiltered.push({ ...it, _sucursal: s.sucursal });
+      }
+    }
+  }
+
+  // Stats desde set filtrado
+  const totalUnidades = allFiltered.length;
+  const totalCosto = allFiltered.reduce((acc, it) => acc + (it.costo || 0), 0);
+  const numSucursalesSet = new Set(allFiltered.map(it => it._sucursal));
+  const numSucursales = numSucursalesSet.size;
+  const totalOld = allFiltered.filter(it => it.dias > 1095).length;
+
+  document.getElementById('totalUnidades').textContent = totalUnidades.toLocaleString();
+  document.getElementById('totalCosto').textContent = '$' + totalCosto.toLocaleString('es-MX', {minimumFractionDigits: 2, maximumFractionDigits: 2});
+  document.getElementById('numSucursales').textContent = numSucursales;
+  document.getElementById('totalOld').textContent = totalOld;
+
+  document.querySelectorAll('.summary .card').forEach(c => c.classList.toggle('filtered', hasFilter));
+
+  // Reagrupar por sucursal
+  const byStore = new Map();
+  for (const it of allFiltered) {
+    if (!byStore.has(it._sucursal)) byStore.set(it._sucursal, []);
+    byStore.get(it._sucursal).push(it);
+  }
+
+  // Render por sucursal
+  const html = panelData.stores
+    .filter(store => byStore.has(store.sucursal))
+    .map(store => {
+    const items = byStore.get(store.sucursal);
+    items.sort((a, b) => b.dias - a.dias);
+
+    const costoVisible = items.reduce((acc, it) => acc + (it.costo || 0), 0);
+    const modelosSet = new Set(items.map(it => it.codigo));
+
+    return `
+      <div class="store-card open" data-store="${store.sucursal}">
+        <div class="store-header" onclick="this.parentElement.classList.toggle('open')">
+          <h2>📍 ${store.sucursal}</h2>
+          <div class="store-stats">
+            <span>${items.length} uds</span>
+            <span>${modelosSet.size} modelos</span>
+            <span style="color: var(--warn);">$${costoVisible.toLocaleString('es-MX', {minimumFractionDigits: 2})}</span>
+          </div>
+        </div>
+        <div class="store-body">
+          <table>
+            <thead>
+              <tr>
+                <th>Código</th>
+                <th>Modelo</th>
+                <th>Serie</th>
+                <th>Factura</th>
+                <th>F.Compra</th>
+                <th>F.Alta</th>
+                <th>Días</th>
+                <th>Antigüedad</th>
+                <th class="num">Costo</th>
+                <th class="num">Lista F</th>
+              </tr>
+            </thead>
+            <tbody>
+              ${items.map(it => {
+                const badgeClass = it.antiguedad === '>5 años' || it.antiguedad === '3-5 años' ? 'ancient' :
+                                   it.antiguedad === '1-3 años' ? 'old' :
+                                   it.antiguedad === '6-12 meses' ? 'medium' :
+                                   'recent';
+                return `
+                  <tr>
+                    <td>${escape(it.codigo)}</td>
+                    <td>${escape(it.nombre)}</td>
+                    <td class="serie">${escape(it.serie)}</td>
+                    <td>${escape(it.factura) || '—'}</td>
+                    <td>${escape(it.fecha_compra) || '—'}</td>
+                    <td>${escape(it.fecha_alta) || '—'}</td>
+                    <td class="num">${it.dias}</td>
+                    <td><span class="badge ${badgeClass}">${escape(it.antiguedad)}</span></td>
+                    <td class="num">$${it.costo.toLocaleString('es-MX', {minimumFractionDigits: 2})}</td>
+                    <td class="num">${it.lista_f ? '$' + it.lista_f.toLocaleString('es-MX', {minimumFractionDigits: 2}) : '—'}</td>
+                  </tr>
+                `;
+              }).join('')}
+            </tbody>
+          </table>
+        </div>
+      </div>
+    `;
+  }).join('');
+
+  document.getElementById('stores').innerHTML = html || '<div class="empty">Sin resultados con los filtros actuales.</div>';
+}
+
+function extractMarca(nombre) {
+  if (!nombre) return 'OTROS';
+  const KNOWN_BRANDS = [
+    'MOTOROLA', 'SAMSUNG', 'XIAOMI', 'HONOR', 'OPPO', 'ZTE', 'APPLE',
+    'HUAWEI', 'REALME', 'VIVO', 'TCL', 'ALCATEL', 'NOKIA', 'LANIX',
+    'INFINIX', 'TECNO', 'ONEPLUS', 'GOOGLE', 'BLACKBERRY'
+  ];
+  const upper = nombre.toUpperCase().trim();
+  for (const brand of KNOWN_BRANDS) {
+    if (upper.startsWith(brand + ' ') || upper.startsWith(brand + '4') ||
+        upper.startsWith(brand + '5') || upper.startsWith(brand + '3') ||
+        upper === brand) {
+      return brand;
+    }
+  }
+  // fallback: primera palabra
+  return upper.split(/\s+/)[0] || 'OTROS';
+}
+
+function populateMarcas() {
+  const marcas = new Set();
+  for (const store of panelData.stores) {
+    for (const it of store.items) {
+      marcas.add(extractMarca(it.nombre));
+    }
+  }
+  const sorted = Array.from(marcas).sort();
+  const sel = document.getElementById('filterMarca');
+  // limpiar excepto primera opción
+  while (sel.options.length > 1) sel.remove(1);
+  for (const m of sorted) {
+    const opt = document.createElement('option');
+    opt.value = m;
+    opt.textContent = m;
+    sel.appendChild(opt);
+  }
+}
+
+function escape(s) {
+  if (s == null) return '';
+  return String(s).replace(/[&<>"']/g, c => ({
+    '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
+  }[c]));
+}
+
+function expandAll() {
+  document.querySelectorAll('.store-card').forEach(c => c.classList.add('open'));
+}
+function collapseAll() {
+  document.querySelectorAll('.store-card').forEach(c => c.classList.remove('open'));
+}
+
+function scheduleAutoRefresh() {
+  countdown = 60;
+  if (countdownTimer) clearInterval(countdownTimer);
+  countdownTimer = setInterval(() => {
+    countdown--;
+    document.getElementById('countdown').textContent = countdown;
+    if (countdown <= 0) {
+      loadData();
+    }
+  }, 1000);
+}
+
+document.getElementById('search').addEventListener('input', render);
+document.getElementById('filterAntiguedad').addEventListener('change', render);
+document.getElementById('filterMarca').addEventListener('change', render);
+document.getElementById('filterMinPrice').addEventListener('change', render);
+
+// Carga inicial
+loadData();
+</script>
+</body>
+</html>
