@@ -227,6 +227,112 @@
     0%, 100% { opacity: 1; }
     50% { opacity: 0.4; }
   }
+
+  /* ===== PRINT HEADER (solo visible al imprimir) ===== */
+  .print-header { display: none; }
+
+  /* ===== PRINT STYLES ===== */
+  @media print {
+    @page {
+      size: letter landscape;
+      margin: 12mm;
+    }
+    body {
+      background: #fff !important;
+      color: #000 !important;
+      font-size: 9pt;
+    }
+    /* Ocultar chrome */
+    nav.topnav,
+    header,
+    .controls,
+    .summary,
+    .footer,
+    #autoRefresh { display: none !important; }
+
+    /* Mostrar print header */
+    .print-header {
+      display: block !important;
+      border-bottom: 2px solid #000;
+      padding-bottom: 8px;
+      margin-bottom: 12px;
+    }
+    .print-header h1 {
+      margin: 0 0 4px 0;
+      font-size: 16pt;
+      color: #000;
+    }
+    .print-header .meta {
+      font-size: 9pt;
+      color: #333;
+    }
+    .print-header .kpis {
+      display: flex;
+      gap: 16px;
+      margin-top: 6px;
+      font-size: 9pt;
+    }
+    .print-header .kpis span {
+      background: #f0f0f0;
+      padding: 2px 8px;
+      border: 1px solid #999;
+      border-radius: 3px;
+    }
+
+    /* Forzar todas las tarjetas expandidas */
+    .store-card { page-break-inside: avoid; margin-bottom: 8px; border: 1px solid #999 !important; background: #fff !important; }
+    .store-card .store-body { display: block !important; }
+    .store-header {
+      background: #e8e8e8 !important;
+      color: #000 !important;
+      page-break-after: avoid;
+    }
+    .store-header h2 { color: #000 !important; }
+    .store-stats { color: #000 !important; }
+
+    /* Tablas compactas y paginadas */
+    table { font-size: 7.5pt; page-break-inside: auto; }
+    th, td {
+      padding: 3px 5px !important;
+      border-bottom: 1px solid #ccc !important;
+      color: #000 !important;
+      background: #fff !important;
+    }
+    th {
+      background: #e0e0e0 !important;
+      color: #000 !important;
+      border-bottom: 2px solid #000 !important;
+    }
+    tr { page-break-inside: avoid; }
+    td.serie { font-size: 7pt; }
+
+    /* Badges: sin colores */
+    .badge {
+      background: #fff !important;
+      color: #000 !important;
+      border: 1px solid #666;
+      padding: 1px 5px !important;
+    }
+
+    /* Header sticky desactivado */
+    th { position: static !important; }
+
+    /* Indicador de sucursal filtrada */
+    .store-card.filtered-store {
+      border: 2px solid #000 !important;
+    }
+    .store-card.filtered-store::before {
+      content: "FILTRADO POR URL";
+      display: block;
+      background: #000;
+      color: #fff;
+      font-size: 7pt;
+      padding: 1px 6px;
+      text-align: right;
+    }
+
+    a { color: #000 !important; text-decoration: none; }
+  }
 </style>
 </head>
 <body>
@@ -242,6 +348,21 @@
     &middot; <a href="#" onclick="loadData(); return false;" style="color: var(--accent);">refrescar ahora</a>
   </div>
 </header>
+
+<div class="print-header">
+  <h1 id="printTitle">Inventario Libre / Prepago — CeluCenter</h1>
+  <div class="meta">
+    Generado: <span id="printDate"></span>
+    &middot; Fuente: dat_inventario_saldos (STX Read-Only)
+    &middot; 27 tiendas retail
+  </div>
+  <div class="kpis">
+    <span><b id="printUnidades">—</b> unidades</span>
+    <span><b id="printCosto">—</b> costo total</span>
+    <span><b id="printModelos">—</b> modelos</span>
+    <span><b id="printAntiguos">—</b> &gt;3 años</span>
+  </div>
+</div>
 
 <div class="container">
   <div class="summary">
@@ -286,6 +407,7 @@
     </label>
     <button onclick="expandAll()">Expandir todo</button>
     <button onclick="collapseAll()">Colapsar todo</button>
+    <button onclick="printPanel()" style="background: var(--warn); color: #0f1419;">🖨️ Imprimir PDF</button>
   </div>
 
   <div id="stores"></div>
@@ -302,12 +424,37 @@ let panelData = null;
 let autoRefreshTimer = null;
 let countdownTimer = null;
 let countdown = 60;
+let urlSucursal = null;  // filtro por ?sucursal=...
+
+function getSucursalFromURL() {
+  const params = new URLSearchParams(window.location.search);
+  const suc = params.get('sucursal');
+  if (suc) return decodeURIComponent(suc).trim();
+  return null;
+}
+
+function applyURLFilter() {
+  urlSucursal = getSucursalFromURL();
+  if (urlSucursal) {
+    // Cambiar título a la tienda
+    const origTitle = document.querySelector('header h1').textContent;
+    document.querySelector('header h1').textContent =
+      `📍 ${urlSucursal} — ${origTitle}`;
+    document.title = `${urlSucursal} — Inventario Libre/Prepago`;
+    // Actualizar print title
+    document.getElementById('printTitle').textContent =
+      `Inventario ${urlSucursal} — Libre / Prepago`;
+    // Auto-expandir
+    setTimeout(expandAll, 100);
+  }
+}
 
 async function loadData() {
   try {
     const res = await fetch('inv_libre_panel.json?t=' + Date.now());
     if (!res.ok) throw new Error('HTTP ' + res.status);
     panelData = await res.json();
+    applyURLFilter();  // filtrar antes de popular marcas
     populateMarcas();
     render();
     scheduleAutoRefresh();
@@ -348,6 +495,18 @@ function render() {
   const d = new Date(panelData.generated_at);
   document.getElementById('updated').textContent =
     d.toLocaleString('es-MX', { dateStyle: 'short', timeStyle: 'short' });
+
+  // Si hay filtro por URL, filtrar stores desde el origen
+  const storesToShow = urlSucursal
+    ? panelData.stores.filter(s => s.sucursal.toUpperCase() === urlSucursal.toUpperCase())
+    : panelData.stores;
+
+  if (urlSucursal && storesToShow.length === 0) {
+    document.getElementById('stores').innerHTML =
+      `<div class="empty">⚠️ Sucursal <code>${escape(urlSucursal)}</code> no encontrada en el panel.<br>
+       Verifica mayúsculas/minúsculas o prueba sin ?sucursal=...</div>`;
+    return;
+  }
 
   // Contexto de filtros
   const ctx = {
@@ -390,7 +549,7 @@ function render() {
   }
 
   // Render por sucursal
-  const html = panelData.stores
+  const html = storesToShow
     .filter(store => byStore.has(store.sucursal))
     .map(store => {
     const items = byStore.get(store.sucursal);
@@ -398,9 +557,10 @@ function render() {
 
     const costoVisible = items.reduce((acc, it) => acc + (it.costo || 0), 0);
     const modelosSet = new Set(items.map(it => it.codigo));
+    const isFiltered = urlSucursal && store.sucursal.toUpperCase() === urlSucursal.toUpperCase();
 
     return `
-      <div class="store-card open" data-store="${store.sucursal}">
+      <div class="store-card open ${isFiltered ? 'filtered-store' : ''}" data-store="${store.sucursal}">
         <div class="store-header" onclick="this.parentElement.classList.toggle('open')">
           <h2>📍 ${store.sucursal}</h2>
           <div class="store-stats">
@@ -454,6 +614,15 @@ function render() {
   }).join('');
 
   document.getElementById('stores').innerHTML = html || '<div class="empty">Sin resultados con los filtros actuales.</div>';
+
+  // Actualizar print-header con KPIs del set filtrado
+  const allModelos = new Set(allFiltered.map(it => it.codigo));
+  document.getElementById('printUnidades').textContent = totalUnidades.toLocaleString();
+  document.getElementById('printCosto').textContent = '$' + totalCosto.toLocaleString('es-MX', {minimumFractionDigits: 2, maximumFractionDigits: 2});
+  document.getElementById('printModelos').textContent = allModelos.size.toLocaleString();
+  document.getElementById('printAntiguos').textContent = totalOld.toLocaleString();
+  document.getElementById('printDate').textContent =
+    new Date().toLocaleString('es-MX', { dateStyle: 'long', timeStyle: 'short' });
 }
 
 function extractMarca(nombre) {
@@ -506,6 +675,15 @@ function expandAll() {
 }
 function collapseAll() {
   document.querySelectorAll('.store-card').forEach(c => c.classList.remove('open'));
+}
+
+function printPanel() {
+  // Expandir todo antes de imprimir
+  expandAll();
+  // Pequeño delay para que el navegador aplique el DOM
+  setTimeout(() => {
+    window.print();
+  }, 200);
 }
 
 function scheduleAutoRefresh() {
