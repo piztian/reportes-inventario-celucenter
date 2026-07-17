@@ -519,9 +519,9 @@ function render() {
   };
   const hasFilter = !!(ctx.filtro || ctx.marcaSel || ctx.minPrice || ctx.search);
 
-  // Aplanar + filtrar todo
+  // Aplanar + filtrar todo (respeta filtro URL)
   const allFiltered = [];
-  for (const s of panelData.stores) {
+  for (const s of storesToShow) {
     for (const it of s.items) {
       if (itemMatches(it, ctx)) {
         allFiltered.push({ ...it, _sucursal: s.sucursal });
