@@ -436,10 +436,12 @@ function getSucursalFromURL() {
 function applyURLFilter() {
   urlSucursal = getSucursalFromURL();
   if (urlSucursal) {
-    // Cambiar título a la tienda
-    const origTitle = document.querySelector('header h1').textContent;
-    document.querySelector('header h1').textContent =
-      `📍 ${urlSucursal} — ${origTitle}`;
+    const h1 = document.querySelector('header h1');
+    // Solo aplicar el prefijo una vez (evita duplicarse en auto-refresh)
+    if (!h1.dataset.originalTitle) {
+      h1.dataset.originalTitle = h1.textContent;
+    }
+    h1.textContent = `📍 ${urlSucursal} — ${h1.dataset.originalTitle}`;
     document.title = `${urlSucursal} — Inventario Libre/Prepago`;
     // Actualizar print title
     document.getElementById('printTitle').textContent =
