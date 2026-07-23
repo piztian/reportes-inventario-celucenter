@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Inventario Accesorios Obsoletos — CeluCenter</title>
+<title>Inventario Accesorios — CeluCenter</title>
 <style>
   :root {
     --bg: #0f1419;
@@ -395,12 +395,12 @@
 </head>
 <body>
 <nav class="topnav">
-  <a href="inv_accesorios_panel.html" class="active">🧰 Accesorios Obsoletos</a>
+  <a href="inv_accesorios_panel.html" class="active">🧰 Accesorios</a>
   <a href="inv_telcel_panel.html">📱 Telcel IU/KIT</a>
   <a href="inv_libre_panel.html">🆓 Libre / Prepago</a>
 </nav>
 <header>
-  <h1>🧰 Inventario Accesorios Obsoletos (+5 años sin venta)</h1>
+  <h1>🧰 Inventario de Accesorios — Stock & Antigüedad por Tienda</h1>
   <div class="meta">
     <span class="pulse"></span> Datos actualizados al <span id="updated">—</span>
     &middot; <span id="autoRefresh">próximo refresh en <b id="countdown">120</b>s</span>
@@ -412,11 +412,11 @@
 </header>
 
 <div class="print-header">
-  <h1>Accesorios Obsoletos — Sin venta +5 años</h1>
+  <h1>Accesorios — Stock por Tienda</h1>
   <div class="meta">
     Generado: <span id="printDate"></span>
     &middot; Fuente: dat_inventario_saldos (STX Read-Only)
-    &middot; 27 tiendas retail &middot; 8 grupos accesorios
+    &middot; 27 tiendas retail &middot; 8 grupos accesorios (FUNDA/MICA/CASE/CABLE/CARGADOR/AURICULAR/AUDIO/HEADSET)
   </div>
   <div class="kpis">
     <span><b id="printSkus">—</b> SKUs</span>
@@ -456,6 +456,12 @@
     </div>
   </div>
 
+  <!-- Distribución por bracket -->
+  <div class="card" style="margin-bottom: 24px; background: var(--panel-2); padding: 16px;">
+    <div class="label" style="margin-bottom: 12px;">Distribución por antigüedad (SKUs)</div>
+    <div id="bracketBars" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 12px;"></div>
+  </div>
+
   <div class="tabs">
     <button class="tab active" data-view="productos" onclick="setView('productos')">📦 Por producto (SKU)</button>
     <button class="tab" data-view="tiendas" onclick="setView('tiendas')">🏬 Por tienda</button>
@@ -467,10 +473,15 @@
       <option value="">Todos los grupos</option>
     </select>
     <select id="filterAntiguedad">
-      <option value="">Cualquier antigüedad</option>
-      <option value="never">Nunca vendido</option>
-      <option value="ancient">+5 años</option>
-      <option value="3-5">3-5 años (1095-1825 días)</option>
+      <option value="">Todas las antigüedades</option>
+      <option value="never">⚠️ Nunca vendido</option>
+      <option value=">5 years">+5 años (&gt;1825 días)</option>
+      <option value="3-5 years">3-5 años (1095-1825 días)</option>
+      <option value="1-3 years">1-3 años (365-1095 días)</option>
+      <option value="6-12 months">6-12 meses (180-365 días)</option>
+      <option value="3-6 months">3-6 meses (90-180 días)</option>
+      <option value="30-90 days">30-90 días</option>
+      <option value="<30 days">&lt;30 días (vigente)</option>
     </select>
     <label style="display: flex; align-items: center; gap: 6px; padding: 8px 12px; background: var(--panel-2); border: 1px solid var(--border); border-radius: 6px; cursor: pointer; font-size: 13px;">
       <input type="checkbox" id="filterHighValue" style="margin: 0; cursor: pointer;">
@@ -494,7 +505,7 @@
   <div class="footer">
     Datos desde <code>dat_inventario_saldos</code> · STX Read-Only
     &middot; Filtro: grupos FUNDA/MICA/CASE/CABLE/CARGADOR/AURICULAR/AUDIO/HEADSET
-    &middot; Sin venta en +<span id="footerMinDias">1825</span> días (o nunca vendidos)
+    &middot; Distribución por antigüedad con brackets (nunca / +5años / 3-5 / 1-3 / 6-12m / 3-6m / 30-90d / &lt;30d)
     &middot; 27 tiendas retail
   </div>
 </div>
@@ -549,6 +560,18 @@ function getCtx() {
   };
 }
 
+function bracketOf(d) {
+  // Mapea dias_sin_venta al bracket key
+  if (d >= 99999) return 'never';
+  if (d > 1825) return '>5 years';
+  if (d > 1095) return '3-5 years';
+  if (d > 365) return '1-3 years';
+  if (d > 180) return '6-12 months';
+  if (d > 90) return '3-6 months';
+  if (d > 30) return '30-90 days';
+  return '<30 days';
+}
+
 function skuMatches(sku, ctx) {
   if (ctx.grupo && sku.grupo !== ctx.grupo) return false;
   if (ctx.search) {
@@ -556,9 +579,7 @@ function skuMatches(sku, ctx) {
     if (!haystack.includes(ctx.search)) return false;
   }
   if (ctx.highValue && sku.valor_total <= 500) return false;
-  if (ctx.antiguedad === 'never' && !sku.nunca_vendido) return false;
-  if (ctx.antiguedad === 'ancient' && sku.dias_sin_venta < 1825) return false;
-  if (ctx.antiguedad === '3-5' && (sku.dias_sin_venta < 1095 || sku.dias_sin_venta > 1825)) return false;
+  if (ctx.antiguedad && bracketOf(sku.dias_sin_venta) !== ctx.antiguedad) return false;
   return true;
 }
 
@@ -569,9 +590,7 @@ function itemMatches(item, ctx) {
     if (!haystack.includes(ctx.search)) return false;
   }
   if (ctx.highValue && item.valor <= 500) return false;
-  if (ctx.antiguedad === 'never' && item.dias_sin_venta < 99999) return false;
-  if (ctx.antiguedad === 'ancient' && item.dias_sin_venta < 1825) return false;
-  if (ctx.antiguedad === '3-5' && (item.dias_sin_venta < 1095 || item.dias_sin_venta > 1825)) return false;
+  if (ctx.antiguedad && bracketOf(item.dias_sin_venta) !== ctx.antiguedad) return false;
   return true;
 }
 
@@ -600,8 +619,54 @@ function render() {
 
   document.getElementById('footerMinDias').textContent = panelData.min_dias;
 
+  renderBrackets();
   if (currentView === 'productos') renderSkus();
   else renderStores();
+}
+
+const BRACKET_COLORS = {
+  'never':     { color: '#ba68c8', label: 'Nunca vendido',  filter: 'never' },
+  '>5 years':  { color: '#e57373', label: '+5 años',        filter: '>5 years' },
+  '3-5 years': { color: '#ef9a9a', label: '3-5 años',       filter: '3-5 years' },
+  '1-3 years': { color: '#ffb74d', label: '1-3 años',       filter: '1-3 years' },
+  '6-12 months':{ color: '#fff176', label: '6-12 meses',     filter: '6-12 months' },
+  '3-6 months':{ color: '#aed581', label: '3-6 meses',      filter: '3-6 months' },
+  '30-90 days':{ color: '#81c784', label: '30-90 días',      filter: '30-90 days' },
+  '<30 days':   { color: '#4fc3f7', label: '<30 días',        filter: '<30 days' },
+};
+
+function renderBrackets() {
+  if (!panelData.brackets) return;
+  const total = panelData.total_skus;
+  const order = ['never', '>5 years', '3-5 years', '1-3 years', '6-12 months', '3-6 months', '30-90 days', '<30 days'];
+  let html = '';
+  for (const key of order) {
+    const count = panelData.brackets[key] || 0;
+    if (count === 0) continue;
+    const meta = BRACKET_COLORS[key];
+    const pct = total > 0 ? (count / total * 100) : 0;
+    html += `
+      <div style="cursor: pointer; padding: 12px; background: var(--panel); border: 1px solid var(--border); border-radius: 6px; transition: all 0.15s;" 
+           onclick="setBracket('${meta.filter}')"
+           onmouseover="this.style.borderColor='${meta.color}'"
+           onmouseout="this.style.borderColor='var(--border)'">
+        <div style="display: flex; align-items: center; gap: 6px; margin-bottom: 6px;">
+          <div style="width: 10px; height: 10px; border-radius: 50%; background: ${meta.color};"></div>
+          <span style="color: var(--text-dim); font-size: 11px; text-transform: uppercase; letter-spacing: 0.5px;">${meta.label}</span>
+        </div>
+        <div style="font-size: 22px; font-weight: 600; color: ${meta.color};">${count}</div>
+        <div style="font-size: 11px; color: var(--text-dim); margin-top: 4px;">${pct.toFixed(1)}% del total</div>
+      </div>
+    `;
+  }
+  document.getElementById('bracketBars').innerHTML = html;
+}
+
+function setBracket(filter) {
+  document.getElementById('filterAntiguedad').value = filter;
+  render();
+  // Scroll hacia los resultados
+  document.getElementById('skus').scrollIntoView({ behavior: 'smooth', block: 'start' });
 }
 
 function renderSkus() {
