@@ -1,0 +1,3132 @@
+{
+  "generated_at": "2026-07-23T07:22:59.594860",
+  "min_dias": 1825,
+  "total_unidades": 188,
+  "total_costo": 11626.75,
+  "total_skus": 41,
+  "nunca_vendidos": 111,
+  "num_sucursales": 20,
+  "marcas": [
+    "ADAPTADOR",
+    "CABLE",
+    "CARGADOR",
+    "CASE",
+    "FUNDA",
+    "FUNDAS",
+    "LG",
+    "MANOS",
+    "MICA",
+    "POWER",
+    "TPU"
+  ],
+  "skus": [
+    {
+      "codigo": "AC2747",
+      "nombre": "FUNDA SCREEN PROTECTOR CON MICA MOTO G100",
+      "grupo": "FUNDA SCREEN PROTECTOR CON MICA MOTO G100",
+      "stock_total": 29,
+      "valor_total": 2375.1,
+      "costo_unitario": 81.9,
+      "dias_sin_venta": 99999,
+      "fecha_ultima_venta": null,
+      "antiguedad": "NUNCA",
+      "nunca_vendido": true,
+      "tiendas": [
+        {
+          "alm_id": 68,
+          "sucursal": "TECALITLAN",
+          "stock": 3,
+          "valor": 245.7
+        },
+        {
+          "alm_id": 11,
+          "sucursal": "ZAPOTILTIC",
+          "stock": 3,
+          "valor": 245.7
+        },
+        {
+          "alm_id": 28,
+          "sucursal": "TIZAPAN",
+          "stock": 3,
+          "valor": 245.7
+        },
+        {
+          "alm_id": 134,
+          "sucursal": "ATOYAC",
+          "stock": 2,
+          "valor": 163.8
+        },
+        {
+          "alm_id": 64,
+          "sucursal": "GOMEZ FARIAS",
+          "stock": 2,
+          "valor": 163.8
+        },
+        {
+          "alm_id": 74,
+          "sucursal": "Jocotepec",
+          "stock": 1,
+          "valor": 81.9
+        },
+        {
+          "alm_id": 131,
+          "sucursal": "JIQUILPAN CH",
+          "stock": 1,
+          "valor": 81.9
+        },
+        {
+          "alm_id": 133,
+          "sucursal": "USMAJAC",
+          "stock": 1,
+          "valor": 81.9
+        },
+        {
+          "alm_id": 131,
+          "sucursal": "JIQUILPAN CH",
+          "stock": 1,
+          "valor": 81.9
+        },
+        {
+          "alm_id": 134,
+          "sucursal": "ATOYAC",
+          "stock": 1,
+          "valor": 81.9
+        },
+        {
+          "alm_id": 132,
+          "sucursal": "TECALITLAN CH",
+          "stock": 1,
+          "valor": 81.9
+        },
+        {
+          "alm_id": 89,
+          "sucursal": "SANTA CRUZ",
+          "stock": 1,
+          "valor": 81.9
+        },
+        {
+          "alm_id": 74,
+          "sucursal": "Jocotepec",
+          "stock": 1,
+          "valor": 81.9
+        },
+        {
+          "alm_id": 74,
+          "sucursal": "Jocotepec",
+          "stock": 1,
+          "valor": 81.9
+        },
+        {
+          "alm_id": 131,
+          "sucursal": "JIQUILPAN CH",
+          "stock": 1,
+          "valor": 81.9
+        },
+        {
+          "alm_id": 89,
+          "sucursal": "SANTA CRUZ",
+          "stock": 1,
+          "valor": 81.9
+        },
+        {
+          "alm_id": 124,
+          "sucursal": "ATEQUIZA",
+          "stock": 1,
+          "valor": 81.9
+        },
+        {
+          "alm_id": 133,
+          "sucursal": "USMAJAC",
+          "stock": 1,
+          "valor": 81.9
+        },
+        {
+          "alm_id": 132,
+          "sucursal": "TECALITLAN CH",
+          "stock": 1,
+          "valor": 81.9
+        },
+        {
+          "alm_id": 89,
+          "sucursal": "SANTA CRUZ",
+          "stock": 1,
+          "valor": 81.9
+        },
+        {
+          "alm_id": 132,
+          "sucursal": "TECALITLAN CH",
+          "stock": 1,
+          "valor": 81.9
+        }
+      ]
+    },
+    {
+      "codigo": "PR0185",
+      "nombre": "FUNDA DISEÑO DOBLE DISNEY MOTO G100",
+      "grupo": "FUNDA DISEÑO DOBLE DISNEY MOTO G100",
+      "stock_total": 21,
+      "valor_total": 1357.86,
+      "costo_unitario": 64.66,
+      "dias_sin_venta": 99999,
+      "fecha_ultima_venta": null,
+      "antiguedad": "NUNCA",
+      "nunca_vendido": true,
+      "tiendas": [
+        {
+          "alm_id": 68,
+          "sucursal": "TECALITLAN",
+          "stock": 3,
+          "valor": 193.98
+        },
+        {
+          "alm_id": 28,
+          "sucursal": "TIZAPAN",
+          "stock": 2,
+          "valor": 129.32
+        },
+        {
+          "alm_id": 11,
+          "sucursal": "ZAPOTILTIC",
+          "stock": 2,
+          "valor": 129.32
+        },
+        {
+          "alm_id": 3,
+          "sucursal": "MATRIZ",
+          "stock": 2,
+          "valor": 129.32
+        },
+        {
+          "alm_id": 64,
+          "sucursal": "GOMEZ FARIAS",
+          "stock": 2,
+          "valor": 129.32
+        },
+        {
+          "alm_id": 131,
+          "sucursal": "JIQUILPAN CH",
+          "stock": 1,
+          "valor": 64.66
+        },
+        {
+          "alm_id": 89,
+          "sucursal": "SANTA CRUZ",
+          "stock": 1,
+          "valor": 64.66
+        },
+        {
+          "alm_id": 17,
+          "sucursal": "TUXPAN",
+          "stock": 1,
+          "valor": 64.66
+        },
+        {
+          "alm_id": 74,
+          "sucursal": "Jocotepec",
+          "stock": 1,
+          "valor": 64.66
+        },
+        {
+          "alm_id": 89,
+          "sucursal": "SANTA CRUZ",
+          "stock": 1,
+          "valor": 64.66
+        },
+        {
+          "alm_id": 75,
+          "sucursal": "COLOMO",
+          "stock": 1,
+          "valor": 64.66
+        },
+        {
+          "alm_id": 75,
+          "sucursal": "COLOMO",
+          "stock": 1,
+          "valor": 64.66
+        },
+        {
+          "alm_id": 74,
+          "sucursal": "Jocotepec",
+          "stock": 1,
+          "valor": 64.66
+        },
+        {
+          "alm_id": 131,
+          "sucursal": "JIQUILPAN CH",
+          "stock": 1,
+          "valor": 64.66
+        },
+        {
+          "alm_id": 133,
+          "sucursal": "USMAJAC",
+          "stock": 1,
+          "valor": 64.66
+        }
+      ]
+    },
+    {
+      "codigo": "AC1710",
+      "nombre": "CASE TPU CON BRILLO REDMI NOTE 8 PRO",
+      "grupo": "CASE TPU CON BRILLO REDMI NOTE 8 PRO",
+      "stock_total": 14,
+      "valor_total": 784.42,
+      "costo_unitario": 56.03,
+      "dias_sin_venta": 1923,
+      "fecha_ultima_venta": "2021-04-17",
+      "antiguedad": "1923 dias",
+      "nunca_vendido": false,
+      "tiendas": [
+        {
+          "alm_id": 28,
+          "sucursal": "TIZAPAN",
+          "stock": 2,
+          "valor": 112.06
+        },
+        {
+          "alm_id": 17,
+          "sucursal": "TUXPAN",
+          "stock": 2,
+          "valor": 112.06
+        },
+        {
+          "alm_id": 11,
+          "sucursal": "ZAPOTILTIC",
+          "stock": 2,
+          "valor": 112.06
+        },
+        {
+          "alm_id": 137,
+          "sucursal": "TEOCUITATLAN",
+          "stock": 1,
+          "valor": 56.03
+        },
+        {
+          "alm_id": 132,
+          "sucursal": "TECALITLAN CH",
+          "stock": 1,
+          "valor": 56.03
+        },
+        {
+          "alm_id": 132,
+          "sucursal": "TECALITLAN CH",
+          "stock": 1,
+          "valor": 56.03
+        },
+        {
+          "alm_id": 136,
+          "sucursal": "COTIJA",
+          "stock": 1,
+          "valor": 56.03
+        },
+        {
+          "alm_id": 131,
+          "sucursal": "JIQUILPAN CH",
+          "stock": 1,
+          "valor": 56.03
+        },
+        {
+          "alm_id": 131,
+          "sucursal": "JIQUILPAN CH",
+          "stock": 1,
+          "valor": 56.03
+        },
+        {
+          "alm_id": 64,
+          "sucursal": "GOMEZ FARIAS",
+          "stock": 1,
+          "valor": 56.03
+        },
+        {
+          "alm_id": 10,
+          "sucursal": "TAMAZULA CH",
+          "stock": 1,
+          "valor": 56.03
+        }
+      ]
+    },
+    {
+      "codigo": "AC1711",
+      "nombre": "CASE TPU CON BRILLO SAMSUNG S11",
+      "grupo": "CASE TPU CON BRILLO SAMSUNG S11",
+      "stock_total": 13,
+      "valor_total": 728.39,
+      "costo_unitario": 56.03,
+      "dias_sin_venta": 99999,
+      "fecha_ultima_venta": null,
+      "antiguedad": "NUNCA",
+      "nunca_vendido": true,
+      "tiendas": [
+        {
+          "alm_id": 3,
+          "sucursal": "MATRIZ",
+          "stock": 2,
+          "valor": 112.06
+        },
+        {
+          "alm_id": 28,
+          "sucursal": "TIZAPAN",
+          "stock": 2,
+          "valor": 112.06
+        },
+        {
+          "alm_id": 131,
+          "sucursal": "JIQUILPAN CH",
+          "stock": 1,
+          "valor": 56.03
+        },
+        {
+          "alm_id": 131,
+          "sucursal": "JIQUILPAN CH",
+          "stock": 1,
+          "valor": 56.03
+        },
+        {
+          "alm_id": 74,
+          "sucursal": "Jocotepec",
+          "stock": 1,
+          "valor": 56.03
+        },
+        {
+          "alm_id": 74,
+          "sucursal": "Jocotepec",
+          "stock": 1,
+          "valor": 56.03
+        },
+        {
+          "alm_id": 132,
+          "sucursal": "TECALITLAN CH",
+          "stock": 1,
+          "valor": 56.03
+        },
+        {
+          "alm_id": 64,
+          "sucursal": "GOMEZ FARIAS",
+          "stock": 1,
+          "valor": 56.03
+        },
+        {
+          "alm_id": 64,
+          "sucursal": "GOMEZ FARIAS",
+          "stock": 1,
+          "valor": 56.03
+        },
+        {
+          "alm_id": 17,
+          "sucursal": "TUXPAN",
+          "stock": 1,
+          "valor": 56.03
+        },
+        {
+          "alm_id": 17,
+          "sucursal": "TUXPAN",
+          "stock": 1,
+          "valor": 56.03
+        }
+      ]
+    },
+    {
+      "codigo": "AC3034",
+      "nombre": "FUNDA TIPO ORIGINAL XIAOMI REDMI 9T",
+      "grupo": "FUNDA TIPO ORIGINAL XIAOMI REDMI 9T",
+      "stock_total": 10,
+      "valor_total": 603.4,
+      "costo_unitario": 60.34,
+      "dias_sin_venta": 99999,
+      "fecha_ultima_venta": null,
+      "antiguedad": "NUNCA",
+      "nunca_vendido": true,
+      "tiendas": [
+        {
+          "alm_id": 71,
+          "sucursal": "PONCITLAN",
+          "stock": 10,
+          "valor": 603.4
+        }
+      ]
+    },
+    {
+      "codigo": "CARGADORDUO50WOPEN",
+      "nombre": "CARGADOR SAMSUNG CARGA ULTRARRAPIDA DUO 50W CON CABLE C-C OPEN BOX",
+      "grupo": "CARGADOR SAMSUNG CARGA ULTRARRAPIDA DUO 50W CON CABLE C-C",
+      "stock_total": 1,
+      "valor_total": 543.19,
+      "costo_unitario": 543.19,
+      "dias_sin_venta": 99999,
+      "fecha_ultima_venta": null,
+      "antiguedad": "NUNCA",
+      "nunca_vendido": true,
+      "tiendas": [
+        {
+          "alm_id": 11,
+          "sucursal": "ZAPOTILTIC",
+          "stock": 1,
+          "valor": 543.19
+        }
+      ]
+    },
+    {
+      "codigo": "AC2286",
+      "nombre": "CASE DEGRADADO 360 MOTO EDGE",
+      "grupo": "CASE DEGRADADO 360 MOTO EDGE",
+      "stock_total": 7,
+      "valor_total": 482.79,
+      "costo_unitario": 68.97,
+      "dias_sin_venta": 2064,
+      "fecha_ultima_venta": "2020-11-27",
+      "antiguedad": "2064 dias",
+      "nunca_vendido": false,
+      "tiendas": [
+        {
+          "alm_id": 74,
+          "sucursal": "Jocotepec",
+          "stock": 1,
+          "valor": 68.97
+        },
+        {
+          "alm_id": 3,
+          "sucursal": "MATRIZ",
+          "stock": 1,
+          "valor": 68.97
+        },
+        {
+          "alm_id": 28,
+          "sucursal": "TIZAPAN",
+          "stock": 1,
+          "valor": 68.97
+        },
+        {
+          "alm_id": 89,
+          "sucursal": "SANTA CRUZ",
+          "stock": 1,
+          "valor": 68.97
+        },
+        {
+          "alm_id": 89,
+          "sucursal": "SANTA CRUZ",
+          "stock": 1,
+          "valor": 68.97
+        },
+        {
+          "alm_id": 11,
+          "sucursal": "ZAPOTILTIC",
+          "stock": 1,
+          "valor": 68.97
+        },
+        {
+          "alm_id": 89,
+          "sucursal": "SANTA CRUZ",
+          "stock": 1,
+          "valor": 68.97
+        }
+      ]
+    },
+    {
+      "codigo": "AC2835",
+      "nombre": "MICA HIDROGEL COMPLETA SAMSUNG S20",
+      "grupo": "MICA HIDROGEL COMPLETA SAMSUNG S20",
+      "stock_total": 14,
+      "valor_total": 422.38,
+      "costo_unitario": 30.17,
+      "dias_sin_venta": 99999,
+      "fecha_ultima_venta": null,
+      "antiguedad": "NUNCA",
+      "nunca_vendido": true,
+      "tiendas": [
+        {
+          "alm_id": 11,
+          "sucursal": "ZAPOTILTIC",
+          "stock": 2,
+          "valor": 60.34
+        },
+        {
+          "alm_id": 68,
+          "sucursal": "TECALITLAN",
+          "stock": 2,
+          "valor": 60.34
+        },
+        {
+          "alm_id": 17,
+          "sucursal": "TUXPAN",
+          "stock": 2,
+          "valor": 60.34
+        },
+        {
+          "alm_id": 3,
+          "sucursal": "MATRIZ",
+          "stock": 1,
+          "valor": 30.17
+        },
+        {
+          "alm_id": 28,
+          "sucursal": "TIZAPAN",
+          "stock": 1,
+          "valor": 30.17
+        },
+        {
+          "alm_id": 132,
+          "sucursal": "TECALITLAN CH",
+          "stock": 1,
+          "valor": 30.17
+        },
+        {
+          "alm_id": 131,
+          "sucursal": "JIQUILPAN CH",
+          "stock": 1,
+          "valor": 30.17
+        },
+        {
+          "alm_id": 10,
+          "sucursal": "TAMAZULA CH",
+          "stock": 1,
+          "valor": 30.17
+        },
+        {
+          "alm_id": 10,
+          "sucursal": "TAMAZULA CH",
+          "stock": 1,
+          "valor": 30.17
+        },
+        {
+          "alm_id": 28,
+          "sucursal": "TIZAPAN",
+          "stock": 1,
+          "valor": 30.17
+        },
+        {
+          "alm_id": 3,
+          "sucursal": "MATRIZ",
+          "stock": 1,
+          "valor": 30.17
+        }
+      ]
+    },
+    {
+      "codigo": "AC1518",
+      "nombre": "FUNDA CRISTAL COMPETO IP 11 PRO MAX",
+      "grupo": "FUNDA CRISTAL COMPETO IP 11 PRO MAX",
+      "stock_total": 5,
+      "valor_total": 344.85,
+      "costo_unitario": 68.97,
+      "dias_sin_venta": 1987,
+      "fecha_ultima_venta": "2021-02-12",
+      "antiguedad": "1987 dias",
+      "nunca_vendido": false,
+      "tiendas": [
+        {
+          "alm_id": 17,
+          "sucursal": "TUXPAN",
+          "stock": 1,
+          "valor": 68.97
+        },
+        {
+          "alm_id": 28,
+          "sucursal": "TIZAPAN",
+          "stock": 1,
+          "valor": 68.97
+        },
+        {
+          "alm_id": 131,
+          "sucursal": "JIQUILPAN CH",
+          "stock": 1,
+          "valor": 68.97
+        },
+        {
+          "alm_id": 64,
+          "sucursal": "GOMEZ FARIAS",
+          "stock": 1,
+          "valor": 68.97
+        },
+        {
+          "alm_id": 3,
+          "sucursal": "MATRIZ",
+          "stock": 1,
+          "valor": 68.97
+        }
+      ]
+    },
+    {
+      "codigo": "AC3153",
+      "nombre": "FUNDA TIPO ORIGINAL OPPO RENO 7 LITE",
+      "grupo": "FUNDA TIPO ORIGINAL OPPO RENO 7 LITE",
+      "stock_total": 10,
+      "valor_total": 344.4,
+      "costo_unitario": 34.44,
+      "dias_sin_venta": 99999,
+      "fecha_ultima_venta": null,
+      "antiguedad": "NUNCA",
+      "nunca_vendido": true,
+      "tiendas": [
+        {
+          "alm_id": 71,
+          "sucursal": "PONCITLAN",
+          "stock": 1,
+          "valor": 34.44
+        },
+        {
+          "alm_id": 10,
+          "sucursal": "TAMAZULA CH",
+          "stock": 1,
+          "valor": 34.44
+        },
+        {
+          "alm_id": 28,
+          "sucursal": "TIZAPAN",
+          "stock": 1,
+          "valor": 34.44
+        },
+        {
+          "alm_id": 124,
+          "sucursal": "ATEQUIZA",
+          "stock": 1,
+          "valor": 34.44
+        },
+        {
+          "alm_id": 131,
+          "sucursal": "JIQUILPAN CH",
+          "stock": 1,
+          "valor": 34.44
+        },
+        {
+          "alm_id": 74,
+          "sucursal": "Jocotepec",
+          "stock": 1,
+          "valor": 34.44
+        },
+        {
+          "alm_id": 132,
+          "sucursal": "TECALITLAN CH",
+          "stock": 1,
+          "valor": 34.44
+        },
+        {
+          "alm_id": 142,
+          "sucursal": "SAN LUIS SOYATLAN",
+          "stock": 1,
+          "valor": 34.44
+        },
+        {
+          "alm_id": 64,
+          "sucursal": "GOMEZ FARIAS",
+          "stock": 1,
+          "valor": 34.44
+        },
+        {
+          "alm_id": 75,
+          "sucursal": "COLOMO",
+          "stock": 1,
+          "valor": 34.44
+        }
+      ]
+    },
+    {
+      "codigo": "AC2697",
+      "nombre": "FUNDA TORNASOL IPHONE 12 PRO MAX",
+      "grupo": "FUNDA TORNASOL IPHONE 12 PRO MAX",
+      "stock_total": 3,
+      "valor_total": 232.77,
+      "costo_unitario": 77.59,
+      "dias_sin_venta": 99999,
+      "fecha_ultima_venta": null,
+      "antiguedad": "NUNCA",
+      "nunca_vendido": true,
+      "tiendas": [
+        {
+          "alm_id": 142,
+          "sucursal": "SAN LUIS SOYATLAN",
+          "stock": 1,
+          "valor": 77.59
+        },
+        {
+          "alm_id": 142,
+          "sucursal": "SAN LUIS SOYATLAN",
+          "stock": 1,
+          "valor": 77.59
+        },
+        {
+          "alm_id": 142,
+          "sucursal": "SAN LUIS SOYATLAN",
+          "stock": 1,
+          "valor": 77.59
+        }
+      ]
+    },
+    {
+      "codigo": "MAGMICRO",
+      "nombre": "CABLE USB MAGNET PUNTA MICRO USB",
+      "grupo": "CABLE USB MAGNET PUNTA MICRO USB",
+      "stock_total": 3,
+      "valor_total": 220.69,
+      "costo_unitario": 86.21,
+      "dias_sin_venta": 2775,
+      "fecha_ultima_venta": "2018-12-17",
+      "antiguedad": "2775 dias",
+      "nunca_vendido": false,
+      "tiendas": [
+        {
+          "alm_id": 131,
+          "sucursal": "JIQUILPAN CH",
+          "stock": 1,
+          "valor": 86.21
+        },
+        {
+          "alm_id": 11,
+          "sucursal": "ZAPOTILTIC",
+          "stock": 1,
+          "valor": 67.24
+        },
+        {
+          "alm_id": 3,
+          "sucursal": "MATRIZ",
+          "stock": 1,
+          "valor": 67.24
+        }
+      ]
+    },
+    {
+      "codigo": "AC1908",
+      "nombre": "CABLE USB 2 MTS TIPO C IPHONE",
+      "grupo": "CABLE USB 2 MTS TIPO C IPHONE",
+      "stock_total": 2,
+      "valor_total": 215.52,
+      "costo_unitario": 107.76,
+      "dias_sin_venta": 99999,
+      "fecha_ultima_venta": null,
+      "antiguedad": "NUNCA",
+      "nunca_vendido": true,
+      "tiendas": [
+        {
+          "alm_id": 64,
+          "sucursal": "GOMEZ FARIAS",
+          "stock": 1,
+          "valor": 107.76
+        },
+        {
+          "alm_id": 64,
+          "sucursal": "GOMEZ FARIAS",
+          "stock": 1,
+          "valor": 107.76
+        }
+      ]
+    },
+    {
+      "codigo": "AC2288",
+      "nombre": "FUNDA TIPO ORIGINAL HUAWEI P40 LITE",
+      "grupo": "FUNDA TIPO ORIGINAL HUAWEI P40 LITE",
+      "stock_total": 3,
+      "valor_total": 206.91,
+      "costo_unitario": 68.97,
+      "dias_sin_venta": 99999,
+      "fecha_ultima_venta": null,
+      "antiguedad": "NUNCA",
+      "nunca_vendido": true,
+      "tiendas": [
+        {
+          "alm_id": 137,
+          "sucursal": "TEOCUITATLAN",
+          "stock": 1,
+          "valor": 68.97
+        },
+        {
+          "alm_id": 131,
+          "sucursal": "JIQUILPAN CH",
+          "stock": 1,
+          "valor": 68.97
+        },
+        {
+          "alm_id": 132,
+          "sucursal": "TECALITLAN CH",
+          "stock": 1,
+          "valor": 68.97
+        }
+      ]
+    },
+    {
+      "codigo": "AC2674",
+      "nombre": "FUNDA USO RUDO MAGNETICO IPHONE 12 PRO",
+      "grupo": "FUNDA USO RUDO MAGNETICO IPHONE 12 PRO",
+      "stock_total": 3,
+      "valor_total": 206.91,
+      "costo_unitario": 68.97,
+      "dias_sin_venta": 99999,
+      "fecha_ultima_venta": null,
+      "antiguedad": "NUNCA",
+      "nunca_vendido": true,
+      "tiendas": [
+        {
+          "alm_id": 142,
+          "sucursal": "SAN LUIS SOYATLAN",
+          "stock": 1,
+          "valor": 68.97
+        },
+        {
+          "alm_id": 142,
+          "sucursal": "SAN LUIS SOYATLAN",
+          "stock": 1,
+          "valor": 68.97
+        },
+        {
+          "alm_id": 142,
+          "sucursal": "SAN LUIS SOYATLAN",
+          "stock": 1,
+          "valor": 68.97
+        }
+      ]
+    },
+    {
+      "codigo": "AC2680",
+      "nombre": "FUNDA USO RUDO MAGNETICO OPPO A52",
+      "grupo": "FUNDA USO RUDO MAGNETICO OPPO A52",
+      "stock_total": 3,
+      "valor_total": 206.91,
+      "costo_unitario": 68.97,
+      "dias_sin_venta": 99999,
+      "fecha_ultima_venta": null,
+      "antiguedad": "NUNCA",
+      "nunca_vendido": true,
+      "tiendas": [
+        {
+          "alm_id": 142,
+          "sucursal": "SAN LUIS SOYATLAN",
+          "stock": 1,
+          "valor": 68.97
+        },
+        {
+          "alm_id": 142,
+          "sucursal": "SAN LUIS SOYATLAN",
+          "stock": 1,
+          "valor": 68.97
+        },
+        {
+          "alm_id": 142,
+          "sucursal": "SAN LUIS SOYATLAN",
+          "stock": 1,
+          "valor": 68.97
+        }
+      ]
+    },
+    {
+      "codigo": "AC2681",
+      "nombre": "FUNDA USO RUDO MAGNETICO OPPO A53",
+      "grupo": "FUNDA USO RUDO MAGNETICO OPPO A53",
+      "stock_total": 3,
+      "valor_total": 206.91,
+      "costo_unitario": 68.97,
+      "dias_sin_venta": 99999,
+      "fecha_ultima_venta": null,
+      "antiguedad": "NUNCA",
+      "nunca_vendido": true,
+      "tiendas": [
+        {
+          "alm_id": 68,
+          "sucursal": "TECALITLAN",
+          "stock": 3,
+          "valor": 206.91
+        }
+      ]
+    },
+    {
+      "codigo": "AC2683",
+      "nombre": "FUNDA USO RUDO MAGNETICO POCO X3",
+      "grupo": "FUNDA USO RUDO MAGNETICO POCO X3",
+      "stock_total": 3,
+      "valor_total": 206.91,
+      "costo_unitario": 68.97,
+      "dias_sin_venta": 99999,
+      "fecha_ultima_venta": null,
+      "antiguedad": "NUNCA",
+      "nunca_vendido": true,
+      "tiendas": [
+        {
+          "alm_id": 68,
+          "sucursal": "TECALITLAN",
+          "stock": 2,
+          "valor": 137.94
+        },
+        {
+          "alm_id": 142,
+          "sucursal": "SAN LUIS SOYATLAN",
+          "stock": 1,
+          "valor": 68.97
+        }
+      ]
+    },
+    {
+      "codigo": "201712077800I21",
+      "nombre": "POWER CASE 7800 CABLE USB/MICRO",
+      "grupo": "POWER CASE 7800 CABLE USB/MICRO",
+      "stock_total": 1,
+      "valor_total": 206.9,
+      "costo_unitario": 206.9,
+      "dias_sin_venta": 99999,
+      "fecha_ultima_venta": null,
+      "antiguedad": "NUNCA",
+      "nunca_vendido": true,
+      "tiendas": [
+        {
+          "alm_id": 11,
+          "sucursal": "ZAPOTILTIC",
+          "stock": 1,
+          "valor": 206.9
+        }
+      ]
+    },
+    {
+      "codigo": "AC2624",
+      "nombre": "FUNDA DISEÑO DOBLE DISNEY OPPO A72",
+      "grupo": "FUNDA DISEÑO DOBLE DISNEY OPPO A72",
+      "stock_total": 3,
+      "valor_total": 193.98,
+      "costo_unitario": 64.66,
+      "dias_sin_venta": 99999,
+      "fecha_ultima_venta": null,
+      "antiguedad": "NUNCA",
+      "nunca_vendido": true,
+      "tiendas": [
+        {
+          "alm_id": 68,
+          "sucursal": "TECALITLAN",
+          "stock": 2,
+          "valor": 129.32
+        },
+        {
+          "alm_id": 142,
+          "sucursal": "SAN LUIS SOYATLAN",
+          "stock": 1,
+          "valor": 64.66
+        }
+      ]
+    },
+    {
+      "codigo": "AC2701",
+      "nombre": "FUNDA DISEÑO DOBLE DE DISNEY OPPO RENO 5 LITE",
+      "grupo": "FUNDA DISEÑO DOBLE DE DISNEY OPPO RENO 5 LITE",
+      "stock_total": 3,
+      "valor_total": 193.98,
+      "costo_unitario": 64.66,
+      "dias_sin_venta": 99999,
+      "fecha_ultima_venta": null,
+      "antiguedad": "NUNCA",
+      "nunca_vendido": true,
+      "tiendas": [
+        {
+          "alm_id": 68,
+          "sucursal": "TECALITLAN",
+          "stock": 1,
+          "valor": 64.66
+        },
+        {
+          "alm_id": 142,
+          "sucursal": "SAN LUIS SOYATLAN",
+          "stock": 1,
+          "valor": 64.66
+        },
+        {
+          "alm_id": 142,
+          "sucursal": "SAN LUIS SOYATLAN",
+          "stock": 1,
+          "valor": 64.66
+        }
+      ]
+    },
+    {
+      "codigo": "AC2705",
+      "nombre": "FUNDA DISEÑO DISNEY REDMI NOTE 10",
+      "grupo": "FUNDA DISEÑO DISNEY REDMI NOTE 10",
+      "stock_total": 3,
+      "valor_total": 193.98,
+      "costo_unitario": 64.66,
+      "dias_sin_venta": 99999,
+      "fecha_ultima_venta": null,
+      "antiguedad": "NUNCA",
+      "nunca_vendido": true,
+      "tiendas": [
+        {
+          "alm_id": 68,
+          "sucursal": "TECALITLAN",
+          "stock": 2,
+          "valor": 129.32
+        },
+        {
+          "alm_id": 142,
+          "sucursal": "SAN LUIS SOYATLAN",
+          "stock": 1,
+          "valor": 64.66
+        }
+      ]
+    },
+    {
+      "codigo": "7429390354556",
+      "nombre": "CARGADOR AUTO COMPLETO ROCKET",
+      "grupo": "CARGADOR AUTO COMPLETO ROCKET",
+      "stock_total": 2,
+      "valor_total": 149.06,
+      "costo_unitario": 74.53,
+      "dias_sin_venta": 99999,
+      "fecha_ultima_venta": null,
+      "antiguedad": "NUNCA",
+      "nunca_vendido": true,
+      "tiendas": [
+        {
+          "alm_id": 11,
+          "sucursal": "ZAPOTILTIC",
+          "stock": 2,
+          "valor": 149.06
+        }
+      ]
+    },
+    {
+      "codigo": "AC2724",
+      "nombre": "FUNDA GLITTER CON VENTANA IPHONE 12 PRO",
+      "grupo": "FUNDA GLITTER CON VENTANA IPHONE 12 PRO",
+      "stock_total": 3,
+      "valor_total": 142.23,
+      "costo_unitario": 47.41,
+      "dias_sin_venta": 99999,
+      "fecha_ultima_venta": null,
+      "antiguedad": "NUNCA",
+      "nunca_vendido": true,
+      "tiendas": [
+        {
+          "alm_id": 142,
+          "sucursal": "SAN LUIS SOYATLAN",
+          "stock": 1,
+          "valor": 47.41
+        },
+        {
+          "alm_id": 142,
+          "sucursal": "SAN LUIS SOYATLAN",
+          "stock": 1,
+          "valor": 47.41
+        },
+        {
+          "alm_id": 142,
+          "sucursal": "SAN LUIS SOYATLAN",
+          "stock": 1,
+          "valor": 47.41
+        }
+      ]
+    },
+    {
+      "codigo": "AC1971",
+      "nombre": "FUNDAS VARIOS DISEÑOS SAMSUNG S10+",
+      "grupo": "FUNDAS VARIOS DISEÑOS SAMSUNG S10+",
+      "stock_total": 4,
+      "valor_total": 137.92,
+      "costo_unitario": 34.48,
+      "dias_sin_venta": 99999,
+      "fecha_ultima_venta": null,
+      "antiguedad": "NUNCA",
+      "nunca_vendido": true,
+      "tiendas": [
+        {
+          "alm_id": 17,
+          "sucursal": "TUXPAN",
+          "stock": 4,
+          "valor": 137.92
+        }
+      ]
+    },
+    {
+      "codigo": "AC3138",
+      "nombre": "CASE CON ANILLO SAMSUNG S22 ULTRA",
+      "grupo": "CASE CON ANILLO SAMSUNG S22 ULTRA",
+      "stock_total": 3,
+      "valor_total": 103.32,
+      "costo_unitario": 34.44,
+      "dias_sin_venta": 99999,
+      "fecha_ultima_venta": null,
+      "antiguedad": "NUNCA",
+      "nunca_vendido": true,
+      "tiendas": [
+        {
+          "alm_id": 11,
+          "sucursal": "ZAPOTILTIC",
+          "stock": 1,
+          "valor": 34.44
+        },
+        {
+          "alm_id": 11,
+          "sucursal": "ZAPOTILTIC",
+          "stock": 1,
+          "valor": 34.44
+        },
+        {
+          "alm_id": 11,
+          "sucursal": "ZAPOTILTIC",
+          "stock": 1,
+          "valor": 34.44
+        }
+      ]
+    },
+    {
+      "codigo": "AC0800",
+      "nombre": "CABLE MAGNETICO X-CABLE 3 EN 1 NAILON",
+      "grupo": "CABLE MAGNETICO X-CABLE 3 EN 1 NAILON",
+      "stock_total": 1,
+      "valor_total": 91.38,
+      "costo_unitario": 91.38,
+      "dias_sin_venta": 1884,
+      "fecha_ultima_venta": "2021-05-26",
+      "antiguedad": "1884 dias",
+      "nunca_vendido": false,
+      "tiendas": [
+        {
+          "alm_id": 64,
+          "sucursal": "GOMEZ FARIAS",
+          "stock": 1,
+          "valor": 91.38
+        }
+      ]
+    },
+    {
+      "codigo": "18571",
+      "nombre": "CARGADOR DE UBO PARA IPAD 2 SALIDAS",
+      "grupo": "CARGADOR DE UBO PARA IPAD  2 SALIDAS",
+      "stock_total": 2,
+      "valor_total": 81.04,
+      "costo_unitario": 40.52,
+      "dias_sin_venta": 99999,
+      "fecha_ultima_venta": null,
+      "antiguedad": "NUNCA",
+      "nunca_vendido": true,
+      "tiendas": [
+        {
+          "alm_id": 10,
+          "sucursal": "TAMAZULA CH",
+          "stock": 1,
+          "valor": 40.52
+        },
+        {
+          "alm_id": 3,
+          "sucursal": "MATRIZ",
+          "stock": 1,
+          "valor": 40.52
+        }
+      ]
+    },
+    {
+      "codigo": "AC3126",
+      "nombre": "CASE CON ANILLO HONOR X7",
+      "grupo": "CASE CON ANILLO HONOR X7",
+      "stock_total": 2,
+      "valor_total": 68.96,
+      "costo_unitario": 34.48,
+      "dias_sin_venta": 99999,
+      "fecha_ultima_venta": null,
+      "antiguedad": "NUNCA",
+      "nunca_vendido": true,
+      "tiendas": [
+        {
+          "alm_id": 130,
+          "sucursal": "TONAYA",
+          "stock": 1,
+          "valor": 34.48
+        },
+        {
+          "alm_id": 130,
+          "sucursal": "TONAYA",
+          "stock": 1,
+          "valor": 34.48
+        }
+      ]
+    },
+    {
+      "codigo": "AC3129",
+      "nombre": "CASE CON ANILLO MOTOROLA G31",
+      "grupo": "CASE CON ANILLO MOTOROLA G31",
+      "stock_total": 2,
+      "valor_total": 68.96,
+      "costo_unitario": 34.48,
+      "dias_sin_venta": 99999,
+      "fecha_ultima_venta": null,
+      "antiguedad": "NUNCA",
+      "nunca_vendido": true,
+      "tiendas": [
+        {
+          "alm_id": 130,
+          "sucursal": "TONAYA",
+          "stock": 1,
+          "valor": 34.48
+        },
+        {
+          "alm_id": 130,
+          "sucursal": "TONAYA",
+          "stock": 1,
+          "valor": 34.48
+        }
+      ]
+    },
+    {
+      "codigo": "AC1487",
+      "nombre": "ADAPTADOR CABLE TIPO IPHONE",
+      "grupo": "ADAPTADOR CABLE TIPO IPHONE",
+      "stock_total": 1,
+      "valor_total": 60.34,
+      "costo_unitario": 60.34,
+      "dias_sin_venta": 2085,
+      "fecha_ultima_venta": "2020-11-06",
+      "antiguedad": "2085 dias",
+      "nunca_vendido": false,
+      "tiendas": [
+        {
+          "alm_id": 11,
+          "sucursal": "ZAPOTILTIC",
+          "stock": 1,
+          "valor": 60.34
+        }
+      ]
+    },
+    {
+      "codigo": "15878",
+      "nombre": "CARGADOR PARA AUTO LIGHTNING KAI PINGI",
+      "grupo": "CARGADOR PARA AUTO LIGHTNING KAI PINGI",
+      "stock_total": 1,
+      "valor_total": 50.0,
+      "costo_unitario": 50.0,
+      "dias_sin_venta": 2023,
+      "fecha_ultima_venta": "2021-01-07",
+      "antiguedad": "2023 dias",
+      "nunca_vendido": false,
+      "tiendas": [
+        {
+          "alm_id": 142,
+          "sucursal": "SAN LUIS SOYATLAN",
+          "stock": 1,
+          "valor": 50.0
+        }
+      ]
+    },
+    {
+      "codigo": "AC0606",
+      "nombre": "CABLE V8 MINI MICRO SAMSUMG 1.2 M",
+      "grupo": "CABLE V8 MINI MICRO SAMSUMG 1.2 M",
+      "stock_total": 1,
+      "valor_total": 43.1,
+      "costo_unitario": 43.1,
+      "dias_sin_venta": 2553,
+      "fecha_ultima_venta": "2019-07-27",
+      "antiguedad": "2553 dias",
+      "nunca_vendido": false,
+      "tiendas": [
+        {
+          "alm_id": 11,
+          "sucursal": "ZAPOTILTIC",
+          "stock": 1,
+          "valor": 43.1
+        }
+      ]
+    },
+    {
+      "codigo": "AC1235",
+      "nombre": "MANOS LIBRES HEADSET BLUETHOOTH",
+      "grupo": "MANOS LIBRES HEADSET BLUETHOOTH",
+      "stock_total": 1,
+      "valor_total": 43.1,
+      "costo_unitario": 43.1,
+      "dias_sin_venta": 2539,
+      "fecha_ultima_venta": "2019-08-10",
+      "antiguedad": "2539 dias",
+      "nunca_vendido": false,
+      "tiendas": [
+        {
+          "alm_id": 11,
+          "sucursal": "ZAPOTILTIC",
+          "stock": 1,
+          "valor": 43.1
+        }
+      ]
+    },
+    {
+      "codigo": "AC1535",
+      "nombre": "TPU REFORZADO FASHION CASE HW NOVA 5T",
+      "grupo": "TPU REFORZADO FASHION CASE HW NOVA 5T",
+      "stock_total": 1,
+      "valor_total": 43.1,
+      "costo_unitario": 43.1,
+      "dias_sin_venta": 2122,
+      "fecha_ultima_venta": "2020-09-30",
+      "antiguedad": "2122 dias",
+      "nunca_vendido": false,
+      "tiendas": [
+        {
+          "alm_id": 17,
+          "sucursal": "TUXPAN",
+          "stock": 1,
+          "valor": 43.1
+        }
+      ]
+    },
+    {
+      "codigo": "16511",
+      "nombre": "CABLE LIGHTNING KAI PING KP-S15 LUMINOSO",
+      "grupo": "CABLE LIGHTNING KAI PING KP-S15 LUMINOSO",
+      "stock_total": 2,
+      "valor_total": 24.14,
+      "costo_unitario": 12.07,
+      "dias_sin_venta": 2816,
+      "fecha_ultima_venta": "2018-11-06",
+      "antiguedad": "2816 dias",
+      "nunca_vendido": false,
+      "tiendas": [
+        {
+          "alm_id": 64,
+          "sucursal": "GOMEZ FARIAS",
+          "stock": 2,
+          "valor": 24.14
+        }
+      ]
+    },
+    {
+      "codigo": "8000000000002",
+      "nombre": "CABLE USB 2.4 V8",
+      "grupo": "CABLE USB 2.4 V8",
+      "stock_total": 1,
+      "valor_total": 18.02,
+      "costo_unitario": 18.02,
+      "dias_sin_venta": 2521,
+      "fecha_ultima_venta": "2019-08-28",
+      "antiguedad": "2521 dias",
+      "nunca_vendido": false,
+      "tiendas": [
+        {
+          "alm_id": 64,
+          "sucursal": "GOMEZ FARIAS",
+          "stock": 1,
+          "valor": 18.02
+        }
+      ]
+    },
+    {
+      "codigo": "AC0926",
+      "nombre": "CABLE V8 USB CONECTOR CAB177",
+      "grupo": "CABLE V8 USB CONECTOR CAB177",
+      "stock_total": 1,
+      "valor_total": 12.93,
+      "costo_unitario": 12.93,
+      "dias_sin_venta": 2496,
+      "fecha_ultima_venta": "2019-09-22",
+      "antiguedad": "2496 dias",
+      "nunca_vendido": false,
+      "tiendas": [
+        {
+          "alm_id": 17,
+          "sucursal": "TUXPAN",
+          "stock": 1,
+          "valor": 12.93
+        }
+      ]
+    },
+    {
+      "codigo": "AC0176",
+      "nombre": "CARGADOR DE BATERIA UNIVERSAL",
+      "grupo": "CARGADOR DE BATERIA UNIVERSAL",
+      "stock_total": 1,
+      "valor_total": 10.0,
+      "costo_unitario": 10.0,
+      "dias_sin_venta": 2106,
+      "fecha_ultima_venta": "2020-10-16",
+      "antiguedad": "2106 dias",
+      "nunca_vendido": false,
+      "tiendas": [
+        {
+          "alm_id": 142,
+          "sucursal": "SAN LUIS SOYATLAN",
+          "stock": 1,
+          "valor": 10.0
+        }
+      ]
+    },
+    {
+      "codigo": "9010436",
+      "nombre": "LG FUNDA H840 G5 PREMIUM CASE",
+      "grupo": "LG FUNDA H840 G5 PREMIUM CASE",
+      "stock_total": 1,
+      "valor_total": 0.0,
+      "costo_unitario": 0.0,
+      "dias_sin_venta": 99999,
+      "fecha_ultima_venta": null,
+      "antiguedad": "NUNCA",
+      "nunca_vendido": true,
+      "tiendas": [
+        {
+          "alm_id": 11,
+          "sucursal": "ZAPOTILTIC",
+          "stock": 1,
+          "valor": 0.0
+        }
+      ]
+    },
+    {
+      "codigo": "AC2245",
+      "nombre": "CARGADOR 3.1A V8 M-251 MOREKA",
+      "grupo": "CARGADOR 3.1A V8 M-251 MOREKA",
+      "stock_total": 1,
+      "valor_total": 0.0,
+      "costo_unitario": 0.0,
+      "dias_sin_venta": 99999,
+      "fecha_ultima_venta": null,
+      "antiguedad": "NUNCA",
+      "nunca_vendido": true,
+      "tiendas": [
+        {
+          "alm_id": 71,
+          "sucursal": "PONCITLAN",
+          "stock": 1,
+          "valor": 0.0
+        }
+      ]
+    }
+  ],
+  "stores": [
+    {
+      "sucursal": "ZAPOTILTIC",
+      "alm_id": 11,
+      "unidades": 22,
+      "skus_distintos": 14,
+      "valor_total": 1832.64,
+      "items": [
+        {
+          "codigo": "CARGADORDUO50WOPEN",
+          "nombre": "CARGADOR SAMSUNG CARGA ULTRARRAPIDA DUO 50W CON CABLE C-C OPEN BOX",
+          "grupo": "CARGADOR SAMSUNG CARGA ULTRARRAPIDA DUO 50W CON CABLE C-C",
+          "stock": 1,
+          "costo_unitario": 543.19,
+          "valor": 543.19,
+          "dias_sin_venta": 99999,
+          "antiguedad": "NUNCA"
+        },
+        {
+          "codigo": "AC2747",
+          "nombre": "FUNDA SCREEN PROTECTOR CON MICA MOTO G100",
+          "grupo": "FUNDA SCREEN PROTECTOR CON MICA MOTO G100",
+          "stock": 3,
+          "costo_unitario": 81.9,
+          "valor": 245.7,
+          "dias_sin_venta": 99999,
+          "antiguedad": "NUNCA"
+        },
+        {
+          "codigo": "201712077800I21",
+          "nombre": "POWER CASE 7800 CABLE USB/MICRO",
+          "grupo": "POWER CASE 7800 CABLE USB/MICRO",
+          "stock": 1,
+          "costo_unitario": 206.9,
+          "valor": 206.9,
+          "dias_sin_venta": 99999,
+          "antiguedad": "NUNCA"
+        },
+        {
+          "codigo": "7429390354556",
+          "nombre": "CARGADOR AUTO COMPLETO ROCKET",
+          "grupo": "CARGADOR AUTO COMPLETO ROCKET",
+          "stock": 2,
+          "costo_unitario": 74.53,
+          "valor": 149.06,
+          "dias_sin_venta": 99999,
+          "antiguedad": "NUNCA"
+        },
+        {
+          "codigo": "PR0185",
+          "nombre": "FUNDA DISEÑO DOBLE DISNEY MOTO G100",
+          "grupo": "FUNDA DISEÑO DOBLE DISNEY MOTO G100",
+          "stock": 2,
+          "costo_unitario": 64.66,
+          "valor": 129.32,
+          "dias_sin_venta": 99999,
+          "antiguedad": "NUNCA"
+        },
+        {
+          "codigo": "AC1710",
+          "nombre": "CASE TPU CON BRILLO REDMI NOTE 8 PRO",
+          "grupo": "CASE TPU CON BRILLO REDMI NOTE 8 PRO",
+          "stock": 2,
+          "costo_unitario": 56.03,
+          "valor": 112.06,
+          "dias_sin_venta": 1923,
+          "antiguedad": "1923 dias"
+        },
+        {
+          "codigo": "AC2286",
+          "nombre": "CASE DEGRADADO 360 MOTO EDGE",
+          "grupo": "CASE DEGRADADO 360 MOTO EDGE",
+          "stock": 1,
+          "costo_unitario": 68.97,
+          "valor": 68.97,
+          "dias_sin_venta": 2064,
+          "antiguedad": "2064 dias"
+        },
+        {
+          "codigo": "MAGMICRO",
+          "nombre": "CABLE USB MAGNET PUNTA MICRO USB",
+          "grupo": "CABLE USB MAGNET PUNTA MICRO USB",
+          "stock": 1,
+          "costo_unitario": 67.24,
+          "valor": 67.24,
+          "dias_sin_venta": 2775,
+          "antiguedad": "2775 dias"
+        },
+        {
+          "codigo": "AC2835",
+          "nombre": "MICA HIDROGEL COMPLETA SAMSUNG S20",
+          "grupo": "MICA HIDROGEL COMPLETA SAMSUNG S20",
+          "stock": 2,
+          "costo_unitario": 30.17,
+          "valor": 60.34,
+          "dias_sin_venta": 99999,
+          "antiguedad": "NUNCA"
+        },
+        {
+          "codigo": "AC1487",
+          "nombre": "ADAPTADOR CABLE TIPO IPHONE",
+          "grupo": "ADAPTADOR CABLE TIPO IPHONE",
+          "stock": 1,
+          "costo_unitario": 60.34,
+          "valor": 60.34,
+          "dias_sin_venta": 2085,
+          "antiguedad": "2085 dias"
+        },
+        {
+          "codigo": "AC0606",
+          "nombre": "CABLE V8 MINI MICRO SAMSUMG 1.2 M",
+          "grupo": "CABLE V8 MINI MICRO SAMSUMG 1.2 M",
+          "stock": 1,
+          "costo_unitario": 43.1,
+          "valor": 43.1,
+          "dias_sin_venta": 2553,
+          "antiguedad": "2553 dias"
+        },
+        {
+          "codigo": "AC1235",
+          "nombre": "MANOS LIBRES HEADSET BLUETHOOTH",
+          "grupo": "MANOS LIBRES HEADSET BLUETHOOTH",
+          "stock": 1,
+          "costo_unitario": 43.1,
+          "valor": 43.1,
+          "dias_sin_venta": 2539,
+          "antiguedad": "2539 dias"
+        },
+        {
+          "codigo": "AC3138",
+          "nombre": "CASE CON ANILLO SAMSUNG S22 ULTRA",
+          "grupo": "CASE CON ANILLO SAMSUNG S22 ULTRA",
+          "stock": 1,
+          "costo_unitario": 34.44,
+          "valor": 34.44,
+          "dias_sin_venta": 99999,
+          "antiguedad": "NUNCA"
+        },
+        {
+          "codigo": "AC3138",
+          "nombre": "CASE CON ANILLO SAMSUNG S22 ULTRA",
+          "grupo": "CASE CON ANILLO SAMSUNG S22 ULTRA",
+          "stock": 1,
+          "costo_unitario": 34.44,
+          "valor": 34.44,
+          "dias_sin_venta": 99999,
+          "antiguedad": "NUNCA"
+        },
+        {
+          "codigo": "AC3138",
+          "nombre": "CASE CON ANILLO SAMSUNG S22 ULTRA",
+          "grupo": "CASE CON ANILLO SAMSUNG S22 ULTRA",
+          "stock": 1,
+          "costo_unitario": 34.44,
+          "valor": 34.44,
+          "dias_sin_venta": 99999,
+          "antiguedad": "NUNCA"
+        },
+        {
+          "codigo": "9010436",
+          "nombre": "LG FUNDA H840 G5 PREMIUM CASE",
+          "grupo": "LG FUNDA H840 G5 PREMIUM CASE",
+          "stock": 1,
+          "costo_unitario": 0.0,
+          "valor": 0.0,
+          "dias_sin_venta": 99999,
+          "antiguedad": "NUNCA"
+        }
+      ]
+    },
+    {
+      "sucursal": "SAN LUIS SOYATLAN",
+      "alm_id": 142,
+      "unidades": 20,
+      "skus_distintos": 11,
+      "valor_total": 1210.87,
+      "items": [
+        {
+          "codigo": "AC2697",
+          "nombre": "FUNDA TORNASOL IPHONE 12 PRO MAX",
+          "grupo": "FUNDA TORNASOL IPHONE 12 PRO MAX",
+          "stock": 1,
+          "costo_unitario": 77.59,
+          "valor": 77.59,
+          "dias_sin_venta": 99999,
+          "antiguedad": "NUNCA"
+        },
+        {
+          "codigo": "AC2697",
+          "nombre": "FUNDA TORNASOL IPHONE 12 PRO MAX",
+          "grupo": "FUNDA TORNASOL IPHONE 12 PRO MAX",
+          "stock": 1,
+          "costo_unitario": 77.59,
+          "valor": 77.59,
+          "dias_sin_venta": 99999,
+          "antiguedad": "NUNCA"
+        },
+        {
+          "codigo": "AC2697",
+          "nombre": "FUNDA TORNASOL IPHONE 12 PRO MAX",
+          "grupo": "FUNDA TORNASOL IPHONE 12 PRO MAX",
+          "stock": 1,
+          "costo_unitario": 77.59,
+          "valor": 77.59,
+          "dias_sin_venta": 99999,
+          "antiguedad": "NUNCA"
+        },
+        {
+          "codigo": "AC2674",
+          "nombre": "FUNDA USO RUDO MAGNETICO IPHONE 12 PRO",
+          "grupo": "FUNDA USO RUDO MAGNETICO IPHONE 12 PRO",
+          "stock": 1,
+          "costo_unitario": 68.97,
+          "valor": 68.97,
+          "dias_sin_venta": 99999,
+          "antiguedad": "NUNCA"
+        },
+        {
+          "codigo": "AC2674",
+          "nombre": "FUNDA USO RUDO MAGNETICO IPHONE 12 PRO",
+          "grupo": "FUNDA USO RUDO MAGNETICO IPHONE 12 PRO",
+          "stock": 1,
+          "costo_unitario": 68.97,
+          "valor": 68.97,
+          "dias_sin_venta": 99999,
+          "antiguedad": "NUNCA"
+        },
+        {
+          "codigo": "AC2674",
+          "nombre": "FUNDA USO RUDO MAGNETICO IPHONE 12 PRO",
+          "grupo": "FUNDA USO RUDO MAGNETICO IPHONE 12 PRO",
+          "stock": 1,
+          "costo_unitario": 68.97,
+          "valor": 68.97,
+          "dias_sin_venta": 99999,
+          "antiguedad": "NUNCA"
+        },
+        {
+          "codigo": "AC2680",
+          "nombre": "FUNDA USO RUDO MAGNETICO OPPO A52",
+          "grupo": "FUNDA USO RUDO MAGNETICO OPPO A52",
+          "stock": 1,
+          "costo_unitario": 68.97,
+          "valor": 68.97,
+          "dias_sin_venta": 99999,
+          "antiguedad": "NUNCA"
+        },
+        {
+          "codigo": "AC2680",
+          "nombre": "FUNDA USO RUDO MAGNETICO OPPO A52",
+          "grupo": "FUNDA USO RUDO MAGNETICO OPPO A52",
+          "stock": 1,
+          "costo_unitario": 68.97,
+          "valor": 68.97,
+          "dias_sin_venta": 99999,
+          "antiguedad": "NUNCA"
+        },
+        {
+          "codigo": "AC2680",
+          "nombre": "FUNDA USO RUDO MAGNETICO OPPO A52",
+          "grupo": "FUNDA USO RUDO MAGNETICO OPPO A52",
+          "stock": 1,
+          "costo_unitario": 68.97,
+          "valor": 68.97,
+          "dias_sin_venta": 99999,
+          "antiguedad": "NUNCA"
+        },
+        {
+          "codigo": "AC2683",
+          "nombre": "FUNDA USO RUDO MAGNETICO POCO X3",
+          "grupo": "FUNDA USO RUDO MAGNETICO POCO X3",
+          "stock": 1,
+          "costo_unitario": 68.97,
+          "valor": 68.97,
+          "dias_sin_venta": 99999,
+          "antiguedad": "NUNCA"
+        },
+        {
+          "codigo": "AC2624",
+          "nombre": "FUNDA DISEÑO DOBLE DISNEY OPPO A72",
+          "grupo": "FUNDA DISEÑO DOBLE DISNEY OPPO A72",
+          "stock": 1,
+          "costo_unitario": 64.66,
+          "valor": 64.66,
+          "dias_sin_venta": 99999,
+          "antiguedad": "NUNCA"
+        },
+        {
+          "codigo": "AC2701",
+          "nombre": "FUNDA DISEÑO DOBLE DE DISNEY OPPO RENO 5 LITE",
+          "grupo": "FUNDA DISEÑO DOBLE DE DISNEY OPPO RENO 5 LITE",
+          "stock": 1,
+          "costo_unitario": 64.66,
+          "valor": 64.66,
+          "dias_sin_venta": 99999,
+          "antiguedad": "NUNCA"
+        },
+        {
+          "codigo": "AC2701",
+          "nombre": "FUNDA DISEÑO DOBLE DE DISNEY OPPO RENO 5 LITE",
+          "grupo": "FUNDA DISEÑO DOBLE DE DISNEY OPPO RENO 5 LITE",
+          "stock": 1,
+          "costo_unitario": 64.66,
+          "valor": 64.66,
+          "dias_sin_venta": 99999,
+          "antiguedad": "NUNCA"
+        },
+        {
+          "codigo": "AC2705",
+          "nombre": "FUNDA DISEÑO DISNEY REDMI NOTE 10",
+          "grupo": "FUNDA DISEÑO DISNEY REDMI NOTE 10",
+          "stock": 1,
+          "costo_unitario": 64.66,
+          "valor": 64.66,
+          "dias_sin_venta": 99999,
+          "antiguedad": "NUNCA"
+        },
+        {
+          "codigo": "15878",
+          "nombre": "CARGADOR PARA AUTO LIGHTNING KAI PINGI",
+          "grupo": "CARGADOR PARA AUTO LIGHTNING KAI PINGI",
+          "stock": 1,
+          "costo_unitario": 50.0,
+          "valor": 50.0,
+          "dias_sin_venta": 2023,
+          "antiguedad": "2023 dias"
+        },
+        {
+          "codigo": "AC2724",
+          "nombre": "FUNDA GLITTER CON VENTANA IPHONE 12 PRO",
+          "grupo": "FUNDA GLITTER CON VENTANA IPHONE 12 PRO",
+          "stock": 1,
+          "costo_unitario": 47.41,
+          "valor": 47.41,
+          "dias_sin_venta": 99999,
+          "antiguedad": "NUNCA"
+        },
+        {
+          "codigo": "AC2724",
+          "nombre": "FUNDA GLITTER CON VENTANA IPHONE 12 PRO",
+          "grupo": "FUNDA GLITTER CON VENTANA IPHONE 12 PRO",
+          "stock": 1,
+          "costo_unitario": 47.41,
+          "valor": 47.41,
+          "dias_sin_venta": 99999,
+          "antiguedad": "NUNCA"
+        },
+        {
+          "codigo": "AC2724",
+          "nombre": "FUNDA GLITTER CON VENTANA IPHONE 12 PRO",
+          "grupo": "FUNDA GLITTER CON VENTANA IPHONE 12 PRO",
+          "stock": 1,
+          "costo_unitario": 47.41,
+          "valor": 47.41,
+          "dias_sin_venta": 99999,
+          "antiguedad": "NUNCA"
+        },
+        {
+          "codigo": "AC3153",
+          "nombre": "FUNDA TIPO ORIGINAL OPPO RENO 7 LITE",
+          "grupo": "FUNDA TIPO ORIGINAL OPPO RENO 7 LITE",
+          "stock": 1,
+          "costo_unitario": 34.44,
+          "valor": 34.44,
+          "dias_sin_venta": 99999,
+          "antiguedad": "NUNCA"
+        },
+        {
+          "codigo": "AC0176",
+          "nombre": "CARGADOR DE BATERIA UNIVERSAL",
+          "grupo": "CARGADOR DE BATERIA UNIVERSAL",
+          "stock": 1,
+          "costo_unitario": 10.0,
+          "valor": 10.0,
+          "dias_sin_venta": 2106,
+          "antiguedad": "2106 dias"
+        }
+      ]
+    },
+    {
+      "sucursal": "TECALITLAN",
+      "alm_id": 68,
+      "unidades": 18,
+      "skus_distintos": 8,
+      "valor_total": 1168.17,
+      "items": [
+        {
+          "codigo": "AC2747",
+          "nombre": "FUNDA SCREEN PROTECTOR CON MICA MOTO G100",
+          "grupo": "FUNDA SCREEN PROTECTOR CON MICA MOTO G100",
+          "stock": 3,
+          "costo_unitario": 81.9,
+          "valor": 245.7,
+          "dias_sin_venta": 99999,
+          "antiguedad": "NUNCA"
+        },
+        {
+          "codigo": "AC2681",
+          "nombre": "FUNDA USO RUDO MAGNETICO OPPO A53",
+          "grupo": "FUNDA USO RUDO MAGNETICO OPPO A53",
+          "stock": 3,
+          "costo_unitario": 68.97,
+          "valor": 206.91,
+          "dias_sin_venta": 99999,
+          "antiguedad": "NUNCA"
+        },
+        {
+          "codigo": "PR0185",
+          "nombre": "FUNDA DISEÑO DOBLE DISNEY MOTO G100",
+          "grupo": "FUNDA DISEÑO DOBLE DISNEY MOTO G100",
+          "stock": 3,
+          "costo_unitario": 64.66,
+          "valor": 193.98,
+          "dias_sin_venta": 99999,
+          "antiguedad": "NUNCA"
+        },
+        {
+          "codigo": "AC2683",
+          "nombre": "FUNDA USO RUDO MAGNETICO POCO X3",
+          "grupo": "FUNDA USO RUDO MAGNETICO POCO X3",
+          "stock": 2,
+          "costo_unitario": 68.97,
+          "valor": 137.94,
+          "dias_sin_venta": 99999,
+          "antiguedad": "NUNCA"
+        },
+        {
+          "codigo": "AC2624",
+          "nombre": "FUNDA DISEÑO DOBLE DISNEY OPPO A72",
+          "grupo": "FUNDA DISEÑO DOBLE DISNEY OPPO A72",
+          "stock": 2,
+          "costo_unitario": 64.66,
+          "valor": 129.32,
+          "dias_sin_venta": 99999,
+          "antiguedad": "NUNCA"
+        },
+        {
+          "codigo": "AC2705",
+          "nombre": "FUNDA DISEÑO DISNEY REDMI NOTE 10",
+          "grupo": "FUNDA DISEÑO DISNEY REDMI NOTE 10",
+          "stock": 2,
+          "costo_unitario": 64.66,
+          "valor": 129.32,
+          "dias_sin_venta": 99999,
+          "antiguedad": "NUNCA"
+        },
+        {
+          "codigo": "AC2701",
+          "nombre": "FUNDA DISEÑO DOBLE DE DISNEY OPPO RENO 5 LITE",
+          "grupo": "FUNDA DISEÑO DOBLE DE DISNEY OPPO RENO 5 LITE",
+          "stock": 1,
+          "costo_unitario": 64.66,
+          "valor": 64.66,
+          "dias_sin_venta": 99999,
+          "antiguedad": "NUNCA"
+        },
+        {
+          "codigo": "AC2835",
+          "nombre": "MICA HIDROGEL COMPLETA SAMSUNG S20",
+          "grupo": "MICA HIDROGEL COMPLETA SAMSUNG S20",
+          "stock": 2,
+          "costo_unitario": 30.17,
+          "valor": 60.34,
+          "dias_sin_venta": 99999,
+          "antiguedad": "NUNCA"
+        }
+      ]
+    },
+    {
+      "sucursal": "GOMEZ FARIAS",
+      "alm_id": 64,
+      "unidades": 15,
+      "skus_distintos": 10,
+      "valor_total": 913.68,
+      "items": [
+        {
+          "codigo": "AC2747",
+          "nombre": "FUNDA SCREEN PROTECTOR CON MICA MOTO G100",
+          "grupo": "FUNDA SCREEN PROTECTOR CON MICA MOTO G100",
+          "stock": 2,
+          "costo_unitario": 81.9,
+          "valor": 163.8,
+          "dias_sin_venta": 99999,
+          "antiguedad": "NUNCA"
+        },
+        {
+          "codigo": "PR0185",
+          "nombre": "FUNDA DISEÑO DOBLE DISNEY MOTO G100",
+          "grupo": "FUNDA DISEÑO DOBLE DISNEY MOTO G100",
+          "stock": 2,
+          "costo_unitario": 64.66,
+          "valor": 129.32,
+          "dias_sin_venta": 99999,
+          "antiguedad": "NUNCA"
+        },
+        {
+          "codigo": "AC1908",
+          "nombre": "CABLE USB 2 MTS TIPO C IPHONE",
+          "grupo": "CABLE USB 2 MTS TIPO C IPHONE",
+          "stock": 1,
+          "costo_unitario": 107.76,
+          "valor": 107.76,
+          "dias_sin_venta": 99999,
+          "antiguedad": "NUNCA"
+        },
+        {
+          "codigo": "AC1908",
+          "nombre": "CABLE USB 2 MTS TIPO C IPHONE",
+          "grupo": "CABLE USB 2 MTS TIPO C IPHONE",
+          "stock": 1,
+          "costo_unitario": 107.76,
+          "valor": 107.76,
+          "dias_sin_venta": 99999,
+          "antiguedad": "NUNCA"
+        },
+        {
+          "codigo": "AC0800",
+          "nombre": "CABLE MAGNETICO X-CABLE 3 EN 1 NAILON",
+          "grupo": "CABLE MAGNETICO X-CABLE 3 EN 1 NAILON",
+          "stock": 1,
+          "costo_unitario": 91.38,
+          "valor": 91.38,
+          "dias_sin_venta": 1884,
+          "antiguedad": "1884 dias"
+        },
+        {
+          "codigo": "AC1518",
+          "nombre": "FUNDA CRISTAL COMPETO IP 11 PRO MAX",
+          "grupo": "FUNDA CRISTAL COMPETO IP 11 PRO MAX",
+          "stock": 1,
+          "costo_unitario": 68.97,
+          "valor": 68.97,
+          "dias_sin_venta": 1987,
+          "antiguedad": "1987 dias"
+        },
+        {
+          "codigo": "AC1711",
+          "nombre": "CASE TPU CON BRILLO SAMSUNG S11",
+          "grupo": "CASE TPU CON BRILLO SAMSUNG S11",
+          "stock": 1,
+          "costo_unitario": 56.03,
+          "valor": 56.03,
+          "dias_sin_venta": 99999,
+          "antiguedad": "NUNCA"
+        },
+        {
+          "codigo": "AC1711",
+          "nombre": "CASE TPU CON BRILLO SAMSUNG S11",
+          "grupo": "CASE TPU CON BRILLO SAMSUNG S11",
+          "stock": 1,
+          "costo_unitario": 56.03,
+          "valor": 56.03,
+          "dias_sin_venta": 99999,
+          "antiguedad": "NUNCA"
+        },
+        {
+          "codigo": "AC1710",
+          "nombre": "CASE TPU CON BRILLO REDMI NOTE 8 PRO",
+          "grupo": "CASE TPU CON BRILLO REDMI NOTE 8 PRO",
+          "stock": 1,
+          "costo_unitario": 56.03,
+          "valor": 56.03,
+          "dias_sin_venta": 1923,
+          "antiguedad": "1923 dias"
+        },
+        {
+          "codigo": "AC3153",
+          "nombre": "FUNDA TIPO ORIGINAL OPPO RENO 7 LITE",
+          "grupo": "FUNDA TIPO ORIGINAL OPPO RENO 7 LITE",
+          "stock": 1,
+          "costo_unitario": 34.44,
+          "valor": 34.44,
+          "dias_sin_venta": 99999,
+          "antiguedad": "NUNCA"
+        },
+        {
+          "codigo": "16511",
+          "nombre": "CABLE LIGHTNING KAI PING KP-S15 LUMINOSO",
+          "grupo": "CABLE LIGHTNING KAI PING KP-S15 LUMINOSO",
+          "stock": 2,
+          "costo_unitario": 12.07,
+          "valor": 24.14,
+          "dias_sin_venta": 2816,
+          "antiguedad": "2816 dias"
+        },
+        {
+          "codigo": "8000000000002",
+          "nombre": "CABLE USB 2.4 V8",
+          "grupo": "CABLE USB 2.4 V8",
+          "stock": 1,
+          "costo_unitario": 18.02,
+          "valor": 18.02,
+          "dias_sin_venta": 2521,
+          "antiguedad": "2521 dias"
+        }
+      ]
+    },
+    {
+      "sucursal": "JIQUILPAN CH",
+      "alm_id": 131,
+      "unidades": 14,
+      "skus_distintos": 9,
+      "valor_total": 887.9,
+      "items": [
+        {
+          "codigo": "MAGMICRO",
+          "nombre": "CABLE USB MAGNET PUNTA MICRO USB",
+          "grupo": "CABLE USB MAGNET PUNTA MICRO USB",
+          "stock": 1,
+          "costo_unitario": 86.21,
+          "valor": 86.21,
+          "dias_sin_venta": 2775,
+          "antiguedad": "2775 dias"
+        },
+        {
+          "codigo": "AC2747",
+          "nombre": "FUNDA SCREEN PROTECTOR CON MICA MOTO G100",
+          "grupo": "FUNDA SCREEN PROTECTOR CON MICA MOTO G100",
+          "stock": 1,
+          "costo_unitario": 81.9,
+          "valor": 81.9,
+          "dias_sin_venta": 99999,
+          "antiguedad": "NUNCA"
+        },
+        {
+          "codigo": "AC2747",
+          "nombre": "FUNDA SCREEN PROTECTOR CON MICA MOTO G100",
+          "grupo": "FUNDA SCREEN PROTECTOR CON MICA MOTO G100",
+          "stock": 1,
+          "costo_unitario": 81.9,
+          "valor": 81.9,
+          "dias_sin_venta": 99999,
+          "antiguedad": "NUNCA"
+        },
+        {
+          "codigo": "AC2747",
+          "nombre": "FUNDA SCREEN PROTECTOR CON MICA MOTO G100",
+          "grupo": "FUNDA SCREEN PROTECTOR CON MICA MOTO G100",
+          "stock": 1,
+          "costo_unitario": 81.9,
+          "valor": 81.9,
+          "dias_sin_venta": 99999,
+          "antiguedad": "NUNCA"
+        },
+        {
+          "codigo": "AC2288",
+          "nombre": "FUNDA TIPO ORIGINAL HUAWEI P40 LITE",
+          "grupo": "FUNDA TIPO ORIGINAL HUAWEI P40 LITE",
+          "stock": 1,
+          "costo_unitario": 68.97,
+          "valor": 68.97,
+          "dias_sin_venta": 99999,
+          "antiguedad": "NUNCA"
+        },
+        {
+          "codigo": "AC1518",
+          "nombre": "FUNDA CRISTAL COMPETO IP 11 PRO MAX",
+          "grupo": "FUNDA CRISTAL COMPETO IP 11 PRO MAX",
+          "stock": 1,
+          "costo_unitario": 68.97,
+          "valor": 68.97,
+          "dias_sin_venta": 1987,
+          "antiguedad": "1987 dias"
+        },
+        {
+          "codigo": "PR0185",
+          "nombre": "FUNDA DISEÑO DOBLE DISNEY MOTO G100",
+          "grupo": "FUNDA DISEÑO DOBLE DISNEY MOTO G100",
+          "stock": 1,
+          "costo_unitario": 64.66,
+          "valor": 64.66,
+          "dias_sin_venta": 99999,
+          "antiguedad": "NUNCA"
+        },
+        {
+          "codigo": "PR0185",
+          "nombre": "FUNDA DISEÑO DOBLE DISNEY MOTO G100",
+          "grupo": "FUNDA DISEÑO DOBLE DISNEY MOTO G100",
+          "stock": 1,
+          "costo_unitario": 64.66,
+          "valor": 64.66,
+          "dias_sin_venta": 99999,
+          "antiguedad": "NUNCA"
+        },
+        {
+          "codigo": "AC1711",
+          "nombre": "CASE TPU CON BRILLO SAMSUNG S11",
+          "grupo": "CASE TPU CON BRILLO SAMSUNG S11",
+          "stock": 1,
+          "costo_unitario": 56.03,
+          "valor": 56.03,
+          "dias_sin_venta": 99999,
+          "antiguedad": "NUNCA"
+        },
+        {
+          "codigo": "AC1711",
+          "nombre": "CASE TPU CON BRILLO SAMSUNG S11",
+          "grupo": "CASE TPU CON BRILLO SAMSUNG S11",
+          "stock": 1,
+          "costo_unitario": 56.03,
+          "valor": 56.03,
+          "dias_sin_venta": 99999,
+          "antiguedad": "NUNCA"
+        },
+        {
+          "codigo": "AC1710",
+          "nombre": "CASE TPU CON BRILLO REDMI NOTE 8 PRO",
+          "grupo": "CASE TPU CON BRILLO REDMI NOTE 8 PRO",
+          "stock": 1,
+          "costo_unitario": 56.03,
+          "valor": 56.03,
+          "dias_sin_venta": 1923,
+          "antiguedad": "1923 dias"
+        },
+        {
+          "codigo": "AC1710",
+          "nombre": "CASE TPU CON BRILLO REDMI NOTE 8 PRO",
+          "grupo": "CASE TPU CON BRILLO REDMI NOTE 8 PRO",
+          "stock": 1,
+          "costo_unitario": 56.03,
+          "valor": 56.03,
+          "dias_sin_venta": 1923,
+          "antiguedad": "1923 dias"
+        },
+        {
+          "codigo": "AC3153",
+          "nombre": "FUNDA TIPO ORIGINAL OPPO RENO 7 LITE",
+          "grupo": "FUNDA TIPO ORIGINAL OPPO RENO 7 LITE",
+          "stock": 1,
+          "costo_unitario": 34.44,
+          "valor": 34.44,
+          "dias_sin_venta": 99999,
+          "antiguedad": "NUNCA"
+        },
+        {
+          "codigo": "AC2835",
+          "nombre": "MICA HIDROGEL COMPLETA SAMSUNG S20",
+          "grupo": "MICA HIDROGEL COMPLETA SAMSUNG S20",
+          "stock": 1,
+          "costo_unitario": 30.17,
+          "valor": 30.17,
+          "dias_sin_venta": 99999,
+          "antiguedad": "NUNCA"
+        }
+      ]
+    },
+    {
+      "sucursal": "TIZAPAN",
+      "alm_id": 28,
+      "unidades": 14,
+      "skus_distintos": 8,
+      "valor_total": 831.86,
+      "items": [
+        {
+          "codigo": "AC2747",
+          "nombre": "FUNDA SCREEN PROTECTOR CON MICA MOTO G100",
+          "grupo": "FUNDA SCREEN PROTECTOR CON MICA MOTO G100",
+          "stock": 3,
+          "costo_unitario": 81.9,
+          "valor": 245.7,
+          "dias_sin_venta": 99999,
+          "antiguedad": "NUNCA"
+        },
+        {
+          "codigo": "PR0185",
+          "nombre": "FUNDA DISEÑO DOBLE DISNEY MOTO G100",
+          "grupo": "FUNDA DISEÑO DOBLE DISNEY MOTO G100",
+          "stock": 2,
+          "costo_unitario": 64.66,
+          "valor": 129.32,
+          "dias_sin_venta": 99999,
+          "antiguedad": "NUNCA"
+        },
+        {
+          "codigo": "AC1711",
+          "nombre": "CASE TPU CON BRILLO SAMSUNG S11",
+          "grupo": "CASE TPU CON BRILLO SAMSUNG S11",
+          "stock": 2,
+          "costo_unitario": 56.03,
+          "valor": 112.06,
+          "dias_sin_venta": 99999,
+          "antiguedad": "NUNCA"
+        },
+        {
+          "codigo": "AC1710",
+          "nombre": "CASE TPU CON BRILLO REDMI NOTE 8 PRO",
+          "grupo": "CASE TPU CON BRILLO REDMI NOTE 8 PRO",
+          "stock": 2,
+          "costo_unitario": 56.03,
+          "valor": 112.06,
+          "dias_sin_venta": 1923,
+          "antiguedad": "1923 dias"
+        },
+        {
+          "codigo": "AC2286",
+          "nombre": "CASE DEGRADADO 360 MOTO EDGE",
+          "grupo": "CASE DEGRADADO 360 MOTO EDGE",
+          "stock": 1,
+          "costo_unitario": 68.97,
+          "valor": 68.97,
+          "dias_sin_venta": 2064,
+          "antiguedad": "2064 dias"
+        },
+        {
+          "codigo": "AC1518",
+          "nombre": "FUNDA CRISTAL COMPETO IP 11 PRO MAX",
+          "grupo": "FUNDA CRISTAL COMPETO IP 11 PRO MAX",
+          "stock": 1,
+          "costo_unitario": 68.97,
+          "valor": 68.97,
+          "dias_sin_venta": 1987,
+          "antiguedad": "1987 dias"
+        },
+        {
+          "codigo": "AC3153",
+          "nombre": "FUNDA TIPO ORIGINAL OPPO RENO 7 LITE",
+          "grupo": "FUNDA TIPO ORIGINAL OPPO RENO 7 LITE",
+          "stock": 1,
+          "costo_unitario": 34.44,
+          "valor": 34.44,
+          "dias_sin_venta": 99999,
+          "antiguedad": "NUNCA"
+        },
+        {
+          "codigo": "AC2835",
+          "nombre": "MICA HIDROGEL COMPLETA SAMSUNG S20",
+          "grupo": "MICA HIDROGEL COMPLETA SAMSUNG S20",
+          "stock": 1,
+          "costo_unitario": 30.17,
+          "valor": 30.17,
+          "dias_sin_venta": 99999,
+          "antiguedad": "NUNCA"
+        },
+        {
+          "codigo": "AC2835",
+          "nombre": "MICA HIDROGEL COMPLETA SAMSUNG S20",
+          "grupo": "MICA HIDROGEL COMPLETA SAMSUNG S20",
+          "stock": 1,
+          "costo_unitario": 30.17,
+          "valor": 30.17,
+          "dias_sin_venta": 99999,
+          "antiguedad": "NUNCA"
+        }
+      ]
+    },
+    {
+      "sucursal": "PONCITLAN",
+      "alm_id": 71,
+      "unidades": 12,
+      "skus_distintos": 3,
+      "valor_total": 637.84,
+      "items": [
+        {
+          "codigo": "AC3034",
+          "nombre": "FUNDA TIPO ORIGINAL XIAOMI REDMI 9T",
+          "grupo": "FUNDA TIPO ORIGINAL XIAOMI REDMI 9T",
+          "stock": 10,
+          "costo_unitario": 60.34,
+          "valor": 603.4,
+          "dias_sin_venta": 99999,
+          "antiguedad": "NUNCA"
+        },
+        {
+          "codigo": "AC3153",
+          "nombre": "FUNDA TIPO ORIGINAL OPPO RENO 7 LITE",
+          "grupo": "FUNDA TIPO ORIGINAL OPPO RENO 7 LITE",
+          "stock": 1,
+          "costo_unitario": 34.44,
+          "valor": 34.44,
+          "dias_sin_venta": 99999,
+          "antiguedad": "NUNCA"
+        },
+        {
+          "codigo": "AC2245",
+          "nombre": "CARGADOR 3.1A V8 M-251 MOREKA",
+          "grupo": "CARGADOR 3.1A V8 M-251 MOREKA",
+          "stock": 1,
+          "costo_unitario": 0.0,
+          "valor": 0.0,
+          "dias_sin_venta": 99999,
+          "antiguedad": "NUNCA"
+        }
+      ]
+    },
+    {
+      "sucursal": "TUXPAN",
+      "alm_id": 17,
+      "unidades": 14,
+      "skus_distintos": 8,
+      "valor_total": 612.04,
+      "items": [
+        {
+          "codigo": "AC1971",
+          "nombre": "FUNDAS VARIOS DISEÑOS SAMSUNG S10+",
+          "grupo": "FUNDAS VARIOS DISEÑOS SAMSUNG S10+",
+          "stock": 4,
+          "costo_unitario": 34.48,
+          "valor": 137.92,
+          "dias_sin_venta": 99999,
+          "antiguedad": "NUNCA"
+        },
+        {
+          "codigo": "AC1710",
+          "nombre": "CASE TPU CON BRILLO REDMI NOTE 8 PRO",
+          "grupo": "CASE TPU CON BRILLO REDMI NOTE 8 PRO",
+          "stock": 2,
+          "costo_unitario": 56.03,
+          "valor": 112.06,
+          "dias_sin_venta": 1923,
+          "antiguedad": "1923 dias"
+        },
+        {
+          "codigo": "AC1518",
+          "nombre": "FUNDA CRISTAL COMPETO IP 11 PRO MAX",
+          "grupo": "FUNDA CRISTAL COMPETO IP 11 PRO MAX",
+          "stock": 1,
+          "costo_unitario": 68.97,
+          "valor": 68.97,
+          "dias_sin_venta": 1987,
+          "antiguedad": "1987 dias"
+        },
+        {
+          "codigo": "PR0185",
+          "nombre": "FUNDA DISEÑO DOBLE DISNEY MOTO G100",
+          "grupo": "FUNDA DISEÑO DOBLE DISNEY MOTO G100",
+          "stock": 1,
+          "costo_unitario": 64.66,
+          "valor": 64.66,
+          "dias_sin_venta": 99999,
+          "antiguedad": "NUNCA"
+        },
+        {
+          "codigo": "AC2835",
+          "nombre": "MICA HIDROGEL COMPLETA SAMSUNG S20",
+          "grupo": "MICA HIDROGEL COMPLETA SAMSUNG S20",
+          "stock": 2,
+          "costo_unitario": 30.17,
+          "valor": 60.34,
+          "dias_sin_venta": 99999,
+          "antiguedad": "NUNCA"
+        },
+        {
+          "codigo": "AC1711",
+          "nombre": "CASE TPU CON BRILLO SAMSUNG S11",
+          "grupo": "CASE TPU CON BRILLO SAMSUNG S11",
+          "stock": 1,
+          "costo_unitario": 56.03,
+          "valor": 56.03,
+          "dias_sin_venta": 99999,
+          "antiguedad": "NUNCA"
+        },
+        {
+          "codigo": "AC1711",
+          "nombre": "CASE TPU CON BRILLO SAMSUNG S11",
+          "grupo": "CASE TPU CON BRILLO SAMSUNG S11",
+          "stock": 1,
+          "costo_unitario": 56.03,
+          "valor": 56.03,
+          "dias_sin_venta": 99999,
+          "antiguedad": "NUNCA"
+        },
+        {
+          "codigo": "AC1535",
+          "nombre": "TPU REFORZADO FASHION CASE HW NOVA 5T",
+          "grupo": "TPU REFORZADO FASHION CASE HW NOVA 5T",
+          "stock": 1,
+          "costo_unitario": 43.1,
+          "valor": 43.1,
+          "dias_sin_venta": 2122,
+          "antiguedad": "2122 dias"
+        },
+        {
+          "codigo": "AC0926",
+          "nombre": "CABLE V8 USB CONECTOR CAB177",
+          "grupo": "CABLE V8 USB CONECTOR CAB177",
+          "stock": 1,
+          "costo_unitario": 12.93,
+          "valor": 12.93,
+          "dias_sin_venta": 2496,
+          "antiguedad": "2496 dias"
+        }
+      ]
+    },
+    {
+      "sucursal": "Jocotepec",
+      "alm_id": 74,
+      "unidades": 9,
+      "skus_distintos": 5,
+      "valor_total": 590.49,
+      "items": [
+        {
+          "codigo": "AC2747",
+          "nombre": "FUNDA SCREEN PROTECTOR CON MICA MOTO G100",
+          "grupo": "FUNDA SCREEN PROTECTOR CON MICA MOTO G100",
+          "stock": 1,
+          "costo_unitario": 81.9,
+          "valor": 81.9,
+          "dias_sin_venta": 99999,
+          "antiguedad": "NUNCA"
+        },
+        {
+          "codigo": "AC2747",
+          "nombre": "FUNDA SCREEN PROTECTOR CON MICA MOTO G100",
+          "grupo": "FUNDA SCREEN PROTECTOR CON MICA MOTO G100",
+          "stock": 1,
+          "costo_unitario": 81.9,
+          "valor": 81.9,
+          "dias_sin_venta": 99999,
+          "antiguedad": "NUNCA"
+        },
+        {
+          "codigo": "AC2747",
+          "nombre": "FUNDA SCREEN PROTECTOR CON MICA MOTO G100",
+          "grupo": "FUNDA SCREEN PROTECTOR CON MICA MOTO G100",
+          "stock": 1,
+          "costo_unitario": 81.9,
+          "valor": 81.9,
+          "dias_sin_venta": 99999,
+          "antiguedad": "NUNCA"
+        },
+        {
+          "codigo": "AC2286",
+          "nombre": "CASE DEGRADADO 360 MOTO EDGE",
+          "grupo": "CASE DEGRADADO 360 MOTO EDGE",
+          "stock": 1,
+          "costo_unitario": 68.97,
+          "valor": 68.97,
+          "dias_sin_venta": 2064,
+          "antiguedad": "2064 dias"
+        },
+        {
+          "codigo": "PR0185",
+          "nombre": "FUNDA DISEÑO DOBLE DISNEY MOTO G100",
+          "grupo": "FUNDA DISEÑO DOBLE DISNEY MOTO G100",
+          "stock": 1,
+          "costo_unitario": 64.66,
+          "valor": 64.66,
+          "dias_sin_venta": 99999,
+          "antiguedad": "NUNCA"
+        },
+        {
+          "codigo": "PR0185",
+          "nombre": "FUNDA DISEÑO DOBLE DISNEY MOTO G100",
+          "grupo": "FUNDA DISEÑO DOBLE DISNEY MOTO G100",
+          "stock": 1,
+          "costo_unitario": 64.66,
+          "valor": 64.66,
+          "dias_sin_venta": 99999,
+          "antiguedad": "NUNCA"
+        },
+        {
+          "codigo": "AC1711",
+          "nombre": "CASE TPU CON BRILLO SAMSUNG S11",
+          "grupo": "CASE TPU CON BRILLO SAMSUNG S11",
+          "stock": 1,
+          "costo_unitario": 56.03,
+          "valor": 56.03,
+          "dias_sin_venta": 99999,
+          "antiguedad": "NUNCA"
+        },
+        {
+          "codigo": "AC1711",
+          "nombre": "CASE TPU CON BRILLO SAMSUNG S11",
+          "grupo": "CASE TPU CON BRILLO SAMSUNG S11",
+          "stock": 1,
+          "costo_unitario": 56.03,
+          "valor": 56.03,
+          "dias_sin_venta": 99999,
+          "antiguedad": "NUNCA"
+        },
+        {
+          "codigo": "AC3153",
+          "nombre": "FUNDA TIPO ORIGINAL OPPO RENO 7 LITE",
+          "grupo": "FUNDA TIPO ORIGINAL OPPO RENO 7 LITE",
+          "stock": 1,
+          "costo_unitario": 34.44,
+          "valor": 34.44,
+          "dias_sin_venta": 99999,
+          "antiguedad": "NUNCA"
+        }
+      ]
+    },
+    {
+      "sucursal": "SANTA CRUZ",
+      "alm_id": 89,
+      "unidades": 8,
+      "skus_distintos": 3,
+      "valor_total": 581.93,
+      "items": [
+        {
+          "codigo": "AC2747",
+          "nombre": "FUNDA SCREEN PROTECTOR CON MICA MOTO G100",
+          "grupo": "FUNDA SCREEN PROTECTOR CON MICA MOTO G100",
+          "stock": 1,
+          "costo_unitario": 81.9,
+          "valor": 81.9,
+          "dias_sin_venta": 99999,
+          "antiguedad": "NUNCA"
+        },
+        {
+          "codigo": "AC2747",
+          "nombre": "FUNDA SCREEN PROTECTOR CON MICA MOTO G100",
+          "grupo": "FUNDA SCREEN PROTECTOR CON MICA MOTO G100",
+          "stock": 1,
+          "costo_unitario": 81.9,
+          "valor": 81.9,
+          "dias_sin_venta": 99999,
+          "antiguedad": "NUNCA"
+        },
+        {
+          "codigo": "AC2747",
+          "nombre": "FUNDA SCREEN PROTECTOR CON MICA MOTO G100",
+          "grupo": "FUNDA SCREEN PROTECTOR CON MICA MOTO G100",
+          "stock": 1,
+          "costo_unitario": 81.9,
+          "valor": 81.9,
+          "dias_sin_venta": 99999,
+          "antiguedad": "NUNCA"
+        },
+        {
+          "codigo": "AC2286",
+          "nombre": "CASE DEGRADADO 360 MOTO EDGE",
+          "grupo": "CASE DEGRADADO 360 MOTO EDGE",
+          "stock": 1,
+          "costo_unitario": 68.97,
+          "valor": 68.97,
+          "dias_sin_venta": 2064,
+          "antiguedad": "2064 dias"
+        },
+        {
+          "codigo": "AC2286",
+          "nombre": "CASE DEGRADADO 360 MOTO EDGE",
+          "grupo": "CASE DEGRADADO 360 MOTO EDGE",
+          "stock": 1,
+          "costo_unitario": 68.97,
+          "valor": 68.97,
+          "dias_sin_venta": 2064,
+          "antiguedad": "2064 dias"
+        },
+        {
+          "codigo": "AC2286",
+          "nombre": "CASE DEGRADADO 360 MOTO EDGE",
+          "grupo": "CASE DEGRADADO 360 MOTO EDGE",
+          "stock": 1,
+          "costo_unitario": 68.97,
+          "valor": 68.97,
+          "dias_sin_venta": 2064,
+          "antiguedad": "2064 dias"
+        },
+        {
+          "codigo": "PR0185",
+          "nombre": "FUNDA DISEÑO DOBLE DISNEY MOTO G100",
+          "grupo": "FUNDA DISEÑO DOBLE DISNEY MOTO G100",
+          "stock": 1,
+          "costo_unitario": 64.66,
+          "valor": 64.66,
+          "dias_sin_venta": 99999,
+          "antiguedad": "NUNCA"
+        },
+        {
+          "codigo": "PR0185",
+          "nombre": "FUNDA DISEÑO DOBLE DISNEY MOTO G100",
+          "grupo": "FUNDA DISEÑO DOBLE DISNEY MOTO G100",
+          "stock": 1,
+          "costo_unitario": 64.66,
+          "valor": 64.66,
+          "dias_sin_venta": 99999,
+          "antiguedad": "NUNCA"
+        }
+      ]
+    },
+    {
+      "sucursal": "MATRIZ",
+      "alm_id": 3,
+      "unidades": 10,
+      "skus_distintos": 7,
+      "valor_total": 547.42,
+      "items": [
+        {
+          "codigo": "PR0185",
+          "nombre": "FUNDA DISEÑO DOBLE DISNEY MOTO G100",
+          "grupo": "FUNDA DISEÑO DOBLE DISNEY MOTO G100",
+          "stock": 2,
+          "costo_unitario": 64.66,
+          "valor": 129.32,
+          "dias_sin_venta": 99999,
+          "antiguedad": "NUNCA"
+        },
+        {
+          "codigo": "AC1711",
+          "nombre": "CASE TPU CON BRILLO SAMSUNG S11",
+          "grupo": "CASE TPU CON BRILLO SAMSUNG S11",
+          "stock": 2,
+          "costo_unitario": 56.03,
+          "valor": 112.06,
+          "dias_sin_venta": 99999,
+          "antiguedad": "NUNCA"
+        },
+        {
+          "codigo": "AC2286",
+          "nombre": "CASE DEGRADADO 360 MOTO EDGE",
+          "grupo": "CASE DEGRADADO 360 MOTO EDGE",
+          "stock": 1,
+          "costo_unitario": 68.97,
+          "valor": 68.97,
+          "dias_sin_venta": 2064,
+          "antiguedad": "2064 dias"
+        },
+        {
+          "codigo": "AC1518",
+          "nombre": "FUNDA CRISTAL COMPETO IP 11 PRO MAX",
+          "grupo": "FUNDA CRISTAL COMPETO IP 11 PRO MAX",
+          "stock": 1,
+          "costo_unitario": 68.97,
+          "valor": 68.97,
+          "dias_sin_venta": 1987,
+          "antiguedad": "1987 dias"
+        },
+        {
+          "codigo": "MAGMICRO",
+          "nombre": "CABLE USB MAGNET PUNTA MICRO USB",
+          "grupo": "CABLE USB MAGNET PUNTA MICRO USB",
+          "stock": 1,
+          "costo_unitario": 67.24,
+          "valor": 67.24,
+          "dias_sin_venta": 2775,
+          "antiguedad": "2775 dias"
+        },
+        {
+          "codigo": "18571",
+          "nombre": "CARGADOR DE UBO PARA IPAD 2 SALIDAS",
+          "grupo": "CARGADOR DE UBO PARA IPAD  2 SALIDAS",
+          "stock": 1,
+          "costo_unitario": 40.52,
+          "valor": 40.52,
+          "dias_sin_venta": 99999,
+          "antiguedad": "NUNCA"
+        },
+        {
+          "codigo": "AC2835",
+          "nombre": "MICA HIDROGEL COMPLETA SAMSUNG S20",
+          "grupo": "MICA HIDROGEL COMPLETA SAMSUNG S20",
+          "stock": 1,
+          "costo_unitario": 30.17,
+          "valor": 30.17,
+          "dias_sin_venta": 99999,
+          "antiguedad": "NUNCA"
+        },
+        {
+          "codigo": "AC2835",
+          "nombre": "MICA HIDROGEL COMPLETA SAMSUNG S20",
+          "grupo": "MICA HIDROGEL COMPLETA SAMSUNG S20",
+          "stock": 1,
+          "costo_unitario": 30.17,
+          "valor": 30.17,
+          "dias_sin_venta": 99999,
+          "antiguedad": "NUNCA"
+        }
+      ]
+    },
+    {
+      "sucursal": "TECALITLAN CH",
+      "alm_id": 132,
+      "unidades": 9,
+      "skus_distintos": 6,
+      "valor_total": 547.37,
+      "items": [
+        {
+          "codigo": "AC2747",
+          "nombre": "FUNDA SCREEN PROTECTOR CON MICA MOTO G100",
+          "grupo": "FUNDA SCREEN PROTECTOR CON MICA MOTO G100",
+          "stock": 1,
+          "costo_unitario": 81.9,
+          "valor": 81.9,
+          "dias_sin_venta": 99999,
+          "antiguedad": "NUNCA"
+        },
+        {
+          "codigo": "AC2747",
+          "nombre": "FUNDA SCREEN PROTECTOR CON MICA MOTO G100",
+          "grupo": "FUNDA SCREEN PROTECTOR CON MICA MOTO G100",
+          "stock": 1,
+          "costo_unitario": 81.9,
+          "valor": 81.9,
+          "dias_sin_venta": 99999,
+          "antiguedad": "NUNCA"
+        },
+        {
+          "codigo": "AC2747",
+          "nombre": "FUNDA SCREEN PROTECTOR CON MICA MOTO G100",
+          "grupo": "FUNDA SCREEN PROTECTOR CON MICA MOTO G100",
+          "stock": 1,
+          "costo_unitario": 81.9,
+          "valor": 81.9,
+          "dias_sin_venta": 99999,
+          "antiguedad": "NUNCA"
+        },
+        {
+          "codigo": "AC2288",
+          "nombre": "FUNDA TIPO ORIGINAL HUAWEI P40 LITE",
+          "grupo": "FUNDA TIPO ORIGINAL HUAWEI P40 LITE",
+          "stock": 1,
+          "costo_unitario": 68.97,
+          "valor": 68.97,
+          "dias_sin_venta": 99999,
+          "antiguedad": "NUNCA"
+        },
+        {
+          "codigo": "AC1711",
+          "nombre": "CASE TPU CON BRILLO SAMSUNG S11",
+          "grupo": "CASE TPU CON BRILLO SAMSUNG S11",
+          "stock": 1,
+          "costo_unitario": 56.03,
+          "valor": 56.03,
+          "dias_sin_venta": 99999,
+          "antiguedad": "NUNCA"
+        },
+        {
+          "codigo": "AC1710",
+          "nombre": "CASE TPU CON BRILLO REDMI NOTE 8 PRO",
+          "grupo": "CASE TPU CON BRILLO REDMI NOTE 8 PRO",
+          "stock": 1,
+          "costo_unitario": 56.03,
+          "valor": 56.03,
+          "dias_sin_venta": 1923,
+          "antiguedad": "1923 dias"
+        },
+        {
+          "codigo": "AC1710",
+          "nombre": "CASE TPU CON BRILLO REDMI NOTE 8 PRO",
+          "grupo": "CASE TPU CON BRILLO REDMI NOTE 8 PRO",
+          "stock": 1,
+          "costo_unitario": 56.03,
+          "valor": 56.03,
+          "dias_sin_venta": 1923,
+          "antiguedad": "1923 dias"
+        },
+        {
+          "codigo": "AC3153",
+          "nombre": "FUNDA TIPO ORIGINAL OPPO RENO 7 LITE",
+          "grupo": "FUNDA TIPO ORIGINAL OPPO RENO 7 LITE",
+          "stock": 1,
+          "costo_unitario": 34.44,
+          "valor": 34.44,
+          "dias_sin_venta": 99999,
+          "antiguedad": "NUNCA"
+        },
+        {
+          "codigo": "AC2835",
+          "nombre": "MICA HIDROGEL COMPLETA SAMSUNG S20",
+          "grupo": "MICA HIDROGEL COMPLETA SAMSUNG S20",
+          "stock": 1,
+          "costo_unitario": 30.17,
+          "valor": 30.17,
+          "dias_sin_venta": 99999,
+          "antiguedad": "NUNCA"
+        }
+      ]
+    },
+    {
+      "sucursal": "ATOYAC",
+      "alm_id": 134,
+      "unidades": 3,
+      "skus_distintos": 1,
+      "valor_total": 245.7,
+      "items": [
+        {
+          "codigo": "AC2747",
+          "nombre": "FUNDA SCREEN PROTECTOR CON MICA MOTO G100",
+          "grupo": "FUNDA SCREEN PROTECTOR CON MICA MOTO G100",
+          "stock": 2,
+          "costo_unitario": 81.9,
+          "valor": 163.8,
+          "dias_sin_venta": 99999,
+          "antiguedad": "NUNCA"
+        },
+        {
+          "codigo": "AC2747",
+          "nombre": "FUNDA SCREEN PROTECTOR CON MICA MOTO G100",
+          "grupo": "FUNDA SCREEN PROTECTOR CON MICA MOTO G100",
+          "stock": 1,
+          "costo_unitario": 81.9,
+          "valor": 81.9,
+          "dias_sin_venta": 99999,
+          "antiguedad": "NUNCA"
+        }
+      ]
+    },
+    {
+      "sucursal": "USMAJAC",
+      "alm_id": 133,
+      "unidades": 3,
+      "skus_distintos": 2,
+      "valor_total": 228.46,
+      "items": [
+        {
+          "codigo": "AC2747",
+          "nombre": "FUNDA SCREEN PROTECTOR CON MICA MOTO G100",
+          "grupo": "FUNDA SCREEN PROTECTOR CON MICA MOTO G100",
+          "stock": 1,
+          "costo_unitario": 81.9,
+          "valor": 81.9,
+          "dias_sin_venta": 99999,
+          "antiguedad": "NUNCA"
+        },
+        {
+          "codigo": "AC2747",
+          "nombre": "FUNDA SCREEN PROTECTOR CON MICA MOTO G100",
+          "grupo": "FUNDA SCREEN PROTECTOR CON MICA MOTO G100",
+          "stock": 1,
+          "costo_unitario": 81.9,
+          "valor": 81.9,
+          "dias_sin_venta": 99999,
+          "antiguedad": "NUNCA"
+        },
+        {
+          "codigo": "PR0185",
+          "nombre": "FUNDA DISEÑO DOBLE DISNEY MOTO G100",
+          "grupo": "FUNDA DISEÑO DOBLE DISNEY MOTO G100",
+          "stock": 1,
+          "costo_unitario": 64.66,
+          "valor": 64.66,
+          "dias_sin_venta": 99999,
+          "antiguedad": "NUNCA"
+        }
+      ]
+    },
+    {
+      "sucursal": "TAMAZULA CH",
+      "alm_id": 10,
+      "unidades": 5,
+      "skus_distintos": 4,
+      "valor_total": 191.33,
+      "items": [
+        {
+          "codigo": "AC1710",
+          "nombre": "CASE TPU CON BRILLO REDMI NOTE 8 PRO",
+          "grupo": "CASE TPU CON BRILLO REDMI NOTE 8 PRO",
+          "stock": 1,
+          "costo_unitario": 56.03,
+          "valor": 56.03,
+          "dias_sin_venta": 1923,
+          "antiguedad": "1923 dias"
+        },
+        {
+          "codigo": "18571",
+          "nombre": "CARGADOR DE UBO PARA IPAD 2 SALIDAS",
+          "grupo": "CARGADOR DE UBO PARA IPAD  2 SALIDAS",
+          "stock": 1,
+          "costo_unitario": 40.52,
+          "valor": 40.52,
+          "dias_sin_venta": 99999,
+          "antiguedad": "NUNCA"
+        },
+        {
+          "codigo": "AC3153",
+          "nombre": "FUNDA TIPO ORIGINAL OPPO RENO 7 LITE",
+          "grupo": "FUNDA TIPO ORIGINAL OPPO RENO 7 LITE",
+          "stock": 1,
+          "costo_unitario": 34.44,
+          "valor": 34.44,
+          "dias_sin_venta": 99999,
+          "antiguedad": "NUNCA"
+        },
+        {
+          "codigo": "AC2835",
+          "nombre": "MICA HIDROGEL COMPLETA SAMSUNG S20",
+          "grupo": "MICA HIDROGEL COMPLETA SAMSUNG S20",
+          "stock": 1,
+          "costo_unitario": 30.17,
+          "valor": 30.17,
+          "dias_sin_venta": 99999,
+          "antiguedad": "NUNCA"
+        },
+        {
+          "codigo": "AC2835",
+          "nombre": "MICA HIDROGEL COMPLETA SAMSUNG S20",
+          "grupo": "MICA HIDROGEL COMPLETA SAMSUNG S20",
+          "stock": 1,
+          "costo_unitario": 30.17,
+          "valor": 30.17,
+          "dias_sin_venta": 99999,
+          "antiguedad": "NUNCA"
+        }
+      ]
+    },
+    {
+      "sucursal": "COLOMO",
+      "alm_id": 75,
+      "unidades": 3,
+      "skus_distintos": 2,
+      "valor_total": 163.76,
+      "items": [
+        {
+          "codigo": "PR0185",
+          "nombre": "FUNDA DISEÑO DOBLE DISNEY MOTO G100",
+          "grupo": "FUNDA DISEÑO DOBLE DISNEY MOTO G100",
+          "stock": 1,
+          "costo_unitario": 64.66,
+          "valor": 64.66,
+          "dias_sin_venta": 99999,
+          "antiguedad": "NUNCA"
+        },
+        {
+          "codigo": "PR0185",
+          "nombre": "FUNDA DISEÑO DOBLE DISNEY MOTO G100",
+          "grupo": "FUNDA DISEÑO DOBLE DISNEY MOTO G100",
+          "stock": 1,
+          "costo_unitario": 64.66,
+          "valor": 64.66,
+          "dias_sin_venta": 99999,
+          "antiguedad": "NUNCA"
+        },
+        {
+          "codigo": "AC3153",
+          "nombre": "FUNDA TIPO ORIGINAL OPPO RENO 7 LITE",
+          "grupo": "FUNDA TIPO ORIGINAL OPPO RENO 7 LITE",
+          "stock": 1,
+          "costo_unitario": 34.44,
+          "valor": 34.44,
+          "dias_sin_venta": 99999,
+          "antiguedad": "NUNCA"
+        }
+      ]
+    },
+    {
+      "sucursal": "TONAYA",
+      "alm_id": 130,
+      "unidades": 4,
+      "skus_distintos": 2,
+      "valor_total": 137.92,
+      "items": [
+        {
+          "codigo": "AC3126",
+          "nombre": "CASE CON ANILLO HONOR X7",
+          "grupo": "CASE CON ANILLO HONOR X7",
+          "stock": 1,
+          "costo_unitario": 34.48,
+          "valor": 34.48,
+          "dias_sin_venta": 99999,
+          "antiguedad": "NUNCA"
+        },
+        {
+          "codigo": "AC3126",
+          "nombre": "CASE CON ANILLO HONOR X7",
+          "grupo": "CASE CON ANILLO HONOR X7",
+          "stock": 1,
+          "costo_unitario": 34.48,
+          "valor": 34.48,
+          "dias_sin_venta": 99999,
+          "antiguedad": "NUNCA"
+        },
+        {
+          "codigo": "AC3129",
+          "nombre": "CASE CON ANILLO MOTOROLA G31",
+          "grupo": "CASE CON ANILLO MOTOROLA G31",
+          "stock": 1,
+          "costo_unitario": 34.48,
+          "valor": 34.48,
+          "dias_sin_venta": 99999,
+          "antiguedad": "NUNCA"
+        },
+        {
+          "codigo": "AC3129",
+          "nombre": "CASE CON ANILLO MOTOROLA G31",
+          "grupo": "CASE CON ANILLO MOTOROLA G31",
+          "stock": 1,
+          "costo_unitario": 34.48,
+          "valor": 34.48,
+          "dias_sin_venta": 99999,
+          "antiguedad": "NUNCA"
+        }
+      ]
+    },
+    {
+      "sucursal": "TEOCUITATLAN",
+      "alm_id": 137,
+      "unidades": 2,
+      "skus_distintos": 2,
+      "valor_total": 125.0,
+      "items": [
+        {
+          "codigo": "AC2288",
+          "nombre": "FUNDA TIPO ORIGINAL HUAWEI P40 LITE",
+          "grupo": "FUNDA TIPO ORIGINAL HUAWEI P40 LITE",
+          "stock": 1,
+          "costo_unitario": 68.97,
+          "valor": 68.97,
+          "dias_sin_venta": 99999,
+          "antiguedad": "NUNCA"
+        },
+        {
+          "codigo": "AC1710",
+          "nombre": "CASE TPU CON BRILLO REDMI NOTE 8 PRO",
+          "grupo": "CASE TPU CON BRILLO REDMI NOTE 8 PRO",
+          "stock": 1,
+          "costo_unitario": 56.03,
+          "valor": 56.03,
+          "dias_sin_venta": 1923,
+          "antiguedad": "1923 dias"
+        }
+      ]
+    },
+    {
+      "sucursal": "ATEQUIZA",
+      "alm_id": 124,
+      "unidades": 2,
+      "skus_distintos": 2,
+      "valor_total": 116.34,
+      "items": [
+        {
+          "codigo": "AC2747",
+          "nombre": "FUNDA SCREEN PROTECTOR CON MICA MOTO G100",
+          "grupo": "FUNDA SCREEN PROTECTOR CON MICA MOTO G100",
+          "stock": 1,
+          "costo_unitario": 81.9,
+          "valor": 81.9,
+          "dias_sin_venta": 99999,
+          "antiguedad": "NUNCA"
+        },
+        {
+          "codigo": "AC3153",
+          "nombre": "FUNDA TIPO ORIGINAL OPPO RENO 7 LITE",
+          "grupo": "FUNDA TIPO ORIGINAL OPPO RENO 7 LITE",
+          "stock": 1,
+          "costo_unitario": 34.44,
+          "valor": 34.44,
+          "dias_sin_venta": 99999,
+          "antiguedad": "NUNCA"
+        }
+      ]
+    },
+    {
+      "sucursal": "COTIJA",
+      "alm_id": 136,
+      "unidades": 1,
+      "skus_distintos": 1,
+      "valor_total": 56.03,
+      "items": [
+        {
+          "codigo": "AC1710",
+          "nombre": "CASE TPU CON BRILLO REDMI NOTE 8 PRO",
+          "grupo": "CASE TPU CON BRILLO REDMI NOTE 8 PRO",
+          "stock": 1,
+          "costo_unitario": 56.03,
+          "valor": 56.03,
+          "dias_sin_venta": 1923,
+          "antiguedad": "1923 dias"
+        }
+      ]
+    }
+  ]
+}

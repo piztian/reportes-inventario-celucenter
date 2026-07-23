@@ -1,0 +1,795 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Inventario Accesorios Obsoletos — CeluCenter</title>
+<style>
+  :root {
+    --bg: #0f1419;
+    --panel: #1a1f2e;
+    --panel-2: #232938;
+    --border: #2d3548;
+    --text: #e8eaed;
+    --text-dim: #9aa0a6;
+    --accent: #4fc3f7;
+    --accent-2: #81c784;
+    --warn: #ffb74d;
+    --danger: #e57373;
+    --success: #66bb6a;
+    --purple: #ba68c8;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.4;
+  }
+  header {
+    background: linear-gradient(135deg, #4a148c 0%, #6a1b9a 100%);
+    padding: 16px 24px;
+    border-bottom: 1px solid var(--border);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+  header h1 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  header .meta {
+    color: var(--text-dim);
+    font-size: 12px;
+    margin-top: 4px;
+  }
+  nav.topnav {
+    background: #0a0e14;
+    padding: 8px 24px;
+    display: flex;
+    gap: 8px;
+    border-bottom: 1px solid var(--border);
+    flex-wrap: wrap;
+  }
+  nav.topnav a {
+    color: var(--text-dim);
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-size: 13px;
+    font-weight: 500;
+    transition: all 0.15s;
+  }
+  nav.topnav a:hover { background: var(--panel-2); color: var(--text); }
+  nav.topnav a.active {
+    background: var(--purple);
+    color: #fff;
+    font-weight: 600;
+  }
+  .container {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 16px 24px;
+  }
+  .summary {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 12px;
+    margin-bottom: 24px;
+  }
+  .card {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 16px;
+    position: relative;
+  }
+  .card .label {
+    color: var(--text-dim);
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  .card .value {
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 4px;
+  }
+  .card.alert .value { color: var(--warn); }
+  .card.danger .value { color: var(--danger); }
+  .card.success .value { color: var(--success); }
+  .card.purple .value { color: var(--purple); }
+
+  .controls {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 16px;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  input, select, button {
+    background: var(--panel-2);
+    color: var(--text);
+    border: 1px solid var(--border);
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-size: 13px;
+  }
+  input[type="search"] { flex: 1; min-width: 280px; }
+  button {
+    cursor: pointer;
+    background: var(--accent);
+    color: #0f1419;
+    border: none;
+    font-weight: 600;
+  }
+  button:hover { opacity: 0.9; }
+  button.purple { background: var(--purple); color: #fff; }
+  button.warn { background: var(--warn); color: #0f1419; }
+  button.secondary {
+    background: var(--panel-2);
+    color: var(--text);
+    border: 1px solid var(--border);
+  }
+
+  .tabs {
+    display: flex;
+    gap: 0;
+    margin-bottom: 16px;
+    border-bottom: 1px solid var(--border);
+  }
+  .tab {
+    padding: 10px 20px;
+    cursor: pointer;
+    background: transparent;
+    color: var(--text-dim);
+    border: none;
+    border-bottom: 2px solid transparent;
+    font-size: 13px;
+    font-weight: 600;
+    transition: all 0.15s;
+  }
+  .tab:hover { color: var(--text); }
+  .tab.active {
+    color: var(--accent);
+    border-bottom-color: var(--accent);
+  }
+  .tab-content { display: none; }
+  .tab-content.active { display: block; }
+
+  /* SKU cards (vista por producto) */
+  .sku-card {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    margin-bottom: 12px;
+    overflow: hidden;
+  }
+  .sku-card.high-value { border-color: rgba(229, 115, 115, 0.4); }
+  .sku-card.unopened { border-color: rgba(186, 104, 200, 0.4); }
+  .sku-header {
+    padding: 12px 16px;
+    background: var(--panel-2);
+    cursor: pointer;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr auto;
+    gap: 12px;
+    align-items: center;
+    user-select: none;
+  }
+  .sku-header:hover { background: #2a3142; }
+  .sku-header .prod-name {
+    font-weight: 600;
+    font-size: 14px;
+  }
+  .sku-header .prod-code {
+    font-family: 'SF Mono', Monaco, monospace;
+    font-size: 12px;
+    color: var(--text-dim);
+  }
+  .sku-header .num {
+    font-variant-numeric: tabular-nums;
+    font-size: 13px;
+    text-align: right;
+  }
+  .sku-header .num.valor { color: var(--warn); font-weight: 600; }
+  .sku-header .num.stock { color: var(--accent); font-weight: 600; }
+
+  .sku-body { display: none; }
+  .sku-card.open .sku-body { display: block; }
+
+  /* Store cards (vista por tienda) */
+  .store-card {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    margin-bottom: 16px;
+    overflow: hidden;
+  }
+  .store-header {
+    padding: 12px 16px;
+    background: var(--panel-2);
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    user-select: none;
+  }
+  .store-header:hover { background: #2a3142; }
+  .store-header h2 {
+    margin: 0;
+    font-size: 15px;
+    font-weight: 600;
+  }
+  .store-stats {
+    display: flex;
+    gap: 16px;
+    font-size: 12px;
+    color: var(--text-dim);
+  }
+  .store-stats span { white-space: nowrap; }
+  .store-body { display: none; }
+  .store-card.open .store-body { display: block; }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 12px;
+  }
+  th, td {
+    text-align: left;
+    padding: 8px 12px;
+    border-bottom: 1px solid var(--border);
+  }
+  th {
+    background: var(--panel-2);
+    color: var(--text-dim);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-size: 10px;
+    position: sticky;
+    top: 0;
+  }
+  td.num, th.num {
+    text-align: right;
+    font-variant-numeric: tabular-nums;
+  }
+  tr:hover td { background: rgba(79, 195, 247, 0.05); }
+
+  .badge {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+  }
+  .badge.never { background: rgba(186, 104, 200, 0.2); color: var(--purple); border: 1px solid var(--purple); }
+  .badge.ancient { background: rgba(229, 115, 115, 0.3); color: var(--danger); font-weight: 700; }
+  .badge.old { background: rgba(229, 115, 115, 0.15); color: var(--danger); }
+  .badge.medium { background: rgba(255, 183, 77, 0.15); color: var(--warn); }
+
+  .empty {
+    text-align: center;
+    padding: 40px;
+    color: var(--text-dim);
+  }
+  .footer {
+    text-align: center;
+    padding: 24px;
+    color: var(--text-dim);
+    font-size: 11px;
+  }
+  .pulse {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: var(--success);
+    margin-right: 6px;
+    animation: pulse 2s infinite;
+  }
+  @keyframes pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.4; }
+  }
+
+  /* Heatmap for store-view: max stock store gets a highlight */
+  .stock-high { color: var(--warn); font-weight: 700; }
+  .stock-mid { color: var(--accent-2); }
+
+  /* Bar chart inside cells */
+  .stock-bar {
+    display: inline-block;
+    height: 6px;
+    background: var(--accent);
+    border-radius: 3px;
+    margin-left: 8px;
+    vertical-align: middle;
+  }
+
+  /* ===== PRINT STYLES ===== */
+  @media print {
+    @page {
+      size: letter landscape;
+      margin: 12mm;
+    }
+    body {
+      background: #fff !important;
+      color: #000 !important;
+      font-size: 9pt;
+    }
+    nav.topnav, header, .controls, .tabs, .summary, .footer, #autoRefresh {
+      display: none !important;
+    }
+    .tab-content { display: block !important; }
+    .sku-body, .store-body { display: block !important; }
+
+    .sku-card, .store-card {
+      page-break-inside: avoid;
+      margin-bottom: 8px;
+      border: 1px solid #999 !important;
+      background: #fff !important;
+    }
+    .sku-header, .store-header {
+      background: #e8e8e8 !important;
+      color: #000 !important;
+    }
+    .sku-header .prod-name, .store-header h2 { color: #000 !important; }
+    .sku-header .num.valor, .sku-header .num.stock { color: #000 !important; }
+
+    table { font-size: 7.5pt; page-break-inside: auto; }
+    th, td {
+      padding: 3px 5px !important;
+      border-bottom: 1px solid #ccc !important;
+      color: #000 !important;
+      background: #fff !important;
+    }
+    th {
+      background: #e0e0e0 !important;
+      color: #000 !important;
+      border-bottom: 2px solid #000 !important;
+    }
+    th { position: static !important; }
+
+    .badge {
+      background: #fff !important;
+      color: #000 !important;
+      border: 1px solid #666;
+    }
+    .stock-bar { display: none; }
+  }
+
+  .print-header { display: none; }
+  @media print {
+    .print-header { display: block !important; }
+    .print-header {
+      border-bottom: 2px solid #000;
+      padding-bottom: 8px;
+      margin-bottom: 12px;
+    }
+    .print-header h1 {
+      margin: 0 0 4px 0;
+      font-size: 16pt;
+      color: #000;
+    }
+    .print-header .meta { font-size: 9pt; color: #333; }
+    .print-header .kpis {
+      display: flex;
+      gap: 16px;
+      margin-top: 6px;
+      font-size: 9pt;
+    }
+    .print-header .kpis span {
+      background: #f0f0f0;
+      padding: 2px 8px;
+      border: 1px solid #999;
+      border-radius: 3px;
+    }
+  }
+</style>
+</head>
+<body>
+<nav class="topnav">
+  <a href="inv_accesorios_panel.html" class="active">🧰 Accesorios Obsoletos</a>
+  <a href="inv_telcel_panel.html">📱 Telcel IU/KIT</a>
+  <a href="inv_libre_panel.html">🆓 Libre / Prepago</a>
+</nav>
+<header>
+  <h1>🧰 Inventario Accesorios Obsoletos (+5 años sin venta)</h1>
+  <div class="meta">
+    <span class="pulse"></span> Datos actualizados al <span id="updated">—</span>
+    &middot; <span id="autoRefresh">próximo refresh en <b id="countdown">120</b>s</span>
+    &middot; <a href="#" onclick="loadData(); return false;" style="color: var(--accent);">refrescar ahora</a>
+    &middot; <span style="color: var(--text-dim);">vistas:</span>
+    <a href="#" onclick="setView('productos'); return false;" style="color: var(--accent);">Por producto</a>
+    &middot; <a href="#" onclick="setView('tiendas'); return false;" style="color: var(--accent);">Por tienda</a>
+  </div>
+</header>
+
+<div class="print-header">
+  <h1>Accesorios Obsoletos — Sin venta +5 años</h1>
+  <div class="meta">
+    Generado: <span id="printDate"></span>
+    &middot; Fuente: dat_inventario_saldos (STX Read-Only)
+    &middot; 27 tiendas retail &middot; 8 grupos accesorios
+  </div>
+  <div class="kpis">
+    <span><b id="printSkus">—</b> SKUs</span>
+    <span><b id="printUnidades">—</b> unidades</span>
+    <span><b id="printCosto">—</b> costo total</span>
+    <span><b id="printNunca">—</b> nunca vendidos</span>
+    <span><b id="printTiendas">—</b> tiendas</span>
+  </div>
+</div>
+
+<div class="container">
+
+  <div class="summary">
+    <div class="card purple">
+      <div class="label">SKUs obsoletos</div>
+      <div class="value" id="totalSkus">—</div>
+    </div>
+    <div class="card">
+      <div class="label">Unidades</div>
+      <div class="value" id="totalUnidades">—</div>
+    </div>
+    <div class="card alert">
+      <div class="label">Valor en stock</div>
+      <div class="value" id="totalCosto">—</div>
+    </div>
+    <div class="card danger">
+      <div class="label">Nunca vendidos</div>
+      <div class="value" id="totalNunca">—</div>
+    </div>
+    <div class="card success">
+      <div class="label">Tiendas afectadas</div>
+      <div class="value" id="numTiendas">—</div>
+    </div>
+    <div class="card">
+      <div class="label">Antigüedad mínima</div>
+      <div class="value" id="minDias">—</div>
+    </div>
+  </div>
+
+  <div class="tabs">
+    <button class="tab active" data-view="productos" onclick="setView('productos')">📦 Por producto (SKU)</button>
+    <button class="tab" data-view="tiendas" onclick="setView('tiendas')">🏬 Por tienda</button>
+  </div>
+
+  <div class="controls">
+    <input type="search" id="search" placeholder="🔍 Buscar SKU, nombre, tienda...">
+    <select id="filterGrupo">
+      <option value="">Todos los grupos</option>
+    </select>
+    <select id="filterAntiguedad">
+      <option value="">Cualquier antigüedad</option>
+      <option value="never">Nunca vendido</option>
+      <option value="ancient">+5 años</option>
+      <option value="3-5">3-5 años (1095-1825 días)</option>
+    </select>
+    <label style="display: flex; align-items: center; gap: 6px; padding: 8px 12px; background: var(--panel-2); border: 1px solid var(--border); border-radius: 6px; cursor: pointer; font-size: 13px;">
+      <input type="checkbox" id="filterHighValue" style="margin: 0; cursor: pointer;">
+      💰 Solo valor &gt; $500
+    </label>
+    <button onclick="expandAll()">Expandir todo</button>
+    <button class="secondary" onclick="collapseAll()">Colapsar todo</button>
+    <button class="warn" onclick="printPanel()">🖨️ Imprimir PDF</button>
+  </div>
+
+  <!-- Vista por producto -->
+  <div id="view-productos" class="tab-content active">
+    <div id="skus"></div>
+  </div>
+
+  <!-- Vista por tienda -->
+  <div id="view-tiendas" class="tab-content">
+    <div id="stores"></div>
+  </div>
+
+  <div class="footer">
+    Datos desde <code>dat_inventario_saldos</code> · STX Read-Only
+    &middot; Filtro: grupos FUNDA/MICA/CASE/CABLE/CARGADOR/AURICULAR/AUDIO/HEADSET
+    &middot; Sin venta en +<span id="footerMinDias">1825</span> días (o nunca vendidos)
+    &middot; 27 tiendas retail
+  </div>
+</div>
+
+<script>
+let panelData = null;
+let autoRefreshTimer = null;
+let countdownTimer = null;
+let countdown = 120;
+let currentView = 'productos';
+
+async function loadData() {
+  try {
+    const res = await fetch('inv_accesorios_panel.json?t=' + Date.now());
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    panelData = await res.json();
+    populateGrupos();
+    setView(currentView);
+    scheduleAutoRefresh();
+  } catch (err) {
+    document.getElementById('skus').innerHTML =
+      `<div class="empty">⚠️ Error cargando datos: ${err.message}<br><br>
+       Verifica que <code>data/inv_accesorios_panel.json</code> exista.</div>`;
+  }
+}
+
+function setView(v) {
+  currentView = v;
+  document.querySelectorAll('.tab').forEach(t => {
+    t.classList.toggle('active', t.dataset.view === v);
+  });
+  document.querySelectorAll('.tab-content').forEach(el => {
+    el.classList.remove('active');
+  });
+  document.getElementById('view-' + v).classList.add('active');
+  render();
+}
+
+function populateGrupos() {
+  const grupos = [...new Set(panelData.skus.map(s => s.grupo))].sort();
+  const sel = document.getElementById('filterGrupo');
+  sel.innerHTML = '<option value="">Todos los grupos</option>' +
+    grupos.map(g => `<option value="${escapeHtml(g)}">${escapeHtml(g)}</option>`).join('');
+}
+
+function getCtx() {
+  return {
+    search: document.getElementById('search').value.toLowerCase().trim(),
+    grupo: document.getElementById('filterGrupo').value,
+    antiguedad: document.getElementById('filterAntiguedad').value,
+    highValue: document.getElementById('filterHighValue').checked,
+  };
+}
+
+function skuMatches(sku, ctx) {
+  if (ctx.grupo && sku.grupo !== ctx.grupo) return false;
+  if (ctx.search) {
+    const haystack = [sku.codigo, sku.nombre].join(' ').toLowerCase();
+    if (!haystack.includes(ctx.search)) return false;
+  }
+  if (ctx.highValue && sku.valor_total <= 500) return false;
+  if (ctx.antiguedad === 'never' && !sku.nunca_vendido) return false;
+  if (ctx.antiguedad === 'ancient' && sku.dias_sin_venta < 1825) return false;
+  if (ctx.antiguedad === '3-5' && (sku.dias_sin_venta < 1095 || sku.dias_sin_venta > 1825)) return false;
+  return true;
+}
+
+function itemMatches(item, ctx) {
+  if (ctx.grupo && item.grupo !== ctx.grupo) return false;
+  if (ctx.search) {
+    const haystack = [item.codigo, item.nombre, item.sucursal].join(' ').toLowerCase();
+    if (!haystack.includes(ctx.search)) return false;
+  }
+  if (ctx.highValue && item.valor <= 500) return false;
+  if (ctx.antiguedad === 'never' && item.dias_sin_venta < 99999) return false;
+  if (ctx.antiguedad === 'ancient' && item.dias_sin_venta < 1825) return false;
+  if (ctx.antiguedad === '3-5' && (item.dias_sin_venta < 1095 || item.dias_sin_venta > 1825)) return false;
+  return true;
+}
+
+function render() {
+  if (!panelData) return;
+
+  // Header
+  const d = new Date(panelData.generated_at);
+  document.getElementById('updated').textContent =
+    d.toLocaleString('es-MX', { dateStyle: 'short', timeStyle: 'short' });
+  document.getElementById('totalSkus').textContent = panelData.total_skus;
+  document.getElementById('totalUnidades').textContent = panelData.total_unidades;
+  document.getElementById('totalCosto').textContent = '$' + panelData.total_costo.toLocaleString('es-MX', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+  document.getElementById('totalNunca').textContent = panelData.nunca_vendidos;
+  document.getElementById('numTiendas').textContent = panelData.num_sucursales;
+  document.getElementById('minDias').textContent = panelData.min_dias + ' días';
+
+  // Print header
+  document.getElementById('printSkus').textContent = panelData.total_skus;
+  document.getElementById('printUnidades').textContent = panelData.total_unidades;
+  document.getElementById('printCosto').textContent = '$' + panelData.total_costo.toLocaleString('es-MX', { minimumFractionDigits: 2 });
+  document.getElementById('printNunca').textContent = panelData.nunca_vendidos;
+  document.getElementById('printTiendas').textContent = panelData.num_sucursales;
+  document.getElementById('printDate').textContent =
+    d.toLocaleString('es-MX', { dateStyle: 'short', timeStyle: 'short' });
+
+  document.getElementById('footerMinDias').textContent = panelData.min_dias;
+
+  if (currentView === 'productos') renderSkus();
+  else renderStores();
+}
+
+function renderSkus() {
+  const ctx = getCtx();
+  const filtered = panelData.skus.filter(s => skuMatches(s, ctx));
+
+  if (!filtered.length) {
+    document.getElementById('skus').innerHTML = '<div class="empty">— Sin accesorios que coincidan con los filtros —</div>';
+    return;
+  }
+
+  const maxVal = Math.max(...filtered.map(s => s.valor_total));
+
+  let html = '';
+  for (const sku of filtered) {
+    const isHigh = sku.valor_total > 500;
+    const isNever = sku.nunca_vendido;
+    const cardClass = 'sku-card' + (isHigh ? ' high-value' : '') + (isNever ? ' unopened' : '');
+    const badge = isNever ?
+      '<span class="badge never">⚠️ NUNCA VENDIDO</span>' :
+      sku.dias_sin_venta > 1825 ? `<span class="badge ancient">${sku.dias_sin_venta} días</span>` :
+      sku.dias_sin_venta > 1095 ? `<span class="badge old">${sku.dias_sin_venta} días</span>` :
+      `<span class="badge medium">${sku.dias_sin_venta} días</span>`;
+
+    html += `<div class="${cardClass}" data-sku="${escapeHtml(sku.codigo)}">
+      <div class="sku-header" onclick="toggleCard(this, 'sku')">
+        <div>
+          <div class="prod-name">${escapeHtml(sku.nombre)}</div>
+          <div class="prod-code">${escapeHtml(sku.codigo)} &middot; ${escapeHtml(sku.grupo)}</div>
+        </div>
+        <div class="num stock">${sku.stock_total} uds</div>
+        <div class="num valor">$${sku.valor_total.toLocaleString('es-MX', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}</div>
+        <div>${badge}</div>
+        <div style="color: var(--text-dim); font-size: 18px;">▾</div>
+      </div>
+      <div class="sku-body">
+        <table>
+          <thead>
+            <tr>
+              <th>Sucursal</th>
+              <th class="num">Stock</th>
+              <th class="num">Costo unit.</th>
+              <th class="num">Valor</th>
+              <th>Última venta</th>
+            </tr>
+          </thead>
+          <tbody>
+            ${sku.tiendas.map(t => {
+              const pct = maxVal > 0 ? (t.stock / sku.stock_total * 100) : 0;
+              return `<tr>
+                <td><strong>${escapeHtml(t.sucursal)}</strong> <span style="color: var(--text-dim); font-size: 11px;">(id ${t.alm_id})</span></td>
+                <td class="num"><strong>${t.stock}</strong><span class="stock-bar" style="width: ${pct.toFixed(0)}px;"></span></td>
+                <td class="num">$${sku.costo_unitario.toFixed(2)}</td>
+                <td class="num"><strong>$${t.valor.toFixed(2)}</strong></td>
+                <td>${sku.fecha_ultima_venta || '<span style="color: var(--purple);">— NUNCA —</span>'}</td>
+              </tr>`;
+            }).join('')}
+            <tr style="background: var(--panel-2); font-weight: 600;">
+              <td>TOTAL</td>
+              <td class="num">${sku.stock_total}</td>
+              <td class="num">—</td>
+              <td class="num">$${sku.valor_total.toFixed(2)}</td>
+              <td>${sku.tiendas.length} tiendas</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>`;
+  }
+  document.getElementById('skus').innerHTML = html;
+}
+
+function renderStores() {
+  const ctx = getCtx();
+
+  let html = '';
+  let totalShown = 0;
+  for (const store of panelData.stores) {
+    const items = store.items.filter(i => itemMatches(i, ctx));
+    if (!items.length) continue;
+    totalShown++;
+
+    html += `<div class="store-card">
+      <div class="store-header" onclick="toggleCard(this, 'store')">
+        <h2>${escapeHtml(store.sucursal)}</h2>
+        <div class="store-stats">
+          <span><strong>${store.unidades}</strong> uds</span>
+          <span><strong>${store.skus_distintos}</strong> SKUs</span>
+          <span style="color: var(--warn);"><strong>$${store.valor_total.toLocaleString('es-MX', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}</strong></span>
+        </div>
+      </div>
+      <div class="store-body">
+        <table>
+          <thead>
+            <tr>
+              <th>SKU</th>
+              <th>Producto</th>
+              <th>Grupo</th>
+              <th class="num">Stock</th>
+              <th class="num">Costo</th>
+              <th class="num">Valor</th>
+              <th>Antigüedad</th>
+            </tr>
+          </thead>
+          <tbody>
+            ${items.map(i => {
+              const badge = i.dias_sin_venta > 99999 ? '<span class="badge never">NUNCA</span>' :
+                i.dias_sin_venta > 1825 ? `<span class="badge ancient">${i.dias_sin_venta} días</span>` :
+                i.dias_sin_venta > 1095 ? `<span class="badge old">${i.dias_sin_venta} días</span>` :
+                `<span class="badge medium">${i.dias_sin_venta} días</span>`;
+              return `<tr>
+                <td><code>${escapeHtml(i.codigo)}</code></td>
+                <td>${escapeHtml(i.nombre)}</td>
+                <td style="color: var(--text-dim); font-size: 11px;">${escapeHtml(i.grupo)}</td>
+                <td class="num"><strong>${i.stock}</strong></td>
+                <td class="num">$${i.costo_unitario.toFixed(2)}</td>
+                <td class="num"><strong>$${i.valor.toFixed(2)}</strong></td>
+                <td>${badge}</td>
+              </tr>`;
+            }).join('')}
+          </tbody>
+        </table>
+      </div>
+    </div>`;
+  }
+
+  if (!totalShown) {
+    html = '<div class="empty">— Ninguna tienda tiene accesorios que coincidan con los filtros —</div>';
+  }
+
+  document.getElementById('stores').innerHTML = html;
+}
+
+function toggleCard(headerEl, type) {
+  const card = headerEl.parentElement;
+  card.classList.toggle('open');
+}
+
+function expandAll() {
+  document.querySelectorAll('.sku-card, .store-card').forEach(c => c.classList.add('open'));
+}
+function collapseAll() {
+  document.querySelectorAll('.sku-card, .store-card').forEach(c => c.classList.remove('open'));
+}
+
+function printPanel() {
+  // Expandir todo para imprimir
+  const wasOpen = new Set();
+  document.querySelectorAll('.sku-card, .store-card').forEach((c, i) => {
+    if (c.classList.contains('open')) wasOpen.add(i);
+    c.classList.add('open');
+  });
+  setTimeout(() => {
+    window.print();
+    // Restaurar después de imprimir
+    setTimeout(() => {
+      document.querySelectorAll('.sku-card, .store-card').forEach((c, i) => {
+        if (!wasOpen.has(i)) c.classList.remove('open');
+      });
+    }, 500);
+  }, 100);
+}
+
+function scheduleAutoRefresh() {
+  clearTimeout(autoRefreshTimer);
+  clearInterval(countdownTimer);
+  countdown = 120;
+  countdownTimer = setInterval(() => {
+    countdown--;
+    document.getElementById('countdown').textContent = countdown;
+    if (countdown <= 0) loadData();
+  }, 1000);
+}
+
+function escapeHtml(s) {
+  return String(s).replace(/[&<>"']/g, c => ({
+    '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
+  }[c]));
+}
+
+// Wire up filters (re-render on change)
+['search', 'filterGrupo', 'filterAntiguedad', 'filterHighValue'].forEach(id => {
+  document.getElementById(id).addEventListener('input', render);
+  document.getElementById(id).addEventListener('change', render);
+});
+
+// Init
+loadData();
+</script>
+</body>
+</html>
