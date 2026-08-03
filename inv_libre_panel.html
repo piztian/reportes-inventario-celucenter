@@ -581,7 +581,8 @@ function render() {
                 <th>Serie</th>
                 <th>Factura</th>
                 <th>F.Compra</th>
-                <th>F.Alta</th>
+                <th>F.Alta tienda</th>
+                <th>Origen</th>
                 <th>Días</th>
                 <th>Antigüedad</th>
                 <th class="num">Costo</th>
@@ -602,6 +603,7 @@ function render() {
                     <td>${escape(it.factura) || '—'}</td>
                     <td>${escape(it.fecha_compra) || '—'}</td>
                     <td>${escape(it.fecha_alta) || '—'}</td>
+                    <td>${it.origen_traspaso ? `<span class="badge" style="background:#1b5e20;color:#a5d6a7;">${escape(it.origen_traspaso)}</span>` : '<span style="color:var(--text-dim);">compra directa</span>'}</td>
                     <td class="num">${it.dias}</td>
                     <td><span class="badge ${badgeClass}">${escape(it.antiguedad)}</span></td>
                     <td class="num">$${it.costo.toLocaleString('es-MX', {minimumFractionDigits: 2})}</td>
