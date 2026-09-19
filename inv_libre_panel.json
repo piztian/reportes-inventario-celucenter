@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-19T07:06:02.004175",
-  "total_unidades": 1557,
-  "total_costo": 3768190.81,
+  "generated_at": "2026-09-19T13:05:53.763523",
+  "total_unidades": 1553,
+  "total_costo": 3762218.96,
   "num_sucursales": 26,
   "stores": [
     {
@@ -115,19 +115,6 @@
           "antiguedad": "3-5 años"
         },
         {
-          "codigo": "TMGMXNK000X1NE00",
-          "nombre": "TERM NOKIA GSM X1",
-          "serie": "012467009475531",
-          "fecha_alta": "2022-09-21",
-          "fecha_compra": "2022-09-21",
-          "origen_traspaso": "BODEGA MAYOREO",
-          "factura": "595981",
-          "dias": 1459,
-          "costo": 227.91,
-          "lista_f": 585.34,
-          "antiguedad": "3-5 años"
-        },
-        {
           "codigo": "TMGMXBMAX821DO00",
           "nombre": "TERM AX821 DORADO B MOBILE",
           "serie": "359298080058214",
@@ -138,6 +125,19 @@
           "dias": 1459,
           "costo": 0.0,
           "lista_f": 361.21,
+          "antiguedad": "3-5 años"
+        },
+        {
+          "codigo": "TMGMXNK000X1NE00",
+          "nombre": "TERM NOKIA GSM X1",
+          "serie": "012467009475531",
+          "fecha_alta": "2022-09-21",
+          "fecha_compra": "2022-09-21",
+          "origen_traspaso": "BODEGA MAYOREO",
+          "factura": "595981",
+          "dias": 1459,
+          "costo": 227.91,
+          "lista_f": 585.34,
           "antiguedad": "3-5 años"
         },
         {
@@ -312,33 +312,20 @@
         {
           "codigo": "50036361934",
           "nombre": "JBL LIVE25BT AZUL",
-          "serie": "IV0270-HJ0006301",
-          "fecha_alta": "2024-07-01",
-          "fecha_compra": "2024-07-01",
-          "origen_traspaso": "BODEGA MAYOREO",
-          "factura": "1006037",
-          "dias": 810,
-          "costo": 434.18,
-          "lista_f": 542.24,
-          "antiguedad": "1-3 años"
-        },
-        {
-          "codigo": "50036361934",
-          "nombre": "JBL LIVE25BT AZUL",
-          "serie": "IV0270-HJ0006291",
-          "fecha_alta": "2024-07-01",
-          "fecha_compra": "2024-07-01",
-          "origen_traspaso": "BODEGA MAYOREO",
-          "factura": "1006037",
-          "dias": 810,
-          "costo": 434.18,
-          "lista_f": 542.24,
-          "antiguedad": "1-3 años"
-        },
-        {
-          "codigo": "50036361934",
-          "nombre": "JBL LIVE25BT AZUL",
           "serie": "IV0270-HJ0006300",
+          "fecha_alta": "2024-07-01",
+          "fecha_compra": "2024-07-01",
+          "origen_traspaso": "BODEGA MAYOREO",
+          "factura": "1006037",
+          "dias": 810,
+          "costo": 434.18,
+          "lista_f": 542.24,
+          "antiguedad": "1-3 años"
+        },
+        {
+          "codigo": "50036361934",
+          "nombre": "JBL LIVE25BT AZUL",
+          "serie": "IV0270-HJ0006301",
           "fecha_alta": "2024-07-01",
           "fecha_compra": "2024-07-01",
           "origen_traspaso": "BODEGA MAYOREO",
@@ -362,9 +349,35 @@
           "antiguedad": "1-3 años"
         },
         {
+          "codigo": "50036361934",
+          "nombre": "JBL LIVE25BT AZUL",
+          "serie": "IV0270-HJ0006291",
+          "fecha_alta": "2024-07-01",
+          "fecha_compra": "2024-07-01",
+          "origen_traspaso": "BODEGA MAYOREO",
+          "factura": "1006037",
+          "dias": 810,
+          "costo": 434.18,
+          "lista_f": 542.24,
+          "antiguedad": "1-3 años"
+        },
+        {
           "codigo": "8806095031415",
           "nombre": "SAMSUNG GALAXY SMARTTAG2 NEGRO",
-          "serie": "RF7WAC76MDXAMB",
+          "serie": "RF7WAB6BKTXAMB",
+          "fecha_alta": "2024-07-24",
+          "fecha_compra": "2024-07-24",
+          "origen_traspaso": "BODEGA MAYOREO",
+          "factura": "1025601",
+          "dias": 787,
+          "costo": 0.0,
+          "lista_f": 352.59,
+          "antiguedad": "1-3 años"
+        },
+        {
+          "codigo": "8806095031415",
+          "nombre": "SAMSUNG GALAXY SMARTTAG2 NEGRO",
+          "serie": "RF7WAD63VSXAMB",
           "fecha_alta": "2024-07-24",
           "fecha_compra": "2024-07-24",
           "origen_traspaso": "BODEGA MAYOREO",
@@ -390,20 +403,7 @@
         {
           "codigo": "8806095031415",
           "nombre": "SAMSUNG GALAXY SMARTTAG2 NEGRO",
-          "serie": "RF7WAB6BKTXAMB",
-          "fecha_alta": "2024-07-24",
-          "fecha_compra": "2024-07-24",
-          "origen_traspaso": "BODEGA MAYOREO",
-          "factura": "1025601",
-          "dias": 787,
-          "costo": 0.0,
-          "lista_f": 352.59,
-          "antiguedad": "1-3 años"
-        },
-        {
-          "codigo": "8806095031415",
-          "nombre": "SAMSUNG GALAXY SMARTTAG2 NEGRO",
-          "serie": "RF7WAD63VSXAMB",
+          "serie": "RF7WAC76MDXAMB",
           "fecha_alta": "2024-07-24",
           "fecha_compra": "2024-07-24",
           "origen_traspaso": "BODEGA MAYOREO",
@@ -583,6 +583,19 @@
           "antiguedad": "1-3 años"
         },
         {
+          "codigo": "190199320178",
+          "nombre": "APPLE AIRTAG",
+          "serie": "SHGJLKPHCP0GV",
+          "fecha_alta": "2025-04-09",
+          "fecha_compra": "2025-04-09",
+          "origen_traspaso": null,
+          "factura": "1281994",
+          "dias": 528,
+          "costo": 0.0,
+          "lista_f": 516.38,
+          "antiguedad": "1-3 años"
+        },
+        {
           "codigo": "194253324034",
           "nombre": "APPLE AIRPODS 3RA GENERACION",
           "serie": "SFMPM9QF21D",
@@ -593,19 +606,6 @@
           "dias": 528,
           "costo": 0.0,
           "lista_f": 2352.59,
-          "antiguedad": "1-3 años"
-        },
-        {
-          "codigo": "195949689604",
-          "nombre": "APPLE AIRPODS 4A GENERACION",
-          "serie": "SJHXQK906HT",
-          "fecha_alta": "2025-04-09",
-          "fecha_compra": "2025-04-09",
-          "origen_traspaso": null,
-          "factura": "1281994",
-          "dias": 528,
-          "costo": 0.0,
-          "lista_f": 2197.41,
           "antiguedad": "1-3 años"
         },
         {
@@ -622,9 +622,22 @@
           "antiguedad": "1-3 años"
         },
         {
+          "codigo": "195949689604",
+          "nombre": "APPLE AIRPODS 4A GENERACION",
+          "serie": "SJHXQK906HT",
+          "fecha_alta": "2025-04-09",
+          "fecha_compra": "2025-04-09",
+          "origen_traspaso": null,
+          "factura": "1281994",
+          "dias": 528,
+          "costo": 0.0,
+          "lista_f": 2197.41,
+          "antiguedad": "1-3 años"
+        },
+        {
           "codigo": "190199320178",
           "nombre": "APPLE AIRTAG",
-          "serie": "SHGJLKPHCP0GV",
+          "serie": "SHGKLKEN3P0GV",
           "fecha_alta": "2025-04-09",
           "fecha_compra": "2025-04-09",
           "origen_traspaso": null,
@@ -645,19 +658,6 @@
           "dias": 528,
           "costo": 1259.16,
           "lista_f": 3093.97,
-          "antiguedad": "1-3 años"
-        },
-        {
-          "codigo": "190199320178",
-          "nombre": "APPLE AIRTAG",
-          "serie": "SHGKLKEN3P0GV",
-          "fecha_alta": "2025-04-09",
-          "fecha_compra": "2025-04-09",
-          "origen_traspaso": null,
-          "factura": "1281994",
-          "dias": 528,
-          "costo": 0.0,
-          "lista_f": 516.38,
           "antiguedad": "1-3 años"
         },
         {
@@ -804,19 +804,6 @@
           "antiguedad": "6-12 meses"
         },
         {
-          "codigo": "MOTOG62128GBOPEN",
-          "nombre": "MOTOROLA MOTO G62 6 GB 128 GB OPEN BOX",
-          "serie": "357807162064692",
-          "fecha_alta": "2025-12-18",
-          "fecha_compra": "2025-12-18",
-          "origen_traspaso": "BODEGA ECOMMERCE",
-          "factura": "1531909",
-          "dias": 275,
-          "costo": 2068.1,
-          "lista_f": 2068.1,
-          "antiguedad": "6-12 meses"
-        },
-        {
           "codigo": "MOTOG71OPEN",
           "nombre": "MOTOROLA MOTO G71 6 GB 128 GB OPEN BOX",
           "serie": "352580673196254",
@@ -830,9 +817,22 @@
           "antiguedad": "6-12 meses"
         },
         {
+          "codigo": "MOTOG62128GBOPEN",
+          "nombre": "MOTOROLA MOTO G62 6 GB 128 GB OPEN BOX",
+          "serie": "357807162064692",
+          "fecha_alta": "2025-12-18",
+          "fecha_compra": "2025-12-18",
+          "origen_traspaso": "BODEGA ECOMMERCE",
+          "factura": "1531909",
+          "dias": 275,
+          "costo": 2068.1,
+          "lista_f": 2068.1,
+          "antiguedad": "6-12 meses"
+        },
+        {
           "codigo": "TABA9X11564GBOPEN",
           "nombre": "SAMSUNG GALAXY TAB A9 X115 4 GB 64 GB OPEN BOX",
-          "serie": "352035568383814",
+          "serie": "352035568382873",
           "fecha_alta": "2025-12-18",
           "fecha_compra": "2025-12-18",
           "origen_traspaso": "BODEGA ECOMMERCE",
@@ -845,7 +845,7 @@
         {
           "codigo": "TABA9X11564GBOPEN",
           "nombre": "SAMSUNG GALAXY TAB A9 X115 4 GB 64 GB OPEN BOX",
-          "serie": "352035568382873",
+          "serie": "352035568383814",
           "fecha_alta": "2025-12-18",
           "fecha_compra": "2025-12-18",
           "origen_traspaso": "BODEGA ECOMMERCE",
@@ -882,19 +882,6 @@
           "antiguedad": "6-12 meses"
         },
         {
-          "codigo": "887276552224",
-          "nombre": "SAMSUNG S21 FE 6 GB 128 GB 5G GRIS LATINO PRE",
-          "serie": "359043371428969",
-          "fecha_alta": "2026-02-03",
-          "fecha_compra": "2026-02-03",
-          "origen_traspaso": null,
-          "factura": "1581659",
-          "dias": 228,
-          "costo": 5089.42,
-          "lista_f": 4731.9,
-          "antiguedad": "6-12 meses"
-        },
-        {
           "codigo": "50036380287",
           "nombre": "JBL CHARGE 5 VERDE",
           "serie": "TT0056-KO0040706",
@@ -905,6 +892,19 @@
           "dias": 228,
           "costo": 2091.37,
           "lista_f": 2438.79,
+          "antiguedad": "6-12 meses"
+        },
+        {
+          "codigo": "887276552224",
+          "nombre": "SAMSUNG S21 FE 6 GB 128 GB 5G GRIS LATINO PRE",
+          "serie": "359043371428969",
+          "fecha_alta": "2026-02-03",
+          "fecha_compra": "2026-02-03",
+          "origen_traspaso": null,
+          "factura": "1581659",
+          "dias": 228,
+          "costo": 5089.42,
+          "lista_f": 4731.9,
           "antiguedad": "6-12 meses"
         },
         {
@@ -975,7 +975,7 @@
         {
           "codigo": "848958044512",
           "nombre": "BLU G95 + ARIAPOD MINI (8+16)GB 256 GB 4G NEGRO NACIONAL",
-          "serie": "351177780013257",
+          "serie": "351177780003548",
           "fecha_alta": "2026-04-23",
           "fecha_compra": "2026-04-23",
           "origen_traspaso": "LAFT",
@@ -988,7 +988,7 @@
         {
           "codigo": "848958044512",
           "nombre": "BLU G95 + ARIAPOD MINI (8+16)GB 256 GB 4G NEGRO NACIONAL",
-          "serie": "351177780003548",
+          "serie": "351177780013257",
           "fecha_alta": "2026-04-23",
           "fecha_compra": "2026-04-23",
           "origen_traspaso": "LAFT",
@@ -6304,19 +6304,6 @@
           "antiguedad": "1-3 meses"
         },
         {
-          "codigo": "4894947114731",
-          "nombre": "TECNO CAMON 50 PRO (8+8) GB 256 GB 4G VERDE LATINO",
-          "serie": "356034750182197",
-          "fecha_alta": "2026-08-15",
-          "fecha_compra": "2026-08-15",
-          "origen_traspaso": "BODEGA MAYOREO",
-          "factura": "1776479",
-          "dias": 35,
-          "costo": 4449.84,
-          "lista_f": 5033.62,
-          "antiguedad": "1-3 meses"
-        },
-        {
           "codigo": "6932554450113",
           "nombre": "XIAOMI REDMI 15 8 GB 256 GB 4G VIOLETA NACIONAL PJ",
           "serie": "865026083317502",
@@ -6330,6 +6317,19 @@
           "antiguedad": "1-3 meses"
         },
         {
+          "codigo": "4894947114731",
+          "nombre": "TECNO CAMON 50 PRO (8+8) GB 256 GB 4G VERDE LATINO",
+          "serie": "356034750182197",
+          "fecha_alta": "2026-08-15",
+          "fecha_compra": "2026-08-15",
+          "origen_traspaso": "BODEGA MAYOREO",
+          "factura": "1776479",
+          "dias": 35,
+          "costo": 4449.84,
+          "lista_f": 5033.62,
+          "antiguedad": "1-3 meses"
+        },
+        {
           "codigo": "860014222306",
           "nombre": "TECHVIEW S15PRO 8 GB 128 GB 4G NEGRO NACIONAL",
           "serie": "355496103743234",
@@ -6340,6 +6340,58 @@
           "dias": 29,
           "costo": 961.43,
           "lista_f": 1145.69,
+          "antiguedad": "<1 mes"
+        },
+        {
+          "codigo": "840268958794",
+          "nombre": "AMAZON FIRE TV STICK 4K SELECT",
+          "serie": "GT533M07547608WP",
+          "fecha_alta": "2026-08-21",
+          "fecha_compra": "2026-08-21",
+          "origen_traspaso": "BODEGA MAYOREO",
+          "factura": "1782587",
+          "dias": 29,
+          "costo": 504.31,
+          "lista_f": 620.69,
+          "antiguedad": "<1 mes"
+        },
+        {
+          "codigo": "840268958794",
+          "nombre": "AMAZON FIRE TV STICK 4K SELECT",
+          "serie": "GT533M076013047M",
+          "fecha_alta": "2026-08-21",
+          "fecha_compra": "2026-08-21",
+          "origen_traspaso": "BODEGA MAYOREO",
+          "factura": "1782587",
+          "dias": 29,
+          "costo": 504.31,
+          "lista_f": 620.69,
+          "antiguedad": "<1 mes"
+        },
+        {
+          "codigo": "848958044734",
+          "nombre": "BLU BOLD K12 (4+8) GB 128 GB 4G VIOLETA NACIONAL",
+          "serie": "353676800274797",
+          "fecha_alta": "2026-08-21",
+          "fecha_compra": "2026-08-21",
+          "origen_traspaso": "BODEGA MAYOREO",
+          "factura": "1782510",
+          "dias": 29,
+          "costo": 1287.85,
+          "lista_f": 1593.97,
+          "antiguedad": "<1 mes"
+        },
+        {
+          "codigo": "848958044727",
+          "nombre": "BLU BOLD K12 (4+8) GB 128 GB 4G ROSA NACIONAL",
+          "serie": "353676800181034",
+          "fecha_alta": "2026-08-21",
+          "fecha_compra": "2026-08-21",
+          "origen_traspaso": "BODEGA MAYOREO",
+          "factura": "1782510",
+          "dias": 29,
+          "costo": 1287.85,
+          "lista_f": 1593.97,
           "antiguedad": "<1 mes"
         },
         {
@@ -6434,71 +6486,6 @@
           "antiguedad": "<1 mes"
         },
         {
-          "codigo": "840268958794",
-          "nombre": "AMAZON FIRE TV STICK 4K SELECT",
-          "serie": "GT533M07547608WP",
-          "fecha_alta": "2026-08-21",
-          "fecha_compra": "2026-08-21",
-          "origen_traspaso": "BODEGA MAYOREO",
-          "factura": "1782587",
-          "dias": 29,
-          "costo": 504.31,
-          "lista_f": 620.69,
-          "antiguedad": "<1 mes"
-        },
-        {
-          "codigo": "840268958794",
-          "nombre": "AMAZON FIRE TV STICK 4K SELECT",
-          "serie": "GT533M076013047M",
-          "fecha_alta": "2026-08-21",
-          "fecha_compra": "2026-08-21",
-          "origen_traspaso": "BODEGA MAYOREO",
-          "factura": "1782587",
-          "dias": 29,
-          "costo": 504.31,
-          "lista_f": 620.69,
-          "antiguedad": "<1 mes"
-        },
-        {
-          "codigo": "848958044734",
-          "nombre": "BLU BOLD K12 (4+8) GB 128 GB 4G VIOLETA NACIONAL",
-          "serie": "353676800274797",
-          "fecha_alta": "2026-08-21",
-          "fecha_compra": "2026-08-21",
-          "origen_traspaso": "BODEGA MAYOREO",
-          "factura": "1782510",
-          "dias": 29,
-          "costo": 1287.85,
-          "lista_f": 1593.97,
-          "antiguedad": "<1 mes"
-        },
-        {
-          "codigo": "848958044727",
-          "nombre": "BLU BOLD K12 (4+8) GB 128 GB 4G ROSA NACIONAL",
-          "serie": "353676800181034",
-          "fecha_alta": "2026-08-21",
-          "fecha_compra": "2026-08-21",
-          "origen_traspaso": "BODEGA MAYOREO",
-          "factura": "1782510",
-          "dias": 29,
-          "costo": 1287.85,
-          "lista_f": 1593.97,
-          "antiguedad": "<1 mes"
-        },
-        {
-          "codigo": "6932554445065",
-          "nombre": "XIAOMI REDMI 15 8 GB 256 GB 4G NEGRO NACIONAL PJ",
-          "serie": "865026083222124",
-          "fecha_alta": "2026-09-10",
-          "fecha_compra": "2026-09-10",
-          "origen_traspaso": "BODEGA MAYOREO",
-          "factura": "1803685",
-          "dias": 9,
-          "costo": 2892.71,
-          "lista_f": 3214.66,
-          "antiguedad": "<1 mes"
-        },
-        {
           "codigo": "6932554445065",
           "nombre": "XIAOMI REDMI 15 8 GB 256 GB 4G NEGRO NACIONAL PJ",
           "serie": "865026083204882",
@@ -6590,6 +6577,19 @@
           "antiguedad": "<1 mes"
         },
         {
+          "codigo": "6932554445065",
+          "nombre": "XIAOMI REDMI 15 8 GB 256 GB 4G NEGRO NACIONAL PJ",
+          "serie": "865026083222124",
+          "fecha_alta": "2026-09-10",
+          "fecha_compra": "2026-09-10",
+          "origen_traspaso": "BODEGA MAYOREO",
+          "factura": "1803685",
+          "dias": 9,
+          "costo": 2892.71,
+          "lista_f": 3214.66,
+          "antiguedad": "<1 mes"
+        },
+        {
           "codigo": "50036384674",
           "nombre": "JBL ENDURANCE RACE TWS NEGRO",
           "serie": "CM0132-HO0579193",
@@ -6603,6 +6603,19 @@
           "antiguedad": "<1 mes"
         },
         {
+          "codigo": "IPH13NEGROGRADOA",
+          "nombre": "APPLE IPHONE 13 4 GB 128 GB 5G NEGRO GRADO A PP",
+          "serie": "350776596566902",
+          "fecha_alta": "2026-09-18",
+          "fecha_compra": "2026-09-18",
+          "origen_traspaso": "BODEGA ECOMMERCE",
+          "factura": "1811840",
+          "dias": 1,
+          "costo": 4678.45,
+          "lista_f": 6120.69,
+          "antiguedad": "<1 mes"
+        },
+        {
           "codigo": "IPH13BLANCOGRADOA",
           "nombre": "APPLE IPHONE 13 4 GB 128 GB 5G BLANCO GRADO A PP",
           "serie": "358742860724934",
@@ -6613,6 +6626,19 @@
           "dias": 1,
           "costo": 4678.45,
           "lista_f": 6120.69,
+          "antiguedad": "<1 mes"
+        },
+        {
+          "codigo": "6941764474772",
+          "nombre": "REALME 15 5G 8 GB 256 GB 5G TITANIO NACIONAL",
+          "serie": "860028070279633",
+          "fecha_alta": "2026-09-18",
+          "fecha_compra": "2026-09-18",
+          "origen_traspaso": "BODEGA MAYOREO",
+          "factura": "1811854",
+          "dias": 1,
+          "costo": 3156.12,
+          "lista_f": 3766.38,
           "antiguedad": "<1 mes"
         },
         {
@@ -6644,7 +6670,7 @@
         {
           "codigo": "840493613277",
           "nombre": "MOTOROLA MOTO G17 4 GB 256 GB 4G AZUL CLARO LATINO",
-          "serie": "356945373201256",
+          "serie": "356945373220074",
           "fecha_alta": "2026-09-18",
           "fecha_compra": "2026-09-18",
           "origen_traspaso": "BODEGA MAYOREO",
@@ -6655,9 +6681,9 @@
           "antiguedad": "<1 mes"
         },
         {
-          "codigo": "6941764474772",
-          "nombre": "REALME 15 5G 8 GB 256 GB 5G TITANIO NACIONAL",
-          "serie": "860028070275938",
+          "codigo": "6941764474765",
+          "nombre": "REALME 15 5G 8 GB 256 GB 5G ROSA NACIONAL",
+          "serie": "860028070094511",
           "fecha_alta": "2026-09-18",
           "fecha_compra": "2026-09-18",
           "origen_traspaso": "BODEGA MAYOREO",
@@ -6681,9 +6707,9 @@
           "antiguedad": "<1 mes"
         },
         {
-          "codigo": "6941764474765",
-          "nombre": "REALME 15 5G 8 GB 256 GB 5G ROSA NACIONAL",
-          "serie": "860028070094511",
+          "codigo": "6941764474772",
+          "nombre": "REALME 15 5G 8 GB 256 GB 5G TITANIO NACIONAL",
+          "serie": "860028070275938",
           "fecha_alta": "2026-09-18",
           "fecha_compra": "2026-09-18",
           "origen_traspaso": "BODEGA MAYOREO",
@@ -6696,7 +6722,7 @@
         {
           "codigo": "840493613277",
           "nombre": "MOTOROLA MOTO G17 4 GB 256 GB 4G AZUL CLARO LATINO",
-          "serie": "356945373220074",
+          "serie": "356945373201256",
           "fecha_alta": "2026-09-18",
           "fecha_compra": "2026-09-18",
           "origen_traspaso": "BODEGA MAYOREO",
@@ -6704,32 +6730,6 @@
           "dias": 1,
           "costo": 2485.88,
           "lista_f": 2818.1,
-          "antiguedad": "<1 mes"
-        },
-        {
-          "codigo": "IPH13NEGROGRADOA",
-          "nombre": "APPLE IPHONE 13 4 GB 128 GB 5G NEGRO GRADO A PP",
-          "serie": "350776596566902",
-          "fecha_alta": "2026-09-18",
-          "fecha_compra": "2026-09-18",
-          "origen_traspaso": "BODEGA ECOMMERCE",
-          "factura": "1811840",
-          "dias": 1,
-          "costo": 4678.45,
-          "lista_f": 6120.69,
-          "antiguedad": "<1 mes"
-        },
-        {
-          "codigo": "6941764474772",
-          "nombre": "REALME 15 5G 8 GB 256 GB 5G TITANIO NACIONAL",
-          "serie": "860028070279633",
-          "fecha_alta": "2026-09-18",
-          "fecha_compra": "2026-09-18",
-          "origen_traspaso": "BODEGA MAYOREO",
-          "factura": "1811854",
-          "dias": 1,
-          "costo": 3156.12,
-          "lista_f": 3766.38,
           "antiguedad": "<1 mes"
         }
       ]
@@ -6767,19 +6767,6 @@
           "antiguedad": "1-3 años"
         },
         {
-          "codigo": "6941812756447",
-          "nombre": "XIAOMI PAD SE 8 GB 256 GB GRIS EURO",
-          "serie": "51518-64QW04843",
-          "fecha_alta": "2025-04-10",
-          "fecha_compra": "2025-04-10",
-          "origen_traspaso": null,
-          "factura": "1282821",
-          "dias": 527,
-          "costo": 2380.3,
-          "lista_f": 2878.45,
-          "antiguedad": "1-3 años"
-        },
-        {
           "codigo": "QUARINI32",
           "nombre": "QUARONI SMART TV 32IN",
           "serie": "K19391210380",
@@ -6793,16 +6780,16 @@
           "antiguedad": "1-3 años"
         },
         {
-          "codigo": "840023277733MOMOPHONE",
-          "nombre": "MOTOROLA MOTO G35 5G 8 GB 256 GB 5G MOMOPHONE NEGRO EUAS",
-          "serie": "351333786045823",
-          "fecha_alta": "2025-04-13",
-          "fecha_compra": "2025-04-13",
+          "codigo": "6941812756447",
+          "nombre": "XIAOMI PAD SE 8 GB 256 GB GRIS EURO",
+          "serie": "51518-64QW04843",
+          "fecha_alta": "2025-04-10",
+          "fecha_compra": "2025-04-10",
           "origen_traspaso": null,
-          "factura": "1285346",
-          "dias": 524,
-          "costo": 2506.71,
-          "lista_f": 3093.97,
+          "factura": "1282821",
+          "dias": 527,
+          "costo": 2380.3,
+          "lista_f": 2878.45,
           "antiguedad": "1-3 años"
         },
         {
@@ -6816,6 +6803,19 @@
           "dias": 524,
           "costo": 2989.65,
           "lista_f": 3499.14,
+          "antiguedad": "1-3 años"
+        },
+        {
+          "codigo": "840023277733MOMOPHONE",
+          "nombre": "MOTOROLA MOTO G35 5G 8 GB 256 GB 5G MOMOPHONE NEGRO EUAS",
+          "serie": "351333786045823",
+          "fecha_alta": "2025-04-13",
+          "fecha_compra": "2025-04-13",
+          "origen_traspaso": null,
+          "factura": "1285346",
+          "dias": 524,
+          "costo": 2506.71,
+          "lista_f": 3093.97,
           "antiguedad": "1-3 años"
         },
         {
@@ -6884,19 +6884,6 @@
           "antiguedad": "1-3 años"
         },
         {
-          "codigo": "4894947086939",
-          "nombre": "INFINIX GT 30 PRO GAME KIT (12+12)GB 256 GB 5G NEGRO LATINO",
-          "serie": "359154430127292",
-          "fecha_alta": "2025-08-31",
-          "fecha_compra": "2025-08-31",
-          "origen_traspaso": null,
-          "factura": "1414360",
-          "dias": 384,
-          "costo": 4440.27,
-          "lista_f": 5300.86,
-          "antiguedad": "1-3 años"
-        },
-        {
           "codigo": "4894947094613",
           "nombre": "INFINIX GT 30 PRO GAME KIT (12+12) GB 512 GB 5G NEGRO NACIONAL",
           "serie": "359154430142952",
@@ -6907,6 +6894,19 @@
           "dias": 384,
           "costo": 4787.84,
           "lista_f": 5619.83,
+          "antiguedad": "1-3 años"
+        },
+        {
+          "codigo": "4894947086939",
+          "nombre": "INFINIX GT 30 PRO GAME KIT (12+12)GB 256 GB 5G NEGRO LATINO",
+          "serie": "359154430127292",
+          "fecha_alta": "2025-08-31",
+          "fecha_compra": "2025-08-31",
+          "origen_traspaso": null,
+          "factura": "1414360",
+          "dias": 384,
+          "costo": 4440.27,
+          "lista_f": 5300.86,
           "antiguedad": "1-3 años"
         },
         {
@@ -7042,7 +7042,7 @@
         {
           "codigo": "848958044512",
           "nombre": "BLU G95 + ARIAPOD MINI (8+16)GB 256 GB 4G NEGRO NACIONAL",
-          "serie": "351177780049384",
+          "serie": "351177780049822",
           "fecha_alta": "2026-02-16",
           "fecha_compra": "2026-02-16",
           "origen_traspaso": "LAFT",
@@ -7055,7 +7055,7 @@
         {
           "codigo": "848958044512",
           "nombre": "BLU G95 + ARIAPOD MINI (8+16)GB 256 GB 4G NEGRO NACIONAL",
-          "serie": "351177780049822",
+          "serie": "351177780049384",
           "fecha_alta": "2026-02-16",
           "fecha_compra": "2026-02-16",
           "origen_traspaso": "LAFT",
@@ -7092,19 +7092,6 @@
           "antiguedad": "3-6 meses"
         },
         {
-          "codigo": "810039954980",
-          "nombre": "LOGIC LIFE 10 SMARTWATCH NEGRO",
-          "serie": "20243236",
-          "fecha_alta": "2026-03-30",
-          "fecha_compra": "2026-03-30",
-          "origen_traspaso": "LAFT",
-          "factura": "1637842",
-          "dias": 173,
-          "costo": 284.62,
-          "lista_f": 369.83,
-          "antiguedad": "3-6 meses"
-        },
-        {
           "codigo": "810039954997",
           "nombre": "LOGIC LIFE 10 SMARTWATCH PLATA",
           "serie": "20248339",
@@ -7118,16 +7105,16 @@
           "antiguedad": "3-6 meses"
         },
         {
-          "codigo": "8806094110708",
-          "nombre": "SAMSUNG A53 5G 6 GB 128 GB 5G NEGRO LATINO CPO PP",
-          "serie": "350012621536938",
-          "fecha_alta": "2026-03-31",
-          "fecha_compra": "2026-03-31",
-          "origen_traspaso": "BODEGA ECOMMERCE",
-          "factura": "1639258",
-          "dias": 172,
-          "costo": 3430.7,
-          "lista_f": 2723.28,
+          "codigo": "810039954980",
+          "nombre": "LOGIC LIFE 10 SMARTWATCH NEGRO",
+          "serie": "20243236",
+          "fecha_alta": "2026-03-30",
+          "fecha_compra": "2026-03-30",
+          "origen_traspaso": "LAFT",
+          "factura": "1637842",
+          "dias": 173,
+          "costo": 284.62,
+          "lista_f": 369.83,
           "antiguedad": "3-6 meses"
         },
         {
@@ -7141,6 +7128,19 @@
           "dias": 172,
           "costo": 2007.87,
           "lista_f": 2068.1,
+          "antiguedad": "3-6 meses"
+        },
+        {
+          "codigo": "8806094110708",
+          "nombre": "SAMSUNG A53 5G 6 GB 128 GB 5G NEGRO LATINO CPO PP",
+          "serie": "350012621536938",
+          "fecha_alta": "2026-03-31",
+          "fecha_compra": "2026-03-31",
+          "origen_traspaso": "BODEGA ECOMMERCE",
+          "factura": "1639258",
+          "dias": 172,
+          "costo": 3430.7,
+          "lista_f": 2723.28,
           "antiguedad": "3-6 meses"
         },
         {
@@ -7172,7 +7172,7 @@
         {
           "codigo": "4894947092657",
           "nombre": "INFINIX HOT 60 PRO PLUS (8+8) GB 256 GB 4G VIOLETA NACIONAL",
-          "serie": "352884191002329",
+          "serie": "352884190877721",
           "fecha_alta": "2026-05-11",
           "fecha_compra": "2026-05-11",
           "origen_traspaso": "BODEGA MAYOREO",
@@ -7185,7 +7185,7 @@
         {
           "codigo": "4894947092657",
           "nombre": "INFINIX HOT 60 PRO PLUS (8+8) GB 256 GB 4G VIOLETA NACIONAL",
-          "serie": "352884190877721",
+          "serie": "352884191002329",
           "fecha_alta": "2026-05-11",
           "fecha_compra": "2026-05-11",
           "origen_traspaso": "BODEGA MAYOREO",
@@ -7354,7 +7354,7 @@
         {
           "codigo": "8806097055655",
           "nombre": "SAMSUNG A56 5G 8 GB 256 GB 5G NEGRO LATINO",
-          "serie": "352953411372539",
+          "serie": "352953411356417",
           "fecha_alta": "2026-07-24",
           "fecha_compra": "2026-07-24",
           "origen_traspaso": "BODEGA MAYOREO",
@@ -7367,7 +7367,7 @@
         {
           "codigo": "8806097055655",
           "nombre": "SAMSUNG A56 5G 8 GB 256 GB 5G NEGRO LATINO",
-          "serie": "352953411356417",
+          "serie": "352953411372539",
           "fecha_alta": "2026-07-24",
           "fecha_compra": "2026-07-24",
           "origen_traspaso": "BODEGA MAYOREO",
@@ -7601,7 +7601,7 @@
         {
           "codigo": "6932554493387",
           "nombre": "XIAOMI REDMI A7 PRO 4 GB 128 GB 4G NEGRO NACIONAL PJ",
-          "serie": "865450088494985",
+          "serie": "865450088490223",
           "fecha_alta": "2026-09-15",
           "fecha_compra": "2026-09-15",
           "origen_traspaso": "BODEGA MAYOREO",
@@ -7627,7 +7627,7 @@
         {
           "codigo": "6932554493387",
           "nombre": "XIAOMI REDMI A7 PRO 4 GB 128 GB 4G NEGRO NACIONAL PJ",
-          "serie": "865450088490223",
+          "serie": "865450088494985",
           "fecha_alta": "2026-09-15",
           "fecha_compra": "2026-09-15",
           "origen_traspaso": "BODEGA MAYOREO",
@@ -8892,9 +8892,9 @@
     },
     {
       "sucursal": "TUXPAN",
-      "unidades": 66,
+      "unidades": 65,
       "modelos_distintos": 54,
-      "costo_total": 161258.35,
+      "costo_total": 158242.56,
       "items": [
         {
           "codigo": "PR0080",
@@ -8990,7 +8990,7 @@
         {
           "codigo": "LI0050",
           "nombre": "XIAOMI AIRDOTS",
-          "serie": "22632-09243412",
+          "serie": "22632-09243465",
           "fecha_alta": "2020-06-04",
           "fecha_compra": "2020-06-04",
           "origen_traspaso": "BODEGA MAYOREO",
@@ -9003,7 +9003,7 @@
         {
           "codigo": "LI0050",
           "nombre": "XIAOMI AIRDOTS",
-          "serie": "22632-09243465",
+          "serie": "22632-09243412",
           "fecha_alta": "2020-06-04",
           "fecha_compra": "2020-06-04",
           "origen_traspaso": "BODEGA MAYOREO",
@@ -9118,19 +9118,6 @@
           "antiguedad": "1-3 años"
         },
         {
-          "codigo": "195949040603",
-          "nombre": "APPLE IPHONE 15 PLUS 6 GB 128 GB 4G NEGRO",
-          "serie": "351130782418453",
-          "fecha_alta": "2024-11-06",
-          "fecha_compra": "2024-11-06",
-          "origen_traspaso": "BODEGA MAYOREO",
-          "factura": "1130357",
-          "dias": 682,
-          "costo": 14497.28,
-          "lista_f": 16102.59,
-          "antiguedad": "1-3 años"
-        },
-        {
           "codigo": "4549995532463",
           "nombre": "APPLE IPHONE 16 PRO 8 GB 128 GB 5G NEGRO",
           "serie": "352113446720703",
@@ -9141,6 +9128,19 @@
           "dias": 682,
           "costo": 20227.18,
           "lista_f": 21352.59,
+          "antiguedad": "1-3 años"
+        },
+        {
+          "codigo": "195949040603",
+          "nombre": "APPLE IPHONE 15 PLUS 6 GB 128 GB 4G NEGRO",
+          "serie": "351130782418453",
+          "fecha_alta": "2024-11-06",
+          "fecha_compra": "2024-11-06",
+          "origen_traspaso": "BODEGA MAYOREO",
+          "factura": "1130357",
+          "dias": 682,
+          "costo": 14497.28,
+          "lista_f": 16102.59,
           "antiguedad": "1-3 años"
         },
         {
@@ -9365,19 +9365,6 @@
           "antiguedad": "3-6 meses"
         },
         {
-          "codigo": "50036400138",
-          "nombre": "JBL CLIP 5 ROSA",
-          "serie": "DH0105-GO0010437",
-          "fecha_alta": "2026-05-27",
-          "fecha_compra": "2026-05-27",
-          "origen_traspaso": null,
-          "factura": "1694193",
-          "dias": 115,
-          "costo": 762.28,
-          "lista_f": 740.52,
-          "antiguedad": "3-6 meses"
-        },
-        {
           "codigo": "50036399326",
           "nombre": "JBL GO 4 MORADO",
           "serie": "DH0084-IO0029074",
@@ -9394,6 +9381,19 @@
           "codigo": "50036400138",
           "nombre": "JBL CLIP 5 ROSA",
           "serie": "DH0105-GO0010739",
+          "fecha_alta": "2026-05-27",
+          "fecha_compra": "2026-05-27",
+          "origen_traspaso": null,
+          "factura": "1694193",
+          "dias": 115,
+          "costo": 762.28,
+          "lista_f": 740.52,
+          "antiguedad": "3-6 meses"
+        },
+        {
+          "codigo": "50036400138",
+          "nombre": "JBL CLIP 5 ROSA",
+          "serie": "DH0105-GO0010437",
           "fecha_alta": "2026-05-27",
           "fecha_compra": "2026-05-27",
           "origen_traspaso": null,
@@ -9453,19 +9453,6 @@
           "dias": 108,
           "costo": 2782.24,
           "lista_f": 3154.31,
-          "antiguedad": "3-6 meses"
-        },
-        {
-          "codigo": "4894947092657",
-          "nombre": "INFINIX HOT 60 PRO PLUS (8+8) GB 256 GB 4G VIOLETA NACIONAL",
-          "serie": "358976410685548",
-          "fecha_alta": "2026-06-10",
-          "fecha_compra": "2026-06-10",
-          "origen_traspaso": "BODEGA MAYOREO",
-          "factura": "1709448",
-          "dias": 101,
-          "costo": 3015.79,
-          "lista_f": 3809.48,
           "antiguedad": "3-6 meses"
         },
         {
@@ -9560,9 +9547,9 @@
           "antiguedad": "1-3 meses"
         },
         {
-          "codigo": "4894947116568",
-          "nombre": "INFINIX SMART 20 (4+4) GB 128 GB 4G GRIS NACIONAL",
-          "serie": "351407080212733",
+          "codigo": "4894947116629",
+          "nombre": "INFINIX SMART 20 (4+4) GB 128 GB 4G NARANJA NACIONAL",
+          "serie": "351407080325451",
           "fecha_alta": "2026-07-14",
           "fecha_compra": "2026-07-14",
           "origen_traspaso": "BODEGA MAYOREO",
@@ -9573,9 +9560,9 @@
           "antiguedad": "1-3 meses"
         },
         {
-          "codigo": "4894947116629",
-          "nombre": "INFINIX SMART 20 (4+4) GB 128 GB 4G NARANJA NACIONAL",
-          "serie": "351407080325451",
+          "codigo": "4894947116568",
+          "nombre": "INFINIX SMART 20 (4+4) GB 128 GB 4G GRIS NACIONAL",
+          "serie": "351407080212733",
           "fecha_alta": "2026-07-14",
           "fecha_compra": "2026-07-14",
           "origen_traspaso": "BODEGA MAYOREO",
@@ -9609,19 +9596,6 @@
           "dias": 39,
           "costo": 1420.78,
           "lista_f": 1904.31,
-          "antiguedad": "1-3 meses"
-        },
-        {
-          "codigo": "A17128GRISAK",
-          "nombre": "SAMSUNG A17 4 GB 128 GB 4G GRIS NACIONAL AK",
-          "serie": "357049601749357",
-          "fecha_alta": "2026-08-11",
-          "fecha_compra": "2026-08-11",
-          "origen_traspaso": "BODEGA MAYOREO",
-          "factura": "1772773",
-          "dias": 39,
-          "costo": 2010.03,
-          "lista_f": 2516.38,
           "antiguedad": "1-3 meses"
         },
         {
@@ -9664,29 +9638,16 @@
           "antiguedad": "1-3 meses"
         },
         {
-          "codigo": "6924136726747",
-          "nombre": "CUBOT KINGKONG E1 6 GB 128 GB 4G NEGRO/NARANJA LATINO",
-          "serie": "869281080003953",
-          "fecha_alta": "2026-08-19",
-          "fecha_compra": "2026-08-19",
+          "codigo": "A17128GRISAK",
+          "nombre": "SAMSUNG A17 4 GB 128 GB 4G GRIS NACIONAL AK",
+          "serie": "357049601749357",
+          "fecha_alta": "2026-08-11",
+          "fecha_compra": "2026-08-11",
           "origen_traspaso": "BODEGA MAYOREO",
-          "factura": "1780875",
-          "dias": 31,
-          "costo": 2105.95,
-          "lista_f": 2343.97,
-          "antiguedad": "1-3 meses"
-        },
-        {
-          "codigo": "48958044758",
-          "nombre": "BLU G75 (4+10) GB 256 GB 4G AZUL NACIONAL",
-          "serie": "356381710474556",
-          "fecha_alta": "2026-08-19",
-          "fecha_compra": "2026-08-19",
-          "origen_traspaso": "LAFT",
-          "factura": "1780843",
-          "dias": 31,
-          "costo": 1476.24,
-          "lista_f": 2111.21,
+          "factura": "1772773",
+          "dias": 39,
+          "costo": 2010.03,
+          "lista_f": 2516.38,
           "antiguedad": "1-3 meses"
         },
         {
@@ -9703,6 +9664,32 @@
           "antiguedad": "1-3 meses"
         },
         {
+          "codigo": "48958044758",
+          "nombre": "BLU G75 (4+10) GB 256 GB 4G AZUL NACIONAL",
+          "serie": "356381710474556",
+          "fecha_alta": "2026-08-19",
+          "fecha_compra": "2026-08-19",
+          "origen_traspaso": "LAFT",
+          "factura": "1780843",
+          "dias": 31,
+          "costo": 1476.24,
+          "lista_f": 2111.21,
+          "antiguedad": "1-3 meses"
+        },
+        {
+          "codigo": "6924136726747",
+          "nombre": "CUBOT KINGKONG E1 6 GB 128 GB 4G NEGRO/NARANJA LATINO",
+          "serie": "869281080003953",
+          "fecha_alta": "2026-08-19",
+          "fecha_compra": "2026-08-19",
+          "origen_traspaso": "BODEGA MAYOREO",
+          "factura": "1780875",
+          "dias": 31,
+          "costo": 2105.95,
+          "lista_f": 2343.97,
+          "antiguedad": "1-3 meses"
+        },
+        {
           "codigo": "840268958794",
           "nombre": "AMAZON FIRE TV STICK 4K SELECT",
           "serie": "GT533M075473085T",
@@ -9716,19 +9703,6 @@
           "antiguedad": "<1 mes"
         },
         {
-          "codigo": "IPH13ROJOGRADOA",
-          "nombre": "APPLE IPHONE 13 4 GB 128 GB 5G ROJO GRADO A PP",
-          "serie": "356825828727651",
-          "fecha_alta": "2026-09-09",
-          "fecha_compra": "2026-09-09",
-          "origen_traspaso": "BODEGA ECOMMERCE",
-          "factura": "1803012",
-          "dias": 10,
-          "costo": 4678.45,
-          "lista_f": 6120.69,
-          "antiguedad": "<1 mes"
-        },
-        {
           "codigo": "IPH14PRODORADOA",
           "nombre": "APPLE IPHONE 14 PRO 6 GB 128 GB 5G DORADO GRADO A PP",
           "serie": "358790731004317",
@@ -9739,6 +9713,19 @@
           "dias": 10,
           "costo": 7896.1,
           "lista_f": 10085.34,
+          "antiguedad": "<1 mes"
+        },
+        {
+          "codigo": "IPH13ROJOGRADOA",
+          "nombre": "APPLE IPHONE 13 4 GB 128 GB 5G ROJO GRADO A PP",
+          "serie": "356825828727651",
+          "fecha_alta": "2026-09-09",
+          "fecha_compra": "2026-09-09",
+          "origen_traspaso": "BODEGA ECOMMERCE",
+          "factura": "1803012",
+          "dias": 10,
+          "costo": 4678.45,
+          "lista_f": 6120.69,
           "antiguedad": "<1 mes"
         },
         {
@@ -11300,6 +11287,19 @@
       "costo_total": 134750.35,
       "items": [
         {
+          "codigo": "8033779073038",
+          "nombre": "MOTOROLA MOTO G54 8 GB 256 GB 5G AZUL EURO",
+          "serie": "358859111397557",
+          "fecha_alta": "2024-07-29",
+          "fecha_compra": "2024-07-29",
+          "origen_traspaso": null,
+          "factura": "1028849",
+          "dias": 782,
+          "costo": 2272.64,
+          "lista_f": 2576.72,
+          "antiguedad": "1-3 años"
+        },
+        {
           "codigo": "810039952795",
           "nombre": "UNONU N63 4 GB 64 GB 4G GRIS LATINO",
           "serie": "359920760156691",
@@ -11323,19 +11323,6 @@
           "dias": 782,
           "costo": 2544.82,
           "lista_f": 3102.59,
-          "antiguedad": "1-3 años"
-        },
-        {
-          "codigo": "8033779073038",
-          "nombre": "MOTOROLA MOTO G54 8 GB 256 GB 5G AZUL EURO",
-          "serie": "358859111397557",
-          "fecha_alta": "2024-07-29",
-          "fecha_compra": "2024-07-29",
-          "origen_traspaso": null,
-          "factura": "1028849",
-          "dias": 782,
-          "costo": 2272.64,
-          "lista_f": 2576.72,
           "antiguedad": "1-3 años"
         },
         {
@@ -11508,19 +11495,6 @@
           "antiguedad": "3-6 meses"
         },
         {
-          "codigo": "4894947092701",
-          "nombre": "INFINIX HOT 60 PRO PLUS (8+8) GB 256 GB 4G AMARILLO NACIONAL",
-          "serie": "358976410645914",
-          "fecha_alta": "2026-04-16",
-          "fecha_compra": "2026-04-16",
-          "origen_traspaso": "BODEGA MAYOREO",
-          "factura": "1652988",
-          "dias": 156,
-          "costo": 3015.79,
-          "lista_f": 3809.48,
-          "antiguedad": "3-6 meses"
-        },
-        {
           "codigo": "4894947092626",
           "nombre": "INFINIX HOT 60 PRO PLUS (8+8) GB 256 GB 4G ROSA NACIONAL",
           "serie": "352884190901091",
@@ -11562,7 +11536,7 @@
         {
           "codigo": "840493602356",
           "nombre": "MOTOROLA MOTO G06 4 GB 256 GB 4G VERDE LATINO",
-          "serie": "357437352466919",
+          "serie": "357437352455193",
           "fecha_alta": "2026-04-16",
           "fecha_compra": "2026-04-16",
           "origen_traspaso": "BODEGA MAYOREO",
@@ -11575,7 +11549,7 @@
         {
           "codigo": "840493602356",
           "nombre": "MOTOROLA MOTO G06 4 GB 256 GB 4G VERDE LATINO",
-          "serie": "357437352455193",
+          "serie": "357437352466919",
           "fecha_alta": "2026-04-16",
           "fecha_compra": "2026-04-16",
           "origen_traspaso": "BODEGA MAYOREO",
@@ -11583,6 +11557,19 @@
           "dias": 156,
           "costo": 1310.73,
           "lista_f": 2093.96,
+          "antiguedad": "3-6 meses"
+        },
+        {
+          "codigo": "4894947092701",
+          "nombre": "INFINIX HOT 60 PRO PLUS (8+8) GB 256 GB 4G AMARILLO NACIONAL",
+          "serie": "358976410645914",
+          "fecha_alta": "2026-04-16",
+          "fecha_compra": "2026-04-16",
+          "origen_traspaso": "BODEGA MAYOREO",
+          "factura": "1652988",
+          "dias": 156,
+          "costo": 3015.79,
+          "lista_f": 3809.48,
           "antiguedad": "3-6 meses"
         },
         {
@@ -11664,35 +11651,22 @@
           "antiguedad": "1-3 meses"
         },
         {
-          "codigo": "6936520864515",
-          "nombre": "HONOR PLAY 9S 8 GB 256 GB 4G NEGRO LATINO",
-          "serie": "863006078212043",
-          "fecha_alta": "2026-07-14",
-          "fecha_compra": "2026-07-14",
-          "origen_traspaso": "BODEGA MAYOREO",
-          "factura": "1744321",
-          "dias": 67,
-          "costo": 2888.94,
-          "lista_f": 3361.21,
-          "antiguedad": "1-3 meses"
-        },
-        {
-          "codigo": "6936520864508",
-          "nombre": "HONOR PLAY 9S 8 GB 256 GB 4G VIOLETA LATINO",
-          "serie": "863006078267054",
-          "fecha_alta": "2026-07-14",
-          "fecha_compra": "2026-07-14",
-          "origen_traspaso": "BODEGA MAYOREO",
-          "factura": "1744321",
-          "dias": 67,
-          "costo": 2888.94,
-          "lista_f": 3361.21,
-          "antiguedad": "1-3 meses"
-        },
-        {
           "codigo": "6936520864508",
           "nombre": "HONOR PLAY 9S 8 GB 256 GB 4G VIOLETA LATINO",
           "serie": "863006078263368",
+          "fecha_alta": "2026-07-14",
+          "fecha_compra": "2026-07-14",
+          "origen_traspaso": "BODEGA MAYOREO",
+          "factura": "1744321",
+          "dias": 67,
+          "costo": 2888.94,
+          "lista_f": 3361.21,
+          "antiguedad": "1-3 meses"
+        },
+        {
+          "codigo": "6936520864515",
+          "nombre": "HONOR PLAY 9S 8 GB 256 GB 4G NEGRO LATINO",
+          "serie": "863006078212043",
           "fecha_alta": "2026-07-14",
           "fecha_compra": "2026-07-14",
           "origen_traspaso": "BODEGA MAYOREO",
@@ -11716,16 +11690,29 @@
           "antiguedad": "1-3 meses"
         },
         {
-          "codigo": "6941764465282",
-          "nombre": "REALME C71 8 GB 256 GB 4G VERDE EURO",
-          "serie": "865643072357479",
+          "codigo": "6936520864508",
+          "nombre": "HONOR PLAY 9S 8 GB 256 GB 4G VIOLETA LATINO",
+          "serie": "863006078267054",
           "fecha_alta": "2026-07-14",
           "fecha_compra": "2026-07-14",
           "origen_traspaso": "BODEGA MAYOREO",
           "factura": "1744321",
           "dias": 67,
-          "costo": 2103.13,
-          "lista_f": 2637.07,
+          "costo": 2888.94,
+          "lista_f": 3361.21,
+          "antiguedad": "1-3 meses"
+        },
+        {
+          "codigo": "840493602387",
+          "nombre": "MOTOROLA MOTO G06 4 GB 64 GB 4G NARANJA LATINO",
+          "serie": "357437358260977",
+          "fecha_alta": "2026-07-14",
+          "fecha_compra": "2026-07-14",
+          "origen_traspaso": "BODEGA MAYOREO",
+          "factura": "1744321",
+          "dias": 67,
+          "costo": 1247.87,
+          "lista_f": 1637.06,
           "antiguedad": "1-3 meses"
         },
         {
@@ -11768,16 +11755,16 @@
           "antiguedad": "1-3 meses"
         },
         {
-          "codigo": "840493602387",
-          "nombre": "MOTOROLA MOTO G06 4 GB 64 GB 4G NARANJA LATINO",
-          "serie": "357437358260977",
+          "codigo": "6941764465282",
+          "nombre": "REALME C71 8 GB 256 GB 4G VERDE EURO",
+          "serie": "865643072357479",
           "fecha_alta": "2026-07-14",
           "fecha_compra": "2026-07-14",
           "origen_traspaso": "BODEGA MAYOREO",
           "factura": "1744321",
           "dias": 67,
-          "costo": 1247.87,
-          "lista_f": 1637.06,
+          "costo": 2103.13,
+          "lista_f": 2637.07,
           "antiguedad": "1-3 meses"
         },
         {
@@ -11898,32 +11885,6 @@
           "antiguedad": "<1 mes"
         },
         {
-          "codigo": "6932554493387",
-          "nombre": "XIAOMI REDMI A7 PRO 4 GB 128 GB 4G NEGRO NACIONAL PJ",
-          "serie": "865450088479705",
-          "fecha_alta": "2026-08-24",
-          "fecha_compra": "2026-08-24",
-          "origen_traspaso": "BODEGA MAYOREO",
-          "factura": "1785251",
-          "dias": 26,
-          "costo": 1705.7,
-          "lista_f": 2137.07,
-          "antiguedad": "<1 mes"
-        },
-        {
-          "codigo": "6932554493387",
-          "nombre": "XIAOMI REDMI A7 PRO 4 GB 128 GB 4G NEGRO NACIONAL PJ",
-          "serie": "865450088459988",
-          "fecha_alta": "2026-08-24",
-          "fecha_compra": "2026-08-24",
-          "origen_traspaso": "BODEGA MAYOREO",
-          "factura": "1785251",
-          "dias": 26,
-          "costo": 1705.7,
-          "lista_f": 2137.07,
-          "antiguedad": "<1 mes"
-        },
-        {
           "codigo": "840268958794",
           "nombre": "AMAZON FIRE TV STICK 4K SELECT",
           "serie": "GT533M07548700DW",
@@ -11963,61 +11924,35 @@
           "antiguedad": "<1 mes"
         },
         {
-          "codigo": "6932554444853",
-          "nombre": "XIAOMI REDMI 15C 4 GB 128 GB 4G NEGRO NACIONAL PJ",
-          "serie": "865477085349482",
-          "fecha_alta": "2026-09-07",
-          "fecha_compra": "2026-09-07",
+          "codigo": "6932554493387",
+          "nombre": "XIAOMI REDMI A7 PRO 4 GB 128 GB 4G NEGRO NACIONAL PJ",
+          "serie": "865450088479705",
+          "fecha_alta": "2026-08-24",
+          "fecha_compra": "2026-08-24",
           "origen_traspaso": "BODEGA MAYOREO",
-          "factura": "1800791",
-          "dias": 12,
-          "costo": 1707.07,
-          "lista_f": 2154.31,
+          "factura": "1785251",
+          "dias": 26,
+          "costo": 1705.7,
+          "lista_f": 2137.07,
           "antiguedad": "<1 mes"
         },
         {
-          "codigo": "6932554444853",
-          "nombre": "XIAOMI REDMI 15C 4 GB 128 GB 4G NEGRO NACIONAL PJ",
-          "serie": "865477085229007",
-          "fecha_alta": "2026-09-07",
-          "fecha_compra": "2026-09-07",
+          "codigo": "6932554493387",
+          "nombre": "XIAOMI REDMI A7 PRO 4 GB 128 GB 4G NEGRO NACIONAL PJ",
+          "serie": "865450088459988",
+          "fecha_alta": "2026-08-24",
+          "fecha_compra": "2026-08-24",
           "origen_traspaso": "BODEGA MAYOREO",
-          "factura": "1800791",
-          "dias": 12,
-          "costo": 1707.07,
-          "lista_f": 2154.31,
+          "factura": "1785251",
+          "dias": 26,
+          "costo": 1705.7,
+          "lista_f": 2137.07,
           "antiguedad": "<1 mes"
         },
         {
           "codigo": "6932554444853",
           "nombre": "XIAOMI REDMI 15C 4 GB 128 GB 4G NEGRO NACIONAL PJ",
           "serie": "865477085333247",
-          "fecha_alta": "2026-09-07",
-          "fecha_compra": "2026-09-07",
-          "origen_traspaso": "BODEGA MAYOREO",
-          "factura": "1800791",
-          "dias": 12,
-          "costo": 1707.07,
-          "lista_f": 2154.31,
-          "antiguedad": "<1 mes"
-        },
-        {
-          "codigo": "6932554444853",
-          "nombre": "XIAOMI REDMI 15C 4 GB 128 GB 4G NEGRO NACIONAL PJ",
-          "serie": "865477085349607",
-          "fecha_alta": "2026-09-07",
-          "fecha_compra": "2026-09-07",
-          "origen_traspaso": "BODEGA MAYOREO",
-          "factura": "1800791",
-          "dias": 12,
-          "costo": 1707.07,
-          "lista_f": 2154.31,
-          "antiguedad": "<1 mes"
-        },
-        {
-          "codigo": "6932554444853",
-          "nombre": "XIAOMI REDMI 15C 4 GB 128 GB 4G NEGRO NACIONAL PJ",
-          "serie": "865477085333940",
           "fecha_alta": "2026-09-07",
           "fecha_compra": "2026-09-07",
           "origen_traspaso": "BODEGA MAYOREO",
@@ -12043,7 +11978,59 @@
         {
           "codigo": "6932554444853",
           "nombre": "XIAOMI REDMI 15C 4 GB 128 GB 4G NEGRO NACIONAL PJ",
+          "serie": "865477085333940",
+          "fecha_alta": "2026-09-07",
+          "fecha_compra": "2026-09-07",
+          "origen_traspaso": "BODEGA MAYOREO",
+          "factura": "1800791",
+          "dias": 12,
+          "costo": 1707.07,
+          "lista_f": 2154.31,
+          "antiguedad": "<1 mes"
+        },
+        {
+          "codigo": "6932554444853",
+          "nombre": "XIAOMI REDMI 15C 4 GB 128 GB 4G NEGRO NACIONAL PJ",
+          "serie": "865477085349482",
+          "fecha_alta": "2026-09-07",
+          "fecha_compra": "2026-09-07",
+          "origen_traspaso": "BODEGA MAYOREO",
+          "factura": "1800791",
+          "dias": 12,
+          "costo": 1707.07,
+          "lista_f": 2154.31,
+          "antiguedad": "<1 mes"
+        },
+        {
+          "codigo": "6932554444853",
+          "nombre": "XIAOMI REDMI 15C 4 GB 128 GB 4G NEGRO NACIONAL PJ",
+          "serie": "865477085349607",
+          "fecha_alta": "2026-09-07",
+          "fecha_compra": "2026-09-07",
+          "origen_traspaso": "BODEGA MAYOREO",
+          "factura": "1800791",
+          "dias": 12,
+          "costo": 1707.07,
+          "lista_f": 2154.31,
+          "antiguedad": "<1 mes"
+        },
+        {
+          "codigo": "6932554444853",
+          "nombre": "XIAOMI REDMI 15C 4 GB 128 GB 4G NEGRO NACIONAL PJ",
           "serie": "865477085309841",
+          "fecha_alta": "2026-09-07",
+          "fecha_compra": "2026-09-07",
+          "origen_traspaso": "BODEGA MAYOREO",
+          "factura": "1800791",
+          "dias": 12,
+          "costo": 1707.07,
+          "lista_f": 2154.31,
+          "antiguedad": "<1 mes"
+        },
+        {
+          "codigo": "6932554444853",
+          "nombre": "XIAOMI REDMI 15C 4 GB 128 GB 4G NEGRO NACIONAL PJ",
+          "serie": "865477085229007",
           "fecha_alta": "2026-09-07",
           "fecha_compra": "2026-09-07",
           "origen_traspaso": "BODEGA MAYOREO",
@@ -12095,7 +12082,7 @@
         {
           "codigo": "6932554445058",
           "nombre": "XIAOMI REDMI 15 6 GB 128 GB 4G NEGRO NACIONAL PJ",
-          "serie": "865026080956922",
+          "serie": "865026080973240",
           "fecha_alta": "2026-09-07",
           "fecha_compra": "2026-09-07",
           "origen_traspaso": "BODEGA MAYOREO",
@@ -12108,7 +12095,7 @@
         {
           "codigo": "6932554445058",
           "nombre": "XIAOMI REDMI 15 6 GB 128 GB 4G NEGRO NACIONAL PJ",
-          "serie": "865026080973240",
+          "serie": "865026080956922",
           "fecha_alta": "2026-09-07",
           "fecha_compra": "2026-09-07",
           "origen_traspaso": "BODEGA MAYOREO",
@@ -12122,9 +12109,9 @@
     },
     {
       "sucursal": "SAN ANDRES",
-      "unidades": 58,
+      "unidades": 57,
       "modelos_distintos": 46,
-      "costo_total": 133299.72,
+      "costo_total": 131592.65,
       "items": [
         {
           "codigo": "6941812755693",
@@ -12205,19 +12192,6 @@
           "antiguedad": "6-12 meses"
         },
         {
-          "codigo": "MOTOG86POWER512GBOPEN",
-          "nombre": "MOTOROLA MOTO G86 POWER 5G 8 GB 512 GB OPEN BOX",
-          "serie": "352717350072990",
-          "fecha_alta": "2026-01-14",
-          "fecha_compra": "2026-01-14",
-          "origen_traspaso": "BODEGA ECOMMERCE",
-          "factura": "1561479",
-          "dias": 248,
-          "costo": 3765.48,
-          "lista_f": 3878.45,
-          "antiguedad": "6-12 meses"
-        },
-        {
           "codigo": "G85256GBOPEN",
           "nombre": "MOTOROLA MOTO G85 5G 12 GB 256 GB OPEN BOX",
           "serie": "352517671764717",
@@ -12228,6 +12202,19 @@
           "dias": 248,
           "costo": 3347.0,
           "lista_f": 3447.41,
+          "antiguedad": "6-12 meses"
+        },
+        {
+          "codigo": "MOTOG86POWER512GBOPEN",
+          "nombre": "MOTOROLA MOTO G86 POWER 5G 8 GB 512 GB OPEN BOX",
+          "serie": "352717350072990",
+          "fecha_alta": "2026-01-14",
+          "fecha_compra": "2026-01-14",
+          "origen_traspaso": "BODEGA ECOMMERCE",
+          "factura": "1561479",
+          "dias": 248,
+          "costo": 3765.48,
+          "lista_f": 3878.45,
           "antiguedad": "6-12 meses"
         },
         {
@@ -12270,9 +12257,9 @@
           "antiguedad": "6-12 meses"
         },
         {
-          "codigo": "810039954997",
-          "nombre": "LOGIC LIFE 10 SMARTWATCH PLATA",
-          "serie": "20248840",
+          "codigo": "810039954973",
+          "nombre": "LOGIC LIFE 10 SMARTWATCH ROSA",
+          "serie": "20251128",
           "fecha_alta": "2026-03-17",
           "fecha_compra": "2026-03-17",
           "origen_traspaso": "LAFT",
@@ -12283,9 +12270,9 @@
           "antiguedad": "6-12 meses"
         },
         {
-          "codigo": "810039954973",
-          "nombre": "LOGIC LIFE 10 SMARTWATCH ROSA",
-          "serie": "20251128",
+          "codigo": "810039954997",
+          "nombre": "LOGIC LIFE 10 SMARTWATCH PLATA",
+          "serie": "20248840",
           "fecha_alta": "2026-03-17",
           "fecha_compra": "2026-03-17",
           "origen_traspaso": "LAFT",
@@ -12660,32 +12647,6 @@
           "antiguedad": "<1 mes"
         },
         {
-          "codigo": "6932554456016",
-          "nombre": "XIAOMI REDMI 15C 4 GB 128 GB 4G AZUL NACIONAL PJ",
-          "serie": "866277086470801",
-          "fecha_alta": "2026-09-02",
-          "fecha_compra": "2026-09-02",
-          "origen_traspaso": "BODEGA MAYOREO",
-          "factura": "1795210",
-          "dias": 17,
-          "costo": 1707.07,
-          "lista_f": 2154.31,
-          "antiguedad": "<1 mes"
-        },
-        {
-          "codigo": "6932554444853",
-          "nombre": "XIAOMI REDMI 15C 4 GB 128 GB 4G NEGRO NACIONAL PJ",
-          "serie": "865477085368383",
-          "fecha_alta": "2026-09-02",
-          "fecha_compra": "2026-09-02",
-          "origen_traspaso": "BODEGA MAYOREO",
-          "factura": "1795210",
-          "dias": 17,
-          "costo": 1707.07,
-          "lista_f": 2154.31,
-          "antiguedad": "<1 mes"
-        },
-        {
           "codigo": "6932554444853",
           "nombre": "XIAOMI REDMI 15C 4 GB 128 GB 4G NEGRO NACIONAL PJ",
           "serie": "865477085367989",
@@ -12702,6 +12663,19 @@
           "codigo": "6932554456016",
           "nombre": "XIAOMI REDMI 15C 4 GB 128 GB 4G AZUL NACIONAL PJ",
           "serie": "866277086487581",
+          "fecha_alta": "2026-09-02",
+          "fecha_compra": "2026-09-02",
+          "origen_traspaso": "BODEGA MAYOREO",
+          "factura": "1795210",
+          "dias": 17,
+          "costo": 1707.07,
+          "lista_f": 2154.31,
+          "antiguedad": "<1 mes"
+        },
+        {
+          "codigo": "6932554444853",
+          "nombre": "XIAOMI REDMI 15C 4 GB 128 GB 4G NEGRO NACIONAL PJ",
+          "serie": "865477085368383",
           "fecha_alta": "2026-09-02",
           "fecha_compra": "2026-09-02",
           "origen_traspaso": "BODEGA MAYOREO",
@@ -12902,19 +12876,6 @@
           "antiguedad": "1-3 años"
         },
         {
-          "codigo": "8806094557596",
-          "nombre": "SAMSUNG A04 3 GB 32 GB 4G BRONCE ASIAN",
-          "serie": "353503962499626",
-          "fecha_alta": "2024-05-11",
-          "fecha_compra": "2024-05-11",
-          "origen_traspaso": null,
-          "factura": "965979",
-          "dias": 861,
-          "costo": 1272.09,
-          "lista_f": 1404.31,
-          "antiguedad": "1-3 años"
-        },
-        {
           "codigo": "840023230233",
           "nombre": "MOTOROLA MOTO G82 6 GB 128 GB 4G BLANCO NACIONAL",
           "serie": "357895302934973",
@@ -12925,6 +12886,19 @@
           "dias": 861,
           "costo": 2544.82,
           "lista_f": 3102.59,
+          "antiguedad": "1-3 años"
+        },
+        {
+          "codigo": "8806094557596",
+          "nombre": "SAMSUNG A04 3 GB 32 GB 4G BRONCE ASIAN",
+          "serie": "353503962499626",
+          "fecha_alta": "2024-05-11",
+          "fecha_compra": "2024-05-11",
+          "origen_traspaso": null,
+          "factura": "965979",
+          "dias": 861,
+          "costo": 1272.09,
+          "lista_f": 1404.31,
           "antiguedad": "1-3 años"
         },
         {
@@ -13058,19 +13032,6 @@
           "antiguedad": "1-3 años"
         },
         {
-          "codigo": "848958043966",
-          "nombre": "BLU G64 (4+10) GB 256 GB 4G NARANJA NACIONAL",
-          "serie": "356735350368925",
-          "fecha_alta": "2025-03-05",
-          "fecha_compra": "2025-03-05",
-          "origen_traspaso": "LAFT",
-          "factura": "1252437",
-          "dias": 563,
-          "costo": 1305.8,
-          "lista_f": 1688.79,
-          "antiguedad": "1-3 años"
-        },
-        {
           "codigo": "848958043973",
           "nombre": "BLU G64 (4+10) GB 256 GB 4G VIOLETA NACIONAL",
           "serie": "356735350301280",
@@ -13080,6 +13041,19 @@
           "factura": "1252437",
           "dias": 563,
           "costo": 1418.45,
+          "lista_f": 1688.79,
+          "antiguedad": "1-3 años"
+        },
+        {
+          "codigo": "848958043966",
+          "nombre": "BLU G64 (4+10) GB 256 GB 4G NARANJA NACIONAL",
+          "serie": "356735350368925",
+          "fecha_alta": "2025-03-05",
+          "fecha_compra": "2025-03-05",
+          "origen_traspaso": "LAFT",
+          "factura": "1252437",
+          "dias": 563,
+          "costo": 1305.8,
           "lista_f": 1688.79,
           "antiguedad": "1-3 años"
         },
@@ -13333,7 +13307,7 @@
         {
           "codigo": "810039954973",
           "nombre": "LOGIC LIFE 10 SMARTWATCH ROSA",
-          "serie": "20251247",
+          "serie": "20251284",
           "fecha_alta": "2026-05-20",
           "fecha_compra": "2026-05-20",
           "origen_traspaso": "LAFT",
@@ -13359,7 +13333,7 @@
         {
           "codigo": "810039954973",
           "nombre": "LOGIC LIFE 10 SMARTWATCH ROSA",
-          "serie": "20251284",
+          "serie": "20251247",
           "fecha_alta": "2026-05-20",
           "fecha_compra": "2026-05-20",
           "origen_traspaso": "LAFT",
@@ -13742,19 +13716,6 @@
           "antiguedad": "6-12 meses"
         },
         {
-          "codigo": "194253408079",
-          "nombre": "APPLE IPHONE 14 6 GB 128 GB 5G NEGRO",
-          "serie": "356145475546209",
-          "fecha_alta": "2025-11-07",
-          "fecha_compra": "2025-11-07",
-          "origen_traspaso": "BODEGA MAYOREO",
-          "factura": "1485821",
-          "dias": 316,
-          "costo": 8209.88,
-          "lista_f": 9102.59,
-          "antiguedad": "6-12 meses"
-        },
-        {
           "codigo": "195949116018",
           "nombre": "APPLE IPHONE 15 6 GB 128 GB 5G AZUL",
           "serie": "355605673189251",
@@ -13765,6 +13726,19 @@
           "dias": 316,
           "costo": 8852.42,
           "lista_f": 10956.03,
+          "antiguedad": "6-12 meses"
+        },
+        {
+          "codigo": "194253408079",
+          "nombre": "APPLE IPHONE 14 6 GB 128 GB 5G NEGRO",
+          "serie": "356145475546209",
+          "fecha_alta": "2025-11-07",
+          "fecha_compra": "2025-11-07",
+          "origen_traspaso": "BODEGA MAYOREO",
+          "factura": "1485821",
+          "dias": 316,
+          "costo": 8209.88,
+          "lista_f": 9102.59,
           "antiguedad": "6-12 meses"
         },
         {
@@ -13848,6 +13822,19 @@
         {
           "codigo": "4894947092626",
           "nombre": "INFINIX HOT 60 PRO PLUS (8+8) GB 256 GB 4G ROSA NACIONAL",
+          "serie": "352884191067819",
+          "fecha_alta": "2026-04-08",
+          "fecha_compra": "2026-04-08",
+          "origen_traspaso": "BODEGA MAYOREO",
+          "factura": "1645276",
+          "dias": 164,
+          "costo": 2847.37,
+          "lista_f": 3809.48,
+          "antiguedad": "3-6 meses"
+        },
+        {
+          "codigo": "4894947092626",
+          "nombre": "INFINIX HOT 60 PRO PLUS (8+8) GB 256 GB 4G ROSA NACIONAL",
           "serie": "352884191015602",
           "fecha_alta": "2026-04-08",
           "fecha_compra": "2026-04-08",
@@ -13862,19 +13849,6 @@
           "codigo": "4894947092626",
           "nombre": "INFINIX HOT 60 PRO PLUS (8+8) GB 256 GB 4G ROSA NACIONAL",
           "serie": "352884190941543",
-          "fecha_alta": "2026-04-08",
-          "fecha_compra": "2026-04-08",
-          "origen_traspaso": "BODEGA MAYOREO",
-          "factura": "1645276",
-          "dias": 164,
-          "costo": 2847.37,
-          "lista_f": 3809.48,
-          "antiguedad": "3-6 meses"
-        },
-        {
-          "codigo": "4894947092626",
-          "nombre": "INFINIX HOT 60 PRO PLUS (8+8) GB 256 GB 4G ROSA NACIONAL",
-          "serie": "352884191067819",
           "fecha_alta": "2026-04-08",
           "fecha_compra": "2026-04-08",
           "origen_traspaso": "BODEGA MAYOREO",
@@ -14212,7 +14186,7 @@
         {
           "codigo": "6932554444853",
           "nombre": "XIAOMI REDMI 15C 4 GB 128 GB 4G NEGRO NACIONAL PJ",
-          "serie": "865477085349623",
+          "serie": "865477085333221",
           "fecha_alta": "2026-09-14",
           "fecha_compra": "2026-09-14",
           "origen_traspaso": "BODEGA MAYOREO",
@@ -14225,7 +14199,7 @@
         {
           "codigo": "6932554444853",
           "nombre": "XIAOMI REDMI 15C 4 GB 128 GB 4G NEGRO NACIONAL PJ",
-          "serie": "865477085333221",
+          "serie": "865477085349623",
           "fecha_alta": "2026-09-14",
           "fecha_compra": "2026-09-14",
           "origen_traspaso": "BODEGA MAYOREO",
@@ -15750,9 +15724,9 @@
     },
     {
       "sucursal": "Jocotepec",
-      "unidades": 49,
-      "modelos_distintos": 46,
-      "costo_total": 103938.87,
+      "unidades": 48,
+      "modelos_distintos": 45,
+      "costo_total": 103020.91,
       "items": [
         {
           "codigo": "4894461857954",
@@ -15885,16 +15859,16 @@
           "antiguedad": "1-3 años"
         },
         {
-          "codigo": "848958044512",
-          "nombre": "BLU G95 + ARIAPOD MINI (8+16)GB 256 GB 4G NEGRO NACIONAL",
-          "serie": "351177780050788",
+          "codigo": "4894947088926",
+          "nombre": "TECNO SPARK GO 2 (4+4) GB 128 GB 4G GRIS LATINO",
+          "serie": "350275600172666",
           "fecha_alta": "2025-10-02",
           "fecha_compra": "2025-10-02",
           "origen_traspaso": "BODEGA MAYOREO",
           "factura": "1446567",
           "dias": 352,
-          "costo": 1831.4,
-          "lista_f": 2430.17,
+          "costo": 1203.93,
+          "lista_f": 1352.59,
           "antiguedad": "6-12 meses"
         },
         {
@@ -15911,16 +15885,16 @@
           "antiguedad": "6-12 meses"
         },
         {
-          "codigo": "4894947088926",
-          "nombre": "TECNO SPARK GO 2 (4+4) GB 128 GB 4G GRIS LATINO",
-          "serie": "350275600172666",
+          "codigo": "848958044512",
+          "nombre": "BLU G95 + ARIAPOD MINI (8+16)GB 256 GB 4G NEGRO NACIONAL",
+          "serie": "351177780050788",
           "fecha_alta": "2025-10-02",
           "fecha_compra": "2025-10-02",
           "origen_traspaso": "BODEGA MAYOREO",
           "factura": "1446567",
           "dias": 352,
-          "costo": 1203.93,
-          "lista_f": 1352.59,
+          "costo": 1831.4,
+          "lista_f": 2430.17,
           "antiguedad": "6-12 meses"
         },
         {
@@ -16145,19 +16119,6 @@
           "antiguedad": "1-3 meses"
         },
         {
-          "codigo": "848958044338",
-          "nombre": "BLU BOLD K5 (4+4) GB 64 GB 4G VIOLETA NACIONAL",
-          "serie": "355364420101488",
-          "fecha_alta": "2026-08-14",
-          "fecha_compra": "2026-08-14",
-          "origen_traspaso": "BODEGA MAYOREO",
-          "factura": "1775341",
-          "dias": 36,
-          "costo": 917.96,
-          "lista_f": 1275.0,
-          "antiguedad": "1-3 meses"
-        },
-        {
           "codigo": "6932554456016",
           "nombre": "XIAOMI REDMI 15C 4 GB 128 GB 4G AZUL NACIONAL PJ",
           "serie": "866277086470165",
@@ -16275,9 +16236,9 @@
           "antiguedad": "<1 mes"
         },
         {
-          "codigo": "4894947092657",
-          "nombre": "INFINIX HOT 60 PRO PLUS (8+8) GB 256 GB 4G VIOLETA NACIONAL",
-          "serie": "358976410703234",
+          "codigo": "4894947092688",
+          "nombre": "INFINIX HOT 60 PRO PLUS (8+8) GB 256 GB 4G VERDE NACIONAL",
+          "serie": "358976410636814",
           "fecha_alta": "2026-09-07",
           "fecha_compra": "2026-09-07",
           "origen_traspaso": "BODEGA MAYOREO",
@@ -16288,9 +16249,9 @@
           "antiguedad": "<1 mes"
         },
         {
-          "codigo": "4894947092688",
-          "nombre": "INFINIX HOT 60 PRO PLUS (8+8) GB 256 GB 4G VERDE NACIONAL",
-          "serie": "358976410636814",
+          "codigo": "4894947092657",
+          "nombre": "INFINIX HOT 60 PRO PLUS (8+8) GB 256 GB 4G VIOLETA NACIONAL",
+          "serie": "358976410703234",
           "fecha_alta": "2026-09-07",
           "fecha_compra": "2026-09-07",
           "origen_traspaso": "BODEGA MAYOREO",
@@ -16311,32 +16272,6 @@
           "dias": 12,
           "costo": 1707.07,
           "lista_f": 2154.31,
-          "antiguedad": "<1 mes"
-        },
-        {
-          "codigo": "8806099353476",
-          "nombre": "SAMSUNG A27 5G 6 GB 128 GB 5G NEGRO LATINO",
-          "serie": "353917355837194",
-          "fecha_alta": "2026-09-07",
-          "fecha_compra": "2026-09-07",
-          "origen_traspaso": "BODEGA MAYOREO",
-          "factura": "1799963",
-          "dias": 12,
-          "costo": 3545.03,
-          "lista_f": 3930.17,
-          "antiguedad": "<1 mes"
-        },
-        {
-          "codigo": "6932554493431",
-          "nombre": "XIAOMI REDMI A7 PRO 4 GB 64 GB 4G NEGRO NACIONAL PJ",
-          "serie": "867409081692340",
-          "fecha_alta": "2026-09-07",
-          "fecha_compra": "2026-09-07",
-          "origen_traspaso": "BODEGA MAYOREO",
-          "factura": "1799963",
-          "dias": 12,
-          "costo": 1571.91,
-          "lista_f": 1964.65,
           "antiguedad": "<1 mes"
         },
         {
@@ -16390,28 +16325,41 @@
           "costo": 2457.39,
           "lista_f": 2731.9,
           "antiguedad": "<1 mes"
+        },
+        {
+          "codigo": "8806099353476",
+          "nombre": "SAMSUNG A27 5G 6 GB 128 GB 5G NEGRO LATINO",
+          "serie": "353917355837194",
+          "fecha_alta": "2026-09-07",
+          "fecha_compra": "2026-09-07",
+          "origen_traspaso": "BODEGA MAYOREO",
+          "factura": "1799963",
+          "dias": 12,
+          "costo": 3545.03,
+          "lista_f": 3930.17,
+          "antiguedad": "<1 mes"
+        },
+        {
+          "codigo": "6932554493431",
+          "nombre": "XIAOMI REDMI A7 PRO 4 GB 64 GB 4G NEGRO NACIONAL PJ",
+          "serie": "867409081692340",
+          "fecha_alta": "2026-09-07",
+          "fecha_compra": "2026-09-07",
+          "origen_traspaso": "BODEGA MAYOREO",
+          "factura": "1799963",
+          "dias": 12,
+          "costo": 1571.91,
+          "lista_f": 1964.65,
+          "antiguedad": "<1 mes"
         }
       ]
     },
     {
       "sucursal": "PONCITLAN",
-      "unidades": 55,
-      "modelos_distintos": 44,
-      "costo_total": 99555.48,
+      "unidades": 54,
+      "modelos_distintos": 43,
+      "costo_total": 99224.45,
       "items": [
-        {
-          "codigo": "JM01",
-          "nombre": "ZENTTINEL GPS JM01 MOTO",
-          "serie": "351777090462894",
-          "fecha_alta": "2022-04-27",
-          "fecha_compra": "2022-04-27",
-          "origen_traspaso": "BODEGA MAYOREO",
-          "factura": "515117",
-          "dias": 1606,
-          "costo": 646.55,
-          "lista_f": 1662.93,
-          "antiguedad": "3-5 años"
-        },
         {
           "codigo": "GT06N",
           "nombre": "ZENTTINEL GPS GT06N",
@@ -16423,6 +16371,19 @@
           "dias": 1606,
           "costo": 741.38,
           "lista_f": 1706.03,
+          "antiguedad": "3-5 años"
+        },
+        {
+          "codigo": "JM01",
+          "nombre": "ZENTTINEL GPS JM01 MOTO",
+          "serie": "351777090462894",
+          "fecha_alta": "2022-04-27",
+          "fecha_compra": "2022-04-27",
+          "origen_traspaso": "BODEGA MAYOREO",
+          "factura": "515117",
+          "dias": 1606,
+          "costo": 646.55,
+          "lista_f": 1662.93,
           "antiguedad": "3-5 años"
         },
         {
@@ -16530,19 +16491,6 @@
           "antiguedad": "1-3 años"
         },
         {
-          "codigo": "840023260322",
-          "nombre": "MOTOROLA MOTO G04 4 GB 128 GB 4G NARANJA NACIONAL",
-          "serie": "350173913434990",
-          "fecha_alta": "2025-02-05",
-          "fecha_compra": "2025-02-05",
-          "origen_traspaso": null,
-          "factura": "1225712",
-          "dias": 591,
-          "costo": 1450.86,
-          "lista_f": 1731.9,
-          "antiguedad": "1-3 años"
-        },
-        {
           "codigo": "TMGMXNK0C201NE00",
           "nombre": "TERM NOKIA GSM C2-01 GRADO A",
           "serie": "352874057951859",
@@ -16553,6 +16501,19 @@
           "dias": 591,
           "costo": 285.03,
           "lista_f": 361.21,
+          "antiguedad": "1-3 años"
+        },
+        {
+          "codigo": "840023260322",
+          "nombre": "MOTOROLA MOTO G04 4 GB 128 GB 4G NARANJA NACIONAL",
+          "serie": "350173913434990",
+          "fecha_alta": "2025-02-05",
+          "fecha_compra": "2025-02-05",
+          "origen_traspaso": null,
+          "factura": "1225712",
+          "dias": 591,
+          "costo": 1450.86,
+          "lista_f": 1731.9,
           "antiguedad": "1-3 años"
         },
         {
@@ -16634,9 +16595,9 @@
           "antiguedad": "3-6 meses"
         },
         {
-          "codigo": "810039954997",
-          "nombre": "LOGIC LIFE 10 SMARTWATCH PLATA",
-          "serie": "20247596",
+          "codigo": "810039954973",
+          "nombre": "LOGIC LIFE 10 SMARTWATCH ROSA",
+          "serie": "20250853",
           "fecha_alta": "2026-05-11",
           "fecha_compra": "2026-05-11",
           "origen_traspaso": "LAFT",
@@ -16647,9 +16608,9 @@
           "antiguedad": "3-6 meses"
         },
         {
-          "codigo": "810039954973",
-          "nombre": "LOGIC LIFE 10 SMARTWATCH ROSA",
-          "serie": "20250853",
+          "codigo": "810039954997",
+          "nombre": "LOGIC LIFE 10 SMARTWATCH PLATA",
+          "serie": "20247596",
           "fecha_alta": "2026-05-11",
           "fecha_compra": "2026-05-11",
           "origen_traspaso": "LAFT",
@@ -16670,19 +16631,6 @@
           "dias": 131,
           "costo": 284.62,
           "lista_f": 369.83,
-          "antiguedad": "3-6 meses"
-        },
-        {
-          "codigo": "NAOMIGOLDDORADO",
-          "nombre": "NAOMI GOLD 2G DORADO NACIONAL",
-          "serie": "358994106567029",
-          "fecha_alta": "2026-05-14",
-          "fecha_compra": "2026-05-14",
-          "origen_traspaso": "BODEGA MAYOREO",
-          "factura": "1681310",
-          "dias": 128,
-          "costo": 331.03,
-          "lista_f": 387.07,
           "antiguedad": "3-6 meses"
         },
         {
@@ -16766,19 +16714,6 @@
         {
           "codigo": "4894947092626",
           "nombre": "INFINIX HOT 60 PRO PLUS (8+8) GB 256 GB 4G ROSA NACIONAL",
-          "serie": "352884190928342",
-          "fecha_alta": "2026-08-03",
-          "fecha_compra": "2026-08-03",
-          "origen_traspaso": null,
-          "factura": "1764003",
-          "dias": 47,
-          "costo": 2847.37,
-          "lista_f": 3809.48,
-          "antiguedad": "1-3 meses"
-        },
-        {
-          "codigo": "4894947092626",
-          "nombre": "INFINIX HOT 60 PRO PLUS (8+8) GB 256 GB 4G ROSA NACIONAL",
           "serie": "352884191067538",
           "fecha_alta": "2026-08-03",
           "fecha_compra": "2026-08-03",
@@ -16799,6 +16734,19 @@
           "factura": "1764003",
           "dias": 47,
           "costo": 3015.79,
+          "lista_f": 3809.48,
+          "antiguedad": "1-3 meses"
+        },
+        {
+          "codigo": "4894947092626",
+          "nombre": "INFINIX HOT 60 PRO PLUS (8+8) GB 256 GB 4G ROSA NACIONAL",
+          "serie": "352884190928342",
+          "fecha_alta": "2026-08-03",
+          "fecha_compra": "2026-08-03",
+          "origen_traspaso": null,
+          "factura": "1764003",
+          "dias": 47,
+          "costo": 2847.37,
           "lista_f": 3809.48,
           "antiguedad": "1-3 meses"
         },
@@ -16935,7 +16883,7 @@
         {
           "codigo": "8806097666882",
           "nombre": "SAMSUNG A17 4 GB 128 GB 4G NEGRO NACIONAL AK",
-          "serie": "357049603017977",
+          "serie": "357049603017811",
           "fecha_alta": "2026-08-19",
           "fecha_compra": "2026-08-19",
           "origen_traspaso": null,
@@ -16974,7 +16922,7 @@
         {
           "codigo": "8806097666882",
           "nombre": "SAMSUNG A17 4 GB 128 GB 4G NEGRO NACIONAL AK",
-          "serie": "357049603017811",
+          "serie": "357049603017977",
           "fecha_alta": "2026-08-19",
           "fecha_compra": "2026-08-19",
           "origen_traspaso": null,
@@ -17807,9 +17755,9 @@
           "antiguedad": "6-12 meses"
         },
         {
-          "codigo": "810039954997",
-          "nombre": "LOGIC LIFE 10 SMARTWATCH PLATA",
-          "serie": "20247597",
+          "codigo": "810039954973",
+          "nombre": "LOGIC LIFE 10 SMARTWATCH ROSA",
+          "serie": "20251758",
           "fecha_alta": "2026-03-30",
           "fecha_compra": "2026-03-30",
           "origen_traspaso": "LAFT",
@@ -17820,9 +17768,9 @@
           "antiguedad": "3-6 meses"
         },
         {
-          "codigo": "810039954973",
-          "nombre": "LOGIC LIFE 10 SMARTWATCH ROSA",
-          "serie": "20251758",
+          "codigo": "810039954997",
+          "nombre": "LOGIC LIFE 10 SMARTWATCH PLATA",
+          "serie": "20247597",
           "fecha_alta": "2026-03-30",
           "fecha_compra": "2026-03-30",
           "origen_traspaso": "LAFT",
@@ -17885,19 +17833,6 @@
           "antiguedad": "3-6 meses"
         },
         {
-          "codigo": "4894947111211",
-          "nombre": "INFINIX NOTE EDGE 5G (8+8) GB 256 GB 5G VERDE NACIONAL",
-          "serie": "350829440482642",
-          "fecha_alta": "2026-06-10",
-          "fecha_compra": "2026-06-10",
-          "origen_traspaso": "BODEGA MAYOREO",
-          "factura": "1709742",
-          "dias": 101,
-          "costo": 4325.98,
-          "lista_f": 4895.69,
-          "antiguedad": "3-6 meses"
-        },
-        {
           "codigo": "840268958794",
           "nombre": "AMAZON FIRE TV STICK 4K SELECT",
           "serie": "GT533M075415068M",
@@ -17908,6 +17843,19 @@
           "dias": 101,
           "costo": 504.31,
           "lista_f": 620.69,
+          "antiguedad": "3-6 meses"
+        },
+        {
+          "codigo": "4894947111211",
+          "nombre": "INFINIX NOTE EDGE 5G (8+8) GB 256 GB 5G VERDE NACIONAL",
+          "serie": "350829440482642",
+          "fecha_alta": "2026-06-10",
+          "fecha_compra": "2026-06-10",
+          "origen_traspaso": "BODEGA MAYOREO",
+          "factura": "1709742",
+          "dias": 101,
+          "costo": 4325.98,
+          "lista_f": 4895.69,
           "antiguedad": "3-6 meses"
         },
         {
@@ -17965,7 +17913,7 @@
         {
           "codigo": "MOTOG86POWER512GBOPEN",
           "nombre": "MOTOROLA MOTO G86 POWER 5G 8 GB 512 GB OPEN BOX",
-          "serie": "357065612901795",
+          "serie": "357065612901811",
           "fecha_alta": "2026-06-29",
           "fecha_compra": "2026-06-29",
           "origen_traspaso": "BODEGA ECOMMERCE",
@@ -17978,7 +17926,7 @@
         {
           "codigo": "MOTOG86POWER512GBOPEN",
           "nombre": "MOTOROLA MOTO G86 POWER 5G 8 GB 512 GB OPEN BOX",
-          "serie": "357065612901811",
+          "serie": "357065612901795",
           "fecha_alta": "2026-06-29",
           "fecha_compra": "2026-06-29",
           "origen_traspaso": "BODEGA ECOMMERCE",
@@ -18043,20 +17991,7 @@
         {
           "codigo": "A17128GRISAK",
           "nombre": "SAMSUNG A17 4 GB 128 GB 4G GRIS NACIONAL AK",
-          "serie": "357049602084879",
-          "fecha_alta": "2026-08-11",
-          "fecha_compra": "2026-08-11",
-          "origen_traspaso": "BODEGA MAYOREO",
-          "factura": "1772846",
-          "dias": 39,
-          "costo": 2010.03,
-          "lista_f": 2516.38,
-          "antiguedad": "1-3 meses"
-        },
-        {
-          "codigo": "A17128GRISAK",
-          "nombre": "SAMSUNG A17 4 GB 128 GB 4G GRIS NACIONAL AK",
-          "serie": "357049601928811",
+          "serie": "357049602082055",
           "fecha_alta": "2026-08-11",
           "fecha_compra": "2026-08-11",
           "origen_traspaso": "BODEGA MAYOREO",
@@ -18082,6 +18017,19 @@
         {
           "codigo": "A17128GRISAK",
           "nombre": "SAMSUNG A17 4 GB 128 GB 4G GRIS NACIONAL AK",
+          "serie": "357049601928811",
+          "fecha_alta": "2026-08-11",
+          "fecha_compra": "2026-08-11",
+          "origen_traspaso": "BODEGA MAYOREO",
+          "factura": "1772846",
+          "dias": 39,
+          "costo": 2010.03,
+          "lista_f": 2516.38,
+          "antiguedad": "1-3 meses"
+        },
+        {
+          "codigo": "A17128GRISAK",
+          "nombre": "SAMSUNG A17 4 GB 128 GB 4G GRIS NACIONAL AK",
           "serie": "357049602080232",
           "fecha_alta": "2026-08-11",
           "fecha_compra": "2026-08-11",
@@ -18095,7 +18043,7 @@
         {
           "codigo": "A17128GRISAK",
           "nombre": "SAMSUNG A17 4 GB 128 GB 4G GRIS NACIONAL AK",
-          "serie": "357049602082055",
+          "serie": "357049602084879",
           "fecha_alta": "2026-08-11",
           "fecha_compra": "2026-08-11",
           "origen_traspaso": "BODEGA MAYOREO",
@@ -18145,29 +18093,16 @@
           "antiguedad": "<1 mes"
         },
         {
-          "codigo": "4894947116551",
-          "nombre": "INFINIX SMART 20 (4+4) GB 64 GB 4G GRIS NACIONAL",
-          "serie": "351407080437850",
+          "codigo": "6924136726747",
+          "nombre": "CUBOT KINGKONG E1 6 GB 128 GB 4G NEGRO/NARANJA LATINO",
+          "serie": "869281080011642",
           "fecha_alta": "2026-09-01",
           "fecha_compra": "2026-09-01",
           "origen_traspaso": "BODEGA MAYOREO",
           "factura": "1794166",
           "dias": 18,
-          "costo": 1563.4,
-          "lista_f": 1973.28,
-          "antiguedad": "<1 mes"
-        },
-        {
-          "codigo": "4894947116629",
-          "nombre": "INFINIX SMART 20 (4+4) GB 128 GB 4G NARANJA NACIONAL",
-          "serie": "351407080238597",
-          "fecha_alta": "2026-09-01",
-          "fecha_compra": "2026-09-01",
-          "origen_traspaso": "BODEGA MAYOREO",
-          "factura": "1794166",
-          "dias": 18,
-          "costo": 1697.17,
-          "lista_f": 2128.45,
+          "costo": 2105.95,
+          "lista_f": 2343.97,
           "antiguedad": "<1 mes"
         },
         {
@@ -18184,16 +18119,29 @@
           "antiguedad": "<1 mes"
         },
         {
-          "codigo": "6924136726747",
-          "nombre": "CUBOT KINGKONG E1 6 GB 128 GB 4G NEGRO/NARANJA LATINO",
-          "serie": "869281080011642",
+          "codigo": "4894947116629",
+          "nombre": "INFINIX SMART 20 (4+4) GB 128 GB 4G NARANJA NACIONAL",
+          "serie": "351407080238597",
           "fecha_alta": "2026-09-01",
           "fecha_compra": "2026-09-01",
           "origen_traspaso": "BODEGA MAYOREO",
           "factura": "1794166",
           "dias": 18,
-          "costo": 2105.95,
-          "lista_f": 2343.97,
+          "costo": 1697.17,
+          "lista_f": 2128.45,
+          "antiguedad": "<1 mes"
+        },
+        {
+          "codigo": "4894947116551",
+          "nombre": "INFINIX SMART 20 (4+4) GB 64 GB 4G GRIS NACIONAL",
+          "serie": "351407080437850",
+          "fecha_alta": "2026-09-01",
+          "fecha_compra": "2026-09-01",
+          "origen_traspaso": "BODEGA MAYOREO",
+          "factura": "1794166",
+          "dias": 18,
+          "costo": 1563.4,
+          "lista_f": 1973.28,
           "antiguedad": "<1 mes"
         }
       ]
@@ -19404,42 +19352,16 @@
       "costo_total": 56482.76,
       "items": [
         {
-          "codigo": "848958044536",
-          "nombre": "BLU G75 (4+10) GB 256 GB 4G NEGRO NACIONAL",
-          "serie": "356381710252762",
-          "fecha_alta": "2026-03-18",
-          "fecha_compra": "2026-03-18",
-          "origen_traspaso": "LAFT",
-          "factura": "1625632",
-          "dias": 185,
-          "costo": 1653.27,
-          "lista_f": 2111.21,
-          "antiguedad": "6-12 meses"
-        },
-        {
-          "codigo": "NP6800VERDE",
-          "nombre": "NAOMI NP6800 OUTDOOR 32 MB 32 MB 4G VERDE NACIONAL",
-          "serie": "353835114082821",
+          "codigo": "840493602356",
+          "nombre": "MOTOROLA MOTO G06 4 GB 256 GB 4G VERDE LATINO",
+          "serie": "357437352469137",
           "fecha_alta": "2026-03-18",
           "fecha_compra": "2026-03-18",
           "origen_traspaso": "BODEGA MAYOREO",
           "factura": "1625516",
           "dias": 185,
-          "costo": 377.26,
-          "lista_f": 473.28,
-          "antiguedad": "6-12 meses"
-        },
-        {
-          "codigo": "848958044536",
-          "nombre": "BLU G75 (4+10) GB 256 GB 4G NEGRO NACIONAL",
-          "serie": "356381710061502",
-          "fecha_alta": "2026-03-18",
-          "fecha_compra": "2026-03-18",
-          "origen_traspaso": "LAFT",
-          "factura": "1625632",
-          "dias": 185,
-          "costo": 1653.27,
-          "lista_f": 2111.21,
+          "costo": 1310.73,
+          "lista_f": 2093.96,
           "antiguedad": "6-12 meses"
         },
         {
@@ -19466,6 +19388,32 @@
           "dias": 185,
           "costo": 316.57,
           "lista_f": 395.69,
+          "antiguedad": "6-12 meses"
+        },
+        {
+          "codigo": "848958044536",
+          "nombre": "BLU G75 (4+10) GB 256 GB 4G NEGRO NACIONAL",
+          "serie": "356381710061502",
+          "fecha_alta": "2026-03-18",
+          "fecha_compra": "2026-03-18",
+          "origen_traspaso": "LAFT",
+          "factura": "1625632",
+          "dias": 185,
+          "costo": 1653.27,
+          "lista_f": 2111.21,
+          "antiguedad": "6-12 meses"
+        },
+        {
+          "codigo": "NP6800VERDE",
+          "nombre": "NAOMI NP6800 OUTDOOR 32 MB 32 MB 4G VERDE NACIONAL",
+          "serie": "353835114082821",
+          "fecha_alta": "2026-03-18",
+          "fecha_compra": "2026-03-18",
+          "origen_traspaso": "BODEGA MAYOREO",
+          "factura": "1625516",
+          "dias": 185,
+          "costo": 377.26,
+          "lista_f": 473.28,
           "antiguedad": "6-12 meses"
         },
         {
@@ -19547,16 +19495,16 @@
           "antiguedad": "6-12 meses"
         },
         {
-          "codigo": "840493602356",
-          "nombre": "MOTOROLA MOTO G06 4 GB 256 GB 4G VERDE LATINO",
-          "serie": "357437352469137",
+          "codigo": "848958044536",
+          "nombre": "BLU G75 (4+10) GB 256 GB 4G NEGRO NACIONAL",
+          "serie": "356381710252762",
           "fecha_alta": "2026-03-18",
           "fecha_compra": "2026-03-18",
-          "origen_traspaso": "BODEGA MAYOREO",
-          "factura": "1625516",
+          "origen_traspaso": "LAFT",
+          "factura": "1625632",
           "dias": 185,
-          "costo": 1310.73,
-          "lista_f": 2093.96,
+          "costo": 1653.27,
+          "lista_f": 2111.21,
           "antiguedad": "6-12 meses"
         },
         {
@@ -19627,7 +19575,7 @@
         {
           "codigo": "848958044512",
           "nombre": "BLU G95 + ARIAPOD MINI (8+16)GB 256 GB 4G NEGRO NACIONAL",
-          "serie": "351177780006509",
+          "serie": "351177780005592",
           "fecha_alta": "2026-04-23",
           "fecha_compra": "2026-04-23",
           "origen_traspaso": "LAFT",
@@ -19640,7 +19588,7 @@
         {
           "codigo": "848958044512",
           "nombre": "BLU G95 + ARIAPOD MINI (8+16)GB 256 GB 4G NEGRO NACIONAL",
-          "serie": "351177780005592",
+          "serie": "351177780006509",
           "fecha_alta": "2026-04-23",
           "fecha_compra": "2026-04-23",
           "origen_traspaso": "LAFT",
@@ -19653,7 +19601,7 @@
         {
           "codigo": "8806097666882",
           "nombre": "SAMSUNG A17 4 GB 128 GB 4G NEGRO NACIONAL AK",
-          "serie": "353181617487138",
+          "serie": "353181617505608",
           "fecha_alta": "2026-06-10",
           "fecha_compra": "2026-06-10",
           "origen_traspaso": "BODEGA MAYOREO",
@@ -19666,7 +19614,7 @@
         {
           "codigo": "8806097666882",
           "nombre": "SAMSUNG A17 4 GB 128 GB 4G NEGRO NACIONAL AK",
-          "serie": "353181617505608",
+          "serie": "353181617487138",
           "fecha_alta": "2026-06-10",
           "fecha_compra": "2026-06-10",
           "origen_traspaso": "BODEGA MAYOREO",
@@ -19781,16 +19729,16 @@
           "antiguedad": "<1 mes"
         },
         {
-          "codigo": "6924136726747",
-          "nombre": "CUBOT KINGKONG E1 6 GB 128 GB 4G NEGRO/NARANJA LATINO",
-          "serie": "869281080011790",
+          "codigo": "840268958794",
+          "nombre": "AMAZON FIRE TV STICK 4K SELECT",
+          "serie": "GT533M07545300RL",
           "fecha_alta": "2026-08-21",
           "fecha_compra": "2026-08-21",
           "origen_traspaso": "BODEGA MAYOREO",
           "factura": "1782650",
           "dias": 29,
-          "costo": 2105.95,
-          "lista_f": 2343.97,
+          "costo": 504.31,
+          "lista_f": 620.69,
           "antiguedad": "<1 mes"
         },
         {
@@ -19807,16 +19755,16 @@
           "antiguedad": "<1 mes"
         },
         {
-          "codigo": "840268958794",
-          "nombre": "AMAZON FIRE TV STICK 4K SELECT",
-          "serie": "GT533M07545300RL",
+          "codigo": "6924136726747",
+          "nombre": "CUBOT KINGKONG E1 6 GB 128 GB 4G NEGRO/NARANJA LATINO",
+          "serie": "869281080011790",
           "fecha_alta": "2026-08-21",
           "fecha_compra": "2026-08-21",
           "origen_traspaso": "BODEGA MAYOREO",
           "factura": "1782650",
           "dias": 29,
-          "costo": 504.31,
-          "lista_f": 620.69,
+          "costo": 2105.95,
+          "lista_f": 2343.97,
           "antiguedad": "<1 mes"
         },
         {
@@ -19833,9 +19781,9 @@
           "antiguedad": "<1 mes"
         },
         {
-          "codigo": "848958044338",
-          "nombre": "BLU BOLD K5 (4+4) GB 64 GB 4G VIOLETA NACIONAL",
-          "serie": "355364420108178",
+          "codigo": "848958044307",
+          "nombre": "BLU BOLD K5 (4+4) GB 64 GB 4G AZUL NACIONAL",
+          "serie": "355364420033772",
           "fecha_alta": "2026-09-15",
           "fecha_compra": "2026-09-15",
           "origen_traspaso": "BODEGA MAYOREO",
@@ -19846,9 +19794,9 @@
           "antiguedad": "<1 mes"
         },
         {
-          "codigo": "848958044307",
-          "nombre": "BLU BOLD K5 (4+4) GB 64 GB 4G AZUL NACIONAL",
-          "serie": "355364420033772",
+          "codigo": "848958044338",
+          "nombre": "BLU BOLD K5 (4+4) GB 64 GB 4G VIOLETA NACIONAL",
+          "serie": "355364420108178",
           "fecha_alta": "2026-09-15",
           "fecha_compra": "2026-09-15",
           "origen_traspaso": "BODEGA MAYOREO",
@@ -20220,19 +20168,6 @@
         {
           "codigo": "848958044512",
           "nombre": "BLU G95 + ARIAPOD MINI (8+16)GB 256 GB 4G NEGRO NACIONAL",
-          "serie": "351177780027786",
-          "fecha_alta": "2025-09-26",
-          "fecha_compra": "2025-09-26",
-          "origen_traspaso": "BODEGA MAYOREO",
-          "factura": "1439833",
-          "dias": 358,
-          "costo": 1831.4,
-          "lista_f": 2430.17,
-          "antiguedad": "6-12 meses"
-        },
-        {
-          "codigo": "848958044512",
-          "nombre": "BLU G95 + ARIAPOD MINI (8+16)GB 256 GB 4G NEGRO NACIONAL",
           "serie": "351177780042389",
           "fecha_alta": "2025-09-26",
           "fecha_compra": "2025-09-26",
@@ -20247,6 +20182,19 @@
           "codigo": "848958044512",
           "nombre": "BLU G95 + ARIAPOD MINI (8+16)GB 256 GB 4G NEGRO NACIONAL",
           "serie": "351177780048022",
+          "fecha_alta": "2025-09-26",
+          "fecha_compra": "2025-09-26",
+          "origen_traspaso": "BODEGA MAYOREO",
+          "factura": "1439833",
+          "dias": 358,
+          "costo": 1831.4,
+          "lista_f": 2430.17,
+          "antiguedad": "6-12 meses"
+        },
+        {
+          "codigo": "848958044512",
+          "nombre": "BLU G95 + ARIAPOD MINI (8+16)GB 256 GB 4G NEGRO NACIONAL",
+          "serie": "351177780027786",
           "fecha_alta": "2025-09-26",
           "fecha_compra": "2025-09-26",
           "origen_traspaso": "BODEGA MAYOREO",
@@ -20309,9 +20257,9 @@
           "antiguedad": "6-12 meses"
         },
         {
-          "codigo": "810039954973",
-          "nombre": "LOGIC LIFE 10 SMARTWATCH ROSA",
-          "serie": "20250273",
+          "codigo": "810039954980",
+          "nombre": "LOGIC LIFE 10 SMARTWATCH NEGRO",
+          "serie": "20243219",
           "fecha_alta": "2026-03-31",
           "fecha_compra": "2026-03-31",
           "origen_traspaso": "LAFT",
@@ -20335,9 +20283,9 @@
           "antiguedad": "3-6 meses"
         },
         {
-          "codigo": "810039954980",
-          "nombre": "LOGIC LIFE 10 SMARTWATCH NEGRO",
-          "serie": "20243219",
+          "codigo": "810039954973",
+          "nombre": "LOGIC LIFE 10 SMARTWATCH ROSA",
+          "serie": "20250273",
           "fecha_alta": "2026-03-31",
           "fecha_compra": "2026-03-31",
           "origen_traspaso": "LAFT",
@@ -20387,16 +20335,16 @@
           "antiguedad": "1-3 meses"
         },
         {
-          "codigo": "840268958794",
-          "nombre": "AMAZON FIRE TV STICK 4K SELECT",
-          "serie": "GT533M0754530AEU",
+          "codigo": "848958044710",
+          "nombre": "BLU BOLD K12 (4+8) GB 128 GB 4G PLATA NACIONAL",
+          "serie": "353676800156051",
           "fecha_alta": "2026-08-18",
           "fecha_compra": "2026-08-18",
           "origen_traspaso": "BODEGA MAYOREO",
           "factura": "1779428",
           "dias": 32,
-          "costo": 504.31,
-          "lista_f": 620.69,
+          "costo": 1287.85,
+          "lista_f": 1593.97,
           "antiguedad": "1-3 meses"
         },
         {
@@ -20413,16 +20361,16 @@
           "antiguedad": "1-3 meses"
         },
         {
-          "codigo": "848958044710",
-          "nombre": "BLU BOLD K12 (4+8) GB 128 GB 4G PLATA NACIONAL",
-          "serie": "353676800156051",
+          "codigo": "840268958794",
+          "nombre": "AMAZON FIRE TV STICK 4K SELECT",
+          "serie": "GT533M0754530AEU",
           "fecha_alta": "2026-08-18",
           "fecha_compra": "2026-08-18",
           "origen_traspaso": "BODEGA MAYOREO",
           "factura": "1779428",
           "dias": 32,
-          "costo": 1287.85,
-          "lista_f": 1593.97,
+          "costo": 504.31,
+          "lista_f": 620.69,
           "antiguedad": "1-3 meses"
         },
         {
