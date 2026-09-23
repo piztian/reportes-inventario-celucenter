@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-22T13:00:12.985857",
-  "total_unidades": 528,
-  "total_costo": 462187.44,
+  "generated_at": "2026-09-22T20:00:11.094126",
+  "total_unidades": 527,
+  "total_costo": 461886.32,
   "num_sucursales": 26,
   "stores": [
     {
@@ -11,21 +11,9 @@
       "costo_total": 100856.91,
       "items": [
         {
-          "codigo": "70009582",
-          "nombre": "LANIX GSM U100 NEGRO/ROJO KIT",
-          "serie": "352156074276159",
-          "fecha_alta": "2016-09-28",
-          "fecha_compra": "2016-09-28",
-          "factura": "5910",
-          "dias": 3505,
-          "costo": 251.38,
-          "lista_f": 211.9,
-          "antiguedad": ">5 años"
-        },
-        {
-          "codigo": "70009582",
-          "nombre": "LANIX GSM U100 NEGRO/ROJO KIT",
-          "serie": "352156073130753",
+          "codigo": "70009551",
+          "nombre": "DOPPIO GSM F1810 BLANCO KIT",
+          "serie": "356945071051292",
           "fecha_alta": "2016-09-28",
           "fecha_compra": "2016-09-28",
           "factura": "5910",
@@ -38,18 +26,6 @@
           "codigo": "70009550",
           "nombre": "DOPPIO GSM F1810 NEGRO KIT",
           "serie": "356945070434358",
-          "fecha_alta": "2016-09-28",
-          "fecha_compra": "2016-09-28",
-          "factura": "5910",
-          "dias": 3505,
-          "costo": 251.38,
-          "lista_f": 211.9,
-          "antiguedad": ">5 años"
-        },
-        {
-          "codigo": "70009582",
-          "nombre": "LANIX GSM U100 NEGRO/ROJO KIT",
-          "serie": "352156073243234",
           "fecha_alta": "2016-09-28",
           "fecha_compra": "2016-09-28",
           "factura": "5910",
@@ -83,9 +59,33 @@
           "antiguedad": ">5 años"
         },
         {
-          "codigo": "70009551",
-          "nombre": "DOPPIO GSM F1810 BLANCO KIT",
-          "serie": "356945071051292",
+          "codigo": "70009582",
+          "nombre": "LANIX GSM U100 NEGRO/ROJO KIT",
+          "serie": "352156074276159",
+          "fecha_alta": "2016-09-28",
+          "fecha_compra": "2016-09-28",
+          "factura": "5910",
+          "dias": 3505,
+          "costo": 251.38,
+          "lista_f": 211.9,
+          "antiguedad": ">5 años"
+        },
+        {
+          "codigo": "70009582",
+          "nombre": "LANIX GSM U100 NEGRO/ROJO KIT",
+          "serie": "352156073243234",
+          "fecha_alta": "2016-09-28",
+          "fecha_compra": "2016-09-28",
+          "factura": "5910",
+          "dias": 3505,
+          "costo": 251.38,
+          "lista_f": 211.9,
+          "antiguedad": ">5 años"
+        },
+        {
+          "codigo": "70009582",
+          "nombre": "LANIX GSM U100 NEGRO/ROJO KIT",
+          "serie": "352156073130753",
           "fecha_alta": "2016-09-28",
           "fecha_compra": "2016-09-28",
           "factura": "5910",
@@ -239,15 +239,15 @@
           "antiguedad": "3-5 años"
         },
         {
-          "codigo": "70015844",
-          "nombre": "I MOBIL GSM IM220 NEGRO/AZUL KIT",
-          "serie": "355402118117455",
+          "codigo": "70011646",
+          "nombre": "DOPPIO GSM F1811 NEGRO KIT",
+          "serie": "353761325252997",
           "fecha_alta": "2023-02-01",
           "fecha_compra": "2023-02-01",
           "factura": "661685",
           "dias": 1188,
-          "costo": 215.87,
-          "lista_f": 0.0,
+          "costo": 233.11,
+          "lista_f": 101.99,
           "antiguedad": "3-5 años"
         },
         {
@@ -263,15 +263,15 @@
           "antiguedad": "3-5 años"
         },
         {
-          "codigo": "70011646",
-          "nombre": "DOPPIO GSM F1811 NEGRO KIT",
-          "serie": "353761325252997",
+          "codigo": "70015844",
+          "nombre": "I MOBIL GSM IM220 NEGRO/AZUL KIT",
+          "serie": "355402118117455",
           "fecha_alta": "2023-02-01",
           "fecha_compra": "2023-02-01",
           "factura": "661685",
           "dias": 1188,
-          "costo": 233.11,
-          "lista_f": 101.99,
+          "costo": 215.87,
+          "lista_f": 0.0,
           "antiguedad": "3-5 años"
         },
         {
@@ -313,31 +313,7 @@
         {
           "codigo": "70011646",
           "nombre": "DOPPIO GSM F1811 NEGRO KIT",
-          "serie": "351649640323985",
-          "fecha_alta": "2023-03-22",
-          "fecha_compra": "2023-03-22",
-          "factura": "684437",
-          "dias": 1139,
-          "costo": 233.11,
-          "lista_f": 101.99,
-          "antiguedad": "3-5 años"
-        },
-        {
-          "codigo": "70011646",
-          "nombre": "DOPPIO GSM F1811 NEGRO KIT",
-          "serie": "351649640323845",
-          "fecha_alta": "2023-03-22",
-          "fecha_compra": "2023-03-22",
-          "factura": "684437",
-          "dias": 1139,
-          "costo": 233.11,
-          "lista_f": 101.99,
-          "antiguedad": "3-5 años"
-        },
-        {
-          "codigo": "70011646",
-          "nombre": "DOPPIO GSM F1811 NEGRO KIT",
-          "serie": "351649640323761",
+          "serie": "351649640335807",
           "fecha_alta": "2023-03-22",
           "fecha_compra": "2023-03-22",
           "factura": "684437",
@@ -361,7 +337,31 @@
         {
           "codigo": "70011646",
           "nombre": "DOPPIO GSM F1811 NEGRO KIT",
-          "serie": "351649640335807",
+          "serie": "351649640323845",
+          "fecha_alta": "2023-03-22",
+          "fecha_compra": "2023-03-22",
+          "factura": "684437",
+          "dias": 1139,
+          "costo": 233.11,
+          "lista_f": 101.99,
+          "antiguedad": "3-5 años"
+        },
+        {
+          "codigo": "70011646",
+          "nombre": "DOPPIO GSM F1811 NEGRO KIT",
+          "serie": "351649640323985",
+          "fecha_alta": "2023-03-22",
+          "fecha_compra": "2023-03-22",
+          "factura": "684437",
+          "dias": 1139,
+          "costo": 233.11,
+          "lista_f": 101.99,
+          "antiguedad": "3-5 años"
+        },
+        {
+          "codigo": "70011646",
+          "nombre": "DOPPIO GSM F1811 NEGRO KIT",
+          "serie": "351649640323761",
           "fecha_alta": "2023-03-22",
           "fecha_compra": "2023-03-22",
           "factura": "684437",
@@ -445,19 +445,7 @@
         {
           "codigo": "70015844",
           "nombre": "I MOBIL GSM IM220 NEGRO/AZUL KIT",
-          "serie": "354785430391738",
-          "fecha_alta": "2024-02-28",
-          "fecha_compra": "2024-02-28",
-          "factura": "913169",
-          "dias": 796,
-          "costo": 215.87,
-          "lista_f": 0.0,
-          "antiguedad": "1-3 años"
-        },
-        {
-          "codigo": "70015844",
-          "nombre": "I MOBIL GSM IM220 NEGRO/AZUL KIT",
-          "serie": "355402119749983",
+          "serie": "354785430330769",
           "fecha_alta": "2024-02-28",
           "fecha_compra": "2024-02-28",
           "factura": "913169",
@@ -481,7 +469,19 @@
         {
           "codigo": "70015844",
           "nombre": "I MOBIL GSM IM220 NEGRO/AZUL KIT",
-          "serie": "354785430330769",
+          "serie": "355402119749983",
+          "fecha_alta": "2024-02-28",
+          "fecha_compra": "2024-02-28",
+          "factura": "913169",
+          "dias": 796,
+          "costo": 215.87,
+          "lista_f": 0.0,
+          "antiguedad": "1-3 años"
+        },
+        {
+          "codigo": "70015844",
+          "nombre": "I MOBIL GSM IM220 NEGRO/AZUL KIT",
+          "serie": "354785430391738",
           "fecha_alta": "2024-02-28",
           "fecha_compra": "2024-02-28",
           "factura": "913169",
@@ -505,7 +505,7 @@
         {
           "codigo": "70015844",
           "nombre": "I MOBIL GSM IM220 NEGRO/AZUL KIT",
-          "serie": "355402119928736",
+          "serie": "355402119752557",
           "fecha_alta": "2024-04-17",
           "fecha_compra": "2024-04-17",
           "factura": "948257",
@@ -529,7 +529,7 @@
         {
           "codigo": "70015844",
           "nombre": "I MOBIL GSM IM220 NEGRO/AZUL KIT",
-          "serie": "355402119752557",
+          "serie": "355402119800133",
           "fecha_alta": "2024-04-17",
           "fecha_compra": "2024-04-17",
           "factura": "948257",
@@ -541,7 +541,7 @@
         {
           "codigo": "70015844",
           "nombre": "I MOBIL GSM IM220 NEGRO/AZUL KIT",
-          "serie": "355402119800133",
+          "serie": "355402119928736",
           "fecha_alta": "2024-04-17",
           "fecha_compra": "2024-04-17",
           "factura": "948257",
@@ -571,6 +571,18 @@
           "factura": "953171",
           "dias": 740,
           "costo": 310.17,
+          "lista_f": 0.0,
+          "antiguedad": "1-3 años"
+        },
+        {
+          "codigo": "70022261",
+          "nombre": "SENWA 4G VOLTE PLUS NEGRO KIT",
+          "serie": "359181550343128",
+          "fecha_alta": "2024-04-24",
+          "fecha_compra": "2024-04-24",
+          "factura": "953695",
+          "dias": 740,
+          "costo": 393.75,
           "lista_f": 0.0,
           "antiguedad": "1-3 años"
         },
@@ -613,30 +625,6 @@
         {
           "codigo": "70022261",
           "nombre": "SENWA 4G VOLTE PLUS NEGRO KIT",
-          "serie": "359181550343128",
-          "fecha_alta": "2024-04-24",
-          "fecha_compra": "2024-04-24",
-          "factura": "953695",
-          "dias": 740,
-          "costo": 393.75,
-          "lista_f": 0.0,
-          "antiguedad": "1-3 años"
-        },
-        {
-          "codigo": "70022261",
-          "nombre": "SENWA 4G VOLTE PLUS NEGRO KIT",
-          "serie": "359181550578251",
-          "fecha_alta": "2024-05-11",
-          "fecha_compra": "2024-05-11",
-          "factura": "965726",
-          "dias": 723,
-          "costo": 393.75,
-          "lista_f": 0.0,
-          "antiguedad": "1-3 años"
-        },
-        {
-          "codigo": "70022261",
-          "nombre": "SENWA 4G VOLTE PLUS NEGRO KIT",
           "serie": "359181550577287",
           "fecha_alta": "2024-05-11",
           "fecha_compra": "2024-05-11",
@@ -650,6 +638,18 @@
           "codigo": "70022261",
           "nombre": "SENWA 4G VOLTE PLUS NEGRO KIT",
           "serie": "359181550577691",
+          "fecha_alta": "2024-05-11",
+          "fecha_compra": "2024-05-11",
+          "factura": "965726",
+          "dias": 723,
+          "costo": 393.75,
+          "lista_f": 0.0,
+          "antiguedad": "1-3 años"
+        },
+        {
+          "codigo": "70022261",
+          "nombre": "SENWA 4G VOLTE PLUS NEGRO KIT",
+          "serie": "359181550578251",
           "fecha_alta": "2024-05-11",
           "fecha_compra": "2024-05-11",
           "factura": "965726",
@@ -697,19 +697,7 @@
         {
           "codigo": "70022261",
           "nombre": "SENWA 4G VOLTE PLUS NEGRO KIT",
-          "serie": "359181550305531",
-          "fecha_alta": "2024-06-26",
-          "fecha_compra": "2024-06-26",
-          "factura": "1002053",
-          "dias": 677,
-          "costo": 393.75,
-          "lista_f": 0.0,
-          "antiguedad": "1-3 años"
-        },
-        {
-          "codigo": "70022261",
-          "nombre": "SENWA 4G VOLTE PLUS NEGRO KIT",
-          "serie": "359181550295930",
+          "serie": "359181550297001",
           "fecha_alta": "2024-06-26",
           "fecha_compra": "2024-06-26",
           "factura": "1002053",
@@ -733,7 +721,19 @@
         {
           "codigo": "70022261",
           "nombre": "SENWA 4G VOLTE PLUS NEGRO KIT",
-          "serie": "359181550297001",
+          "serie": "359181550295930",
+          "fecha_alta": "2024-06-26",
+          "fecha_compra": "2024-06-26",
+          "factura": "1002053",
+          "dias": 677,
+          "costo": 393.75,
+          "lista_f": 0.0,
+          "antiguedad": "1-3 años"
+        },
+        {
+          "codigo": "70022261",
+          "nombre": "SENWA 4G VOLTE PLUS NEGRO KIT",
+          "serie": "359181550305531",
           "fecha_alta": "2024-06-26",
           "fecha_compra": "2024-06-26",
           "factura": "1002053",
@@ -911,42 +911,6 @@
           "antiguedad": "1-3 meses"
         },
         {
-          "codigo": "70020267",
-          "nombre": "SENWA 2G S301A DISCO NEGRO/ROJO KIT",
-          "serie": "356539408867346",
-          "fecha_alta": "2026-04-15",
-          "fecha_compra": "2026-04-15",
-          "factura": "1652367",
-          "dias": 19,
-          "costo": 162.33,
-          "lista_f": 0.0,
-          "antiguedad": "<1 mes"
-        },
-        {
-          "codigo": "70020268",
-          "nombre": "SENWA 2G S301A DISCO NEGRO/AZUL KIT",
-          "serie": "356539409272348",
-          "fecha_alta": "2026-04-15",
-          "fecha_compra": "2026-04-15",
-          "factura": "1652367",
-          "dias": 19,
-          "costo": 162.33,
-          "lista_f": 0.0,
-          "antiguedad": "<1 mes"
-        },
-        {
-          "codigo": "70020268",
-          "nombre": "SENWA 2G S301A DISCO NEGRO/AZUL KIT",
-          "serie": "356539409254684",
-          "fecha_alta": "2026-04-15",
-          "fecha_compra": "2026-04-15",
-          "factura": "1652367",
-          "dias": 19,
-          "costo": 162.33,
-          "lista_f": 0.0,
-          "antiguedad": "<1 mes"
-        },
-        {
           "codigo": "70020268",
           "nombre": "SENWA 2G S301A DISCO NEGRO/AZUL KIT",
           "serie": "356539409272165",
@@ -961,7 +925,31 @@
         {
           "codigo": "70020267",
           "nombre": "SENWA 2G S301A DISCO NEGRO/ROJO KIT",
+          "serie": "356539408867346",
+          "fecha_alta": "2026-04-15",
+          "fecha_compra": "2026-04-15",
+          "factura": "1652367",
+          "dias": 19,
+          "costo": 162.33,
+          "lista_f": 0.0,
+          "antiguedad": "<1 mes"
+        },
+        {
+          "codigo": "70020267",
+          "nombre": "SENWA 2G S301A DISCO NEGRO/ROJO KIT",
           "serie": "356539408641162",
+          "fecha_alta": "2026-04-15",
+          "fecha_compra": "2026-04-15",
+          "factura": "1652367",
+          "dias": 19,
+          "costo": 162.33,
+          "lista_f": 0.0,
+          "antiguedad": "<1 mes"
+        },
+        {
+          "codigo": "70020268",
+          "nombre": "SENWA 2G S301A DISCO NEGRO/AZUL KIT",
+          "serie": "356539409272348",
           "fecha_alta": "2026-04-15",
           "fecha_compra": "2026-04-15",
           "factura": "1652367",
@@ -995,6 +983,18 @@
           "antiguedad": "<1 mes"
         },
         {
+          "codigo": "70020268",
+          "nombre": "SENWA 2G S301A DISCO NEGRO/AZUL KIT",
+          "serie": "356539409254684",
+          "fecha_alta": "2026-04-15",
+          "fecha_compra": "2026-04-15",
+          "factura": "1652367",
+          "dias": 19,
+          "costo": 162.33,
+          "lista_f": 0.0,
+          "antiguedad": "<1 mes"
+        },
+        {
           "codigo": "71002169",
           "nombre": "ZTE 4G Z2466 BLADE A35E 64GB VERDE IU",
           "serie": "864065073236711",
@@ -1003,6 +1003,18 @@
           "factura": "1660153",
           "dias": 11,
           "costo": 969.18,
+          "lista_f": 0.0,
+          "antiguedad": "<1 mes"
+        },
+        {
+          "codigo": "71001888",
+          "nombre": "ZTE 4G Z2459 AXON 70 256 VDE HB WATCH IU",
+          "serie": "867323072659327",
+          "fecha_alta": "2026-04-23",
+          "fecha_compra": "2026-04-23",
+          "factura": "1660153",
+          "dias": 11,
+          "costo": 2757.93,
           "lista_f": 0.0,
           "antiguedad": "<1 mes"
         },
@@ -1029,26 +1041,14 @@
           "costo": 969.18,
           "lista_f": 0.0,
           "antiguedad": "<1 mes"
-        },
-        {
-          "codigo": "71001888",
-          "nombre": "ZTE 4G Z2459 AXON 70 256 VDE HB WATCH IU",
-          "serie": "867323072659327",
-          "fecha_alta": "2026-04-23",
-          "fecha_compra": "2026-04-23",
-          "factura": "1660153",
-          "dias": 11,
-          "costo": 2757.93,
-          "lista_f": 0.0,
-          "antiguedad": "<1 mes"
         }
       ]
     },
     {
       "sucursal": "TECALITLAN",
-      "unidades": 49,
+      "unidades": 48,
       "modelos_distintos": 21,
-      "costo_total": 44845.14,
+      "costo_total": 44544.02,
       "items": [
         {
           "codigo": "70015440",
@@ -1161,18 +1161,6 @@
         {
           "codigo": "70016532",
           "nombre": "I MOBIL GSM IM220 NEGRO/VERDE KIT",
-          "serie": "355402119089364",
-          "fecha_alta": "2024-09-18",
-          "fecha_compra": "2024-09-18",
-          "factura": "1080005",
-          "dias": 593,
-          "costo": 180.43,
-          "lista_f": 0.0,
-          "antiguedad": "1-3 años"
-        },
-        {
-          "codigo": "70016532",
-          "nombre": "I MOBIL GSM IM220 NEGRO/VERDE KIT",
           "serie": "355402119081023",
           "fecha_alta": "2024-09-18",
           "fecha_compra": "2024-09-18",
@@ -1207,6 +1195,18 @@
           "antiguedad": "1-3 años"
         },
         {
+          "codigo": "70016532",
+          "nombre": "I MOBIL GSM IM220 NEGRO/VERDE KIT",
+          "serie": "355402119089364",
+          "fecha_alta": "2024-09-18",
+          "fecha_compra": "2024-09-18",
+          "factura": "1080005",
+          "dias": 593,
+          "costo": 180.43,
+          "lista_f": 0.0,
+          "antiguedad": "1-3 años"
+        },
+        {
           "codigo": "70016444",
           "nombre": "KODAK 3-G KD50 NEGRO/AMARILLO KIT",
           "serie": "356221112351509",
@@ -1221,31 +1221,19 @@
         {
           "codigo": "70023390",
           "nombre": "I MOBIL 4G IM421 128MB NEGRO KIT",
-          "serie": "358897660262848",
-          "fecha_alta": "2025-01-22",
-          "fecha_compra": "2025-01-22",
-          "factura": "1213409",
-          "dias": 467,
-          "costo": 301.12,
-          "lista_f": 0.0,
-          "antiguedad": "1-3 años"
-        },
-        {
-          "codigo": "70023390",
-          "nombre": "I MOBIL 4G IM421 128MB NEGRO KIT",
-          "serie": "358897660265544",
-          "fecha_alta": "2025-01-22",
-          "fecha_compra": "2025-01-22",
-          "factura": "1213409",
-          "dias": 467,
-          "costo": 301.12,
-          "lista_f": 0.0,
-          "antiguedad": "1-3 años"
-        },
-        {
-          "codigo": "70023390",
-          "nombre": "I MOBIL 4G IM421 128MB NEGRO KIT",
           "serie": "358897660269330",
+          "fecha_alta": "2025-01-22",
+          "fecha_compra": "2025-01-22",
+          "factura": "1213409",
+          "dias": 467,
+          "costo": 301.12,
+          "lista_f": 0.0,
+          "antiguedad": "1-3 años"
+        },
+        {
+          "codigo": "70023390",
+          "nombre": "I MOBIL 4G IM421 128MB NEGRO KIT",
+          "serie": "358897660262848",
           "fecha_alta": "2025-01-22",
           "fecha_compra": "2025-01-22",
           "factura": "1213409",
@@ -1281,7 +1269,31 @@
         {
           "codigo": "70011646",
           "nombre": "DOPPIO GSM F1811 NEGRO KIT",
+          "serie": "351649645008276",
+          "fecha_alta": "2025-02-26",
+          "fecha_compra": "2025-02-26",
+          "factura": "1246044",
+          "dias": 432,
+          "costo": 180.43,
+          "lista_f": 101.99,
+          "antiguedad": "1-3 años"
+        },
+        {
+          "codigo": "70011646",
+          "nombre": "DOPPIO GSM F1811 NEGRO KIT",
           "serie": "351649645023515",
+          "fecha_alta": "2025-02-26",
+          "fecha_compra": "2025-02-26",
+          "factura": "1246044",
+          "dias": 432,
+          "costo": 180.43,
+          "lista_f": 101.99,
+          "antiguedad": "1-3 años"
+        },
+        {
+          "codigo": "70011646",
+          "nombre": "DOPPIO GSM F1811 NEGRO KIT",
+          "serie": "351649645008458",
           "fecha_alta": "2025-02-26",
           "fecha_compra": "2025-02-26",
           "factura": "1246044",
@@ -1303,15 +1315,15 @@
           "antiguedad": "1-3 años"
         },
         {
-          "codigo": "70011646",
-          "nombre": "DOPPIO GSM F1811 NEGRO KIT",
-          "serie": "351649645008276",
+          "codigo": "70020268",
+          "nombre": "SENWA 2G S301A DISCO NEGRO/AZUL KIT",
+          "serie": "356539406065281",
           "fecha_alta": "2025-02-26",
           "fecha_compra": "2025-02-26",
           "factura": "1246044",
           "dias": 432,
-          "costo": 180.43,
-          "lista_f": 101.99,
+          "costo": 162.33,
+          "lista_f": 0.0,
           "antiguedad": "1-3 años"
         },
         {
@@ -1327,18 +1339,6 @@
           "antiguedad": "1-3 años"
         },
         {
-          "codigo": "70011646",
-          "nombre": "DOPPIO GSM F1811 NEGRO KIT",
-          "serie": "351649645008458",
-          "fecha_alta": "2025-02-26",
-          "fecha_compra": "2025-02-26",
-          "factura": "1246044",
-          "dias": 432,
-          "costo": 180.43,
-          "lista_f": 101.99,
-          "antiguedad": "1-3 años"
-        },
-        {
           "codigo": "70020268",
           "nombre": "SENWA 2G S301A DISCO NEGRO/AZUL KIT",
           "serie": "356539406073772",
@@ -1351,15 +1351,39 @@
           "antiguedad": "1-3 años"
         },
         {
-          "codigo": "70020268",
-          "nombre": "SENWA 2G S301A DISCO NEGRO/AZUL KIT",
-          "serie": "356539406065281",
-          "fecha_alta": "2025-02-26",
-          "fecha_compra": "2025-02-26",
-          "factura": "1246044",
-          "dias": 432,
+          "codigo": "70011646",
+          "nombre": "DOPPIO GSM F1811 NEGRO KIT",
+          "serie": "351649645025197",
+          "fecha_alta": "2025-04-23",
+          "fecha_compra": "2025-04-23",
+          "factura": "1291597",
+          "dias": 376,
           "costo": 162.33,
-          "lista_f": 0.0,
+          "lista_f": 101.99,
+          "antiguedad": "1-3 años"
+        },
+        {
+          "codigo": "70011646",
+          "nombre": "DOPPIO GSM F1811 NEGRO KIT",
+          "serie": "351649645002352",
+          "fecha_alta": "2025-04-23",
+          "fecha_compra": "2025-04-23",
+          "factura": "1291597",
+          "dias": 376,
+          "costo": 162.33,
+          "lista_f": 101.99,
+          "antiguedad": "1-3 años"
+        },
+        {
+          "codigo": "70011646",
+          "nombre": "DOPPIO GSM F1811 NEGRO KIT",
+          "serie": "351649645027102",
+          "fecha_alta": "2025-04-23",
+          "fecha_compra": "2025-04-23",
+          "factura": "1291597",
+          "dias": 376,
+          "costo": 162.33,
+          "lista_f": 101.99,
           "antiguedad": "1-3 años"
         },
         {
@@ -1387,42 +1411,6 @@
           "antiguedad": "1-3 años"
         },
         {
-          "codigo": "70011646",
-          "nombre": "DOPPIO GSM F1811 NEGRO KIT",
-          "serie": "351649645025197",
-          "fecha_alta": "2025-04-23",
-          "fecha_compra": "2025-04-23",
-          "factura": "1291597",
-          "dias": 376,
-          "costo": 162.33,
-          "lista_f": 101.99,
-          "antiguedad": "1-3 años"
-        },
-        {
-          "codigo": "70011646",
-          "nombre": "DOPPIO GSM F1811 NEGRO KIT",
-          "serie": "351649645027102",
-          "fecha_alta": "2025-04-23",
-          "fecha_compra": "2025-04-23",
-          "factura": "1291597",
-          "dias": 376,
-          "costo": 162.33,
-          "lista_f": 101.99,
-          "antiguedad": "1-3 años"
-        },
-        {
-          "codigo": "70011646",
-          "nombre": "DOPPIO GSM F1811 NEGRO KIT",
-          "serie": "351649645002352",
-          "fecha_alta": "2025-04-23",
-          "fecha_compra": "2025-04-23",
-          "factura": "1291597",
-          "dias": 376,
-          "costo": 162.33,
-          "lista_f": 101.99,
-          "antiguedad": "1-3 años"
-        },
-        {
           "codigo": "70023723",
           "nombre": "MOTOROLA 4G XT2423-1 MOTO G24 AZUL KIT",
           "serie": "356485737070824",
@@ -1430,6 +1418,18 @@
           "fecha_compra": "2025-07-07",
           "factura": "1360079",
           "dias": 301,
+          "costo": 1615.73,
+          "lista_f": 0.0,
+          "antiguedad": "6-12 meses"
+        },
+        {
+          "codigo": "71001680",
+          "nombre": "MOTOROLA 4G XT2523-2 G05 128GB VERDE IU",
+          "serie": "359488356093876",
+          "fecha_alta": "2025-07-08",
+          "fecha_compra": "2025-07-08",
+          "factura": "1361180",
+          "dias": 300,
           "costo": 1615.73,
           "lista_f": 0.0,
           "antiguedad": "6-12 meses"
@@ -1450,18 +1450,6 @@
           "codigo": "71001680",
           "nombre": "MOTOROLA 4G XT2523-2 G05 128GB VERDE IU",
           "serie": "359488356093983",
-          "fecha_alta": "2025-07-08",
-          "fecha_compra": "2025-07-08",
-          "factura": "1361180",
-          "dias": 300,
-          "costo": 1615.73,
-          "lista_f": 0.0,
-          "antiguedad": "6-12 meses"
-        },
-        {
-          "codigo": "71001680",
-          "nombre": "MOTOROLA 4G XT2523-2 G05 128GB VERDE IU",
-          "serie": "359488356093876",
           "fecha_alta": "2025-07-08",
           "fecha_compra": "2025-07-08",
           "factura": "1361180",
@@ -1495,18 +1483,6 @@
           "antiguedad": "6-12 meses"
         },
         {
-          "codigo": "71002266",
-          "nombre": "SAMSUNG 5G SM-A266M A26 128GB NEGRO IU",
-          "serie": "350182150953869",
-          "fecha_alta": "2025-08-20",
-          "fecha_compra": "2025-08-20",
-          "factura": "1403320",
-          "dias": 257,
-          "costo": 3619.96,
-          "lista_f": 0.0,
-          "antiguedad": "6-12 meses"
-        },
-        {
           "codigo": "71002043",
           "nombre": "OPPO 4G CPH2711 A5 PRO AZUL IU",
           "serie": "869697073656905",
@@ -1515,6 +1491,18 @@
           "factura": "1403320",
           "dias": 257,
           "costo": 3982.04,
+          "lista_f": 0.0,
+          "antiguedad": "6-12 meses"
+        },
+        {
+          "codigo": "71002266",
+          "nombre": "SAMSUNG 5G SM-A266M A26 128GB NEGRO IU",
+          "serie": "350182150953869",
+          "fecha_alta": "2025-08-20",
+          "fecha_compra": "2025-08-20",
+          "factura": "1403320",
+          "dias": 257,
+          "costo": 3619.96,
           "lista_f": 0.0,
           "antiguedad": "6-12 meses"
         },
@@ -1528,6 +1516,18 @@
           "dias": 248,
           "costo": 4787.84,
           "lista_f": 5619.83,
+          "antiguedad": "6-12 meses"
+        },
+        {
+          "codigo": "71000243",
+          "nombre": "XIAOMI 4G 24049RN28L REDMI 13 DORADO IU",
+          "serie": "862552077331061",
+          "fecha_alta": "2025-09-11",
+          "fecha_compra": "2025-09-11",
+          "factura": "1425053",
+          "dias": 235,
+          "costo": 2620.0,
+          "lista_f": 0.0,
           "antiguedad": "6-12 meses"
         },
         {
@@ -1567,18 +1567,6 @@
           "antiguedad": "6-12 meses"
         },
         {
-          "codigo": "71000243",
-          "nombre": "XIAOMI 4G 24049RN28L REDMI 13 DORADO IU",
-          "serie": "862552077331061",
-          "fecha_alta": "2025-09-11",
-          "fecha_compra": "2025-09-11",
-          "factura": "1425053",
-          "dias": 235,
-          "costo": 2620.0,
-          "lista_f": 0.0,
-          "antiguedad": "6-12 meses"
-        },
-        {
           "codigo": "70023629",
           "nombre": "HUAWEI 4G B320-523 BLANCO KIT",
           "serie": "868940061097828",
@@ -1605,18 +1593,6 @@
         {
           "codigo": "70020267",
           "nombre": "SENWA 2G S301A DISCO NEGRO/ROJO KIT",
-          "serie": "356539408167200",
-          "fecha_alta": "2026-05-09",
-          "fecha_compra": "2026-05-09",
-          "factura": "1676023",
-          "dias": 5,
-          "costo": 162.33,
-          "lista_f": 0.0,
-          "antiguedad": "<1 mes"
-        },
-        {
-          "codigo": "70020267",
-          "nombre": "SENWA 2G S301A DISCO NEGRO/ROJO KIT",
           "serie": "356539408876909",
           "fecha_alta": "2026-05-09",
           "fecha_compra": "2026-05-09",
@@ -1630,6 +1606,18 @@
           "codigo": "70020267",
           "nombre": "SENWA 2G S301A DISCO NEGRO/ROJO KIT",
           "serie": "356539408875257",
+          "fecha_alta": "2026-05-09",
+          "fecha_compra": "2026-05-09",
+          "factura": "1676023",
+          "dias": 5,
+          "costo": 162.33,
+          "lista_f": 0.0,
+          "antiguedad": "<1 mes"
+        },
+        {
+          "codigo": "70020267",
+          "nombre": "SENWA 2G S301A DISCO NEGRO/ROJO KIT",
+          "serie": "356539408167200",
           "fecha_alta": "2026-05-09",
           "fecha_compra": "2026-05-09",
           "factura": "1676023",
@@ -1673,7 +1661,7 @@
         {
           "codigo": "70023390",
           "nombre": "I MOBIL 4G IM421 128MB NEGRO KIT",
-          "serie": "358897660278323",
+          "serie": "358897660293892",
           "fecha_alta": "2026-07-06",
           "fecha_compra": "2026-07-06",
           "factura": "1736053",
@@ -1685,7 +1673,7 @@
         {
           "codigo": "70023390",
           "nombre": "I MOBIL 4G IM421 128MB NEGRO KIT",
-          "serie": "358897660293892",
+          "serie": "358897660278323",
           "fecha_alta": "2026-07-06",
           "fecha_compra": "2026-07-06",
           "factura": "1736053",
@@ -1731,6 +1719,18 @@
           "antiguedad": "6-12 meses"
         },
         {
+          "codigo": "70023723",
+          "nombre": "MOTOROLA 4G XT2423-1 MOTO G24 AZUL KIT",
+          "serie": "356485738682999",
+          "fecha_alta": "2025-07-12",
+          "fecha_compra": "2025-07-12",
+          "factura": "1364557",
+          "dias": 296,
+          "costo": 2068.27,
+          "lista_f": 0.0,
+          "antiguedad": "6-12 meses"
+        },
+        {
           "codigo": "70024114",
           "nombre": "ZTE 4G Z2350 AXON 60 LITE MORADO KIT",
           "serie": "865881073014752",
@@ -1743,14 +1743,14 @@
           "antiguedad": "6-12 meses"
         },
         {
-          "codigo": "70023723",
-          "nombre": "MOTOROLA 4G XT2423-1 MOTO G24 AZUL KIT",
-          "serie": "356485738682999",
-          "fecha_alta": "2025-07-12",
-          "fecha_compra": "2025-07-12",
-          "factura": "1364557",
-          "dias": 296,
-          "costo": 2068.27,
+          "codigo": "70016532",
+          "nombre": "I MOBIL GSM IM220 NEGRO/VERDE KIT",
+          "serie": "354785430023976",
+          "fecha_alta": "2026-07-06",
+          "fecha_compra": "2026-07-06",
+          "factura": "1736053",
+          "dias": 280,
+          "costo": 180.43,
           "lista_f": 0.0,
           "antiguedad": "6-12 meses"
         },
@@ -1770,18 +1770,6 @@
           "codigo": "70016532",
           "nombre": "I MOBIL GSM IM220 NEGRO/VERDE KIT",
           "serie": "354785430064566",
-          "fecha_alta": "2026-07-06",
-          "fecha_compra": "2026-07-06",
-          "factura": "1736053",
-          "dias": 280,
-          "costo": 180.43,
-          "lista_f": 0.0,
-          "antiguedad": "6-12 meses"
-        },
-        {
-          "codigo": "70016532",
-          "nombre": "I MOBIL GSM IM220 NEGRO/VERDE KIT",
-          "serie": "354785430023976",
           "fecha_alta": "2026-07-06",
           "fecha_compra": "2026-07-06",
           "factura": "1736053",
@@ -1901,7 +1889,7 @@
         {
           "codigo": "70020267",
           "nombre": "SENWA 2G S301A DISCO NEGRO/ROJO KIT",
-          "serie": "356539408031331",
+          "serie": "356539408166897",
           "fecha_alta": "2026-04-30",
           "fecha_compra": "2026-04-30",
           "factura": "1667931",
@@ -1913,7 +1901,7 @@
         {
           "codigo": "70020267",
           "nombre": "SENWA 2G S301A DISCO NEGRO/ROJO KIT",
-          "serie": "356539408166897",
+          "serie": "356539408031331",
           "fecha_alta": "2026-04-30",
           "fecha_compra": "2026-04-30",
           "factura": "1667931",
@@ -1979,18 +1967,6 @@
           "antiguedad": "1-3 años"
         },
         {
-          "codigo": "4894947086939",
-          "nombre": "INFINIX GT 30 PRO GAME KIT (12+12)GB 256 GB 5G NEGRO LATINO",
-          "serie": "359154430126757",
-          "fecha_alta": "2025-08-25",
-          "fecha_compra": "2025-08-25",
-          "factura": "1408395",
-          "dias": 252,
-          "costo": 4440.27,
-          "lista_f": 5300.86,
-          "antiguedad": "6-12 meses"
-        },
-        {
           "codigo": "4894947094613",
           "nombre": "INFINIX GT 30 PRO GAME KIT (12+12) GB 512 GB 5G NEGRO NACIONAL",
           "serie": "359154430137507",
@@ -2000,6 +1976,18 @@
           "dias": 252,
           "costo": 4787.84,
           "lista_f": 5619.83,
+          "antiguedad": "6-12 meses"
+        },
+        {
+          "codigo": "4894947086939",
+          "nombre": "INFINIX GT 30 PRO GAME KIT (12+12)GB 256 GB 5G NEGRO LATINO",
+          "serie": "359154430126757",
+          "fecha_alta": "2025-08-25",
+          "fecha_compra": "2025-08-25",
+          "factura": "1408395",
+          "dias": 252,
+          "costo": 4440.27,
+          "lista_f": 5300.86,
           "antiguedad": "6-12 meses"
         },
         {
@@ -2181,7 +2169,7 @@
         {
           "codigo": "70022261",
           "nombre": "SENWA 4G VOLTE PLUS NEGRO KIT",
-          "serie": "359181550569128",
+          "serie": "359181550609874",
           "fecha_alta": "2024-06-24",
           "fecha_compra": "2024-06-24",
           "factura": "1000182",
@@ -2193,7 +2181,7 @@
         {
           "codigo": "70022261",
           "nombre": "SENWA 4G VOLTE PLUS NEGRO KIT",
-          "serie": "359181550609874",
+          "serie": "359181550569128",
           "fecha_alta": "2024-06-24",
           "fecha_compra": "2024-06-24",
           "factura": "1000182",
@@ -2277,7 +2265,7 @@
         {
           "codigo": "70022261",
           "nombre": "SENWA 4G VOLTE PLUS NEGRO KIT",
-          "serie": "359181550544618",
+          "serie": "359181550294172",
           "fecha_alta": "2026-02-05",
           "fecha_compra": "2026-02-05",
           "factura": "1584588",
@@ -2289,7 +2277,7 @@
         {
           "codigo": "70022261",
           "nombre": "SENWA 4G VOLTE PLUS NEGRO KIT",
-          "serie": "359181550294172",
+          "serie": "359181550544618",
           "fecha_alta": "2026-02-05",
           "fecha_compra": "2026-02-05",
           "factura": "1584588",
@@ -2325,7 +2313,7 @@
         {
           "codigo": "70015844",
           "nombre": "I MOBIL GSM IM220 NEGRO/AZUL KIT",
-          "serie": "354785433340286",
+          "serie": "354785433388319",
           "fecha_alta": "2026-08-11",
           "fecha_compra": "2026-08-11",
           "factura": "1772787",
@@ -2349,7 +2337,7 @@
         {
           "codigo": "70015844",
           "nombre": "I MOBIL GSM IM220 NEGRO/AZUL KIT",
-          "serie": "354785433388319",
+          "serie": "354785433340286",
           "fecha_alta": "2026-08-11",
           "fecha_compra": "2026-08-11",
           "factura": "1772787",
@@ -2451,18 +2439,6 @@
           "antiguedad": "6-12 meses"
         },
         {
-          "codigo": "70016532",
-          "nombre": "I MOBIL GSM IM220 NEGRO/VERDE KIT",
-          "serie": "354785430064590",
-          "fecha_alta": "2025-09-11",
-          "fecha_compra": "2025-09-11",
-          "factura": "1425025",
-          "dias": 235,
-          "costo": 180.43,
-          "lista_f": 0.0,
-          "antiguedad": "6-12 meses"
-        },
-        {
           "codigo": "70015844",
           "nombre": "I MOBIL GSM IM220 NEGRO/AZUL KIT",
           "serie": "355402119741188",
@@ -2471,6 +2447,18 @@
           "factura": "1425025",
           "dias": 235,
           "costo": 215.87,
+          "lista_f": 0.0,
+          "antiguedad": "6-12 meses"
+        },
+        {
+          "codigo": "70016532",
+          "nombre": "I MOBIL GSM IM220 NEGRO/VERDE KIT",
+          "serie": "354785430064590",
+          "fecha_alta": "2025-09-11",
+          "fecha_compra": "2025-09-11",
+          "factura": "1425025",
+          "dias": 235,
+          "costo": 180.43,
           "lista_f": 0.0,
           "antiguedad": "6-12 meses"
         },
@@ -2569,7 +2557,7 @@
         {
           "codigo": "70011646",
           "nombre": "DOPPIO GSM F1811 NEGRO KIT",
-          "serie": "353761326201183",
+          "serie": "351649640087465",
           "fecha_alta": "2025-08-06",
           "fecha_compra": "2025-08-06",
           "factura": "1389057",
@@ -2582,6 +2570,18 @@
           "codigo": "70011646",
           "nombre": "DOPPIO GSM F1811 NEGRO KIT",
           "serie": "353761325104222",
+          "fecha_alta": "2025-08-06",
+          "fecha_compra": "2025-08-06",
+          "factura": "1389057",
+          "dias": 271,
+          "costo": 222.67,
+          "lista_f": 101.99,
+          "antiguedad": "6-12 meses"
+        },
+        {
+          "codigo": "70011646",
+          "nombre": "DOPPIO GSM F1811 NEGRO KIT",
+          "serie": "353761326201183",
           "fecha_alta": "2025-08-06",
           "fecha_compra": "2025-08-06",
           "factura": "1389057",
@@ -2615,69 +2615,9 @@
           "antiguedad": "6-12 meses"
         },
         {
-          "codigo": "70011646",
-          "nombre": "DOPPIO GSM F1811 NEGRO KIT",
-          "serie": "351649640087465",
-          "fecha_alta": "2025-08-06",
-          "fecha_compra": "2025-08-06",
-          "factura": "1389057",
-          "dias": 271,
-          "costo": 222.67,
-          "lista_f": 101.99,
-          "antiguedad": "6-12 meses"
-        },
-        {
-          "codigo": "70023390",
-          "nombre": "I MOBIL 4G IM421 128MB NEGRO KIT",
-          "serie": "358897660265452",
-          "fecha_alta": "2025-08-08",
-          "fecha_compra": "2025-08-08",
-          "factura": "1390305",
-          "dias": 269,
-          "costo": 301.12,
-          "lista_f": 0.0,
-          "antiguedad": "6-12 meses"
-        },
-        {
           "codigo": "70023390",
           "nombre": "I MOBIL 4G IM421 128MB NEGRO KIT",
           "serie": "358897660265734",
-          "fecha_alta": "2025-08-08",
-          "fecha_compra": "2025-08-08",
-          "factura": "1390305",
-          "dias": 269,
-          "costo": 301.12,
-          "lista_f": 0.0,
-          "antiguedad": "6-12 meses"
-        },
-        {
-          "codigo": "70023390",
-          "nombre": "I MOBIL 4G IM421 128MB NEGRO KIT",
-          "serie": "358897660260461",
-          "fecha_alta": "2025-08-08",
-          "fecha_compra": "2025-08-08",
-          "factura": "1390305",
-          "dias": 269,
-          "costo": 301.12,
-          "lista_f": 0.0,
-          "antiguedad": "6-12 meses"
-        },
-        {
-          "codigo": "70023390",
-          "nombre": "I MOBIL 4G IM421 128MB NEGRO KIT",
-          "serie": "358897660297406",
-          "fecha_alta": "2025-08-08",
-          "fecha_compra": "2025-08-08",
-          "factura": "1390305",
-          "dias": 269,
-          "costo": 301.12,
-          "lista_f": 0.0,
-          "antiguedad": "6-12 meses"
-        },
-        {
-          "codigo": "70023390",
-          "nombre": "I MOBIL 4G IM421 128MB NEGRO KIT",
-          "serie": "358897660263234",
           "fecha_alta": "2025-08-08",
           "fecha_compra": "2025-08-08",
           "factura": "1390305",
@@ -2701,7 +2641,55 @@
         {
           "codigo": "70023390",
           "nombre": "I MOBIL 4G IM421 128MB NEGRO KIT",
+          "serie": "358897660297406",
+          "fecha_alta": "2025-08-08",
+          "fecha_compra": "2025-08-08",
+          "factura": "1390305",
+          "dias": 269,
+          "costo": 301.12,
+          "lista_f": 0.0,
+          "antiguedad": "6-12 meses"
+        },
+        {
+          "codigo": "70023390",
+          "nombre": "I MOBIL 4G IM421 128MB NEGRO KIT",
+          "serie": "358897660260461",
+          "fecha_alta": "2025-08-08",
+          "fecha_compra": "2025-08-08",
+          "factura": "1390305",
+          "dias": 269,
+          "costo": 301.12,
+          "lista_f": 0.0,
+          "antiguedad": "6-12 meses"
+        },
+        {
+          "codigo": "70023390",
+          "nombre": "I MOBIL 4G IM421 128MB NEGRO KIT",
           "serie": "358897660264216",
+          "fecha_alta": "2025-08-08",
+          "fecha_compra": "2025-08-08",
+          "factura": "1390305",
+          "dias": 269,
+          "costo": 301.12,
+          "lista_f": 0.0,
+          "antiguedad": "6-12 meses"
+        },
+        {
+          "codigo": "70023390",
+          "nombre": "I MOBIL 4G IM421 128MB NEGRO KIT",
+          "serie": "358897660265452",
+          "fecha_alta": "2025-08-08",
+          "fecha_compra": "2025-08-08",
+          "factura": "1390305",
+          "dias": 269,
+          "costo": 301.12,
+          "lista_f": 0.0,
+          "antiguedad": "6-12 meses"
+        },
+        {
+          "codigo": "70023390",
+          "nombre": "I MOBIL 4G IM421 128MB NEGRO KIT",
+          "serie": "358897660263234",
           "fecha_alta": "2025-08-08",
           "fecha_compra": "2025-08-08",
           "factura": "1390305",
@@ -2773,18 +2761,6 @@
         {
           "codigo": "70020267",
           "nombre": "SENWA 2G S301A DISCO NEGRO/ROJO KIT",
-          "serie": "356539408826045",
-          "fecha_alta": "2026-04-30",
-          "fecha_compra": "2026-04-30",
-          "factura": "1668062",
-          "dias": 4,
-          "costo": 162.33,
-          "lista_f": 0.0,
-          "antiguedad": "<1 mes"
-        },
-        {
-          "codigo": "70020267",
-          "nombre": "SENWA 2G S301A DISCO NEGRO/ROJO KIT",
           "serie": "356539408647193",
           "fecha_alta": "2026-04-30",
           "fecha_compra": "2026-04-30",
@@ -2798,6 +2774,18 @@
           "codigo": "70020267",
           "nombre": "SENWA 2G S301A DISCO NEGRO/ROJO KIT",
           "serie": "356539408878517",
+          "fecha_alta": "2026-04-30",
+          "fecha_compra": "2026-04-30",
+          "factura": "1668062",
+          "dias": 4,
+          "costo": 162.33,
+          "lista_f": 0.0,
+          "antiguedad": "<1 mes"
+        },
+        {
+          "codigo": "70020267",
+          "nombre": "SENWA 2G S301A DISCO NEGRO/ROJO KIT",
+          "serie": "356539408826045",
           "fecha_alta": "2026-04-30",
           "fecha_compra": "2026-04-30",
           "factura": "1668062",
@@ -2865,18 +2853,6 @@
         {
           "codigo": "70022261",
           "nombre": "SENWA 4G VOLTE PLUS NEGRO KIT",
-          "serie": "359181550383405",
-          "fecha_alta": "2024-04-24",
-          "fecha_compra": "2024-04-24",
-          "factura": "953684",
-          "dias": 740,
-          "costo": 393.75,
-          "lista_f": 0.0,
-          "antiguedad": "1-3 años"
-        },
-        {
-          "codigo": "70022261",
-          "nombre": "SENWA 4G VOLTE PLUS NEGRO KIT",
           "serie": "359181550364850",
           "fecha_alta": "2024-04-24",
           "fecha_compra": "2024-04-24",
@@ -2890,6 +2866,18 @@
           "codigo": "70022261",
           "nombre": "SENWA 4G VOLTE PLUS NEGRO KIT",
           "serie": "359181550385111",
+          "fecha_alta": "2024-04-24",
+          "fecha_compra": "2024-04-24",
+          "factura": "953684",
+          "dias": 740,
+          "costo": 393.75,
+          "lista_f": 0.0,
+          "antiguedad": "1-3 años"
+        },
+        {
+          "codigo": "70022261",
+          "nombre": "SENWA 4G VOLTE PLUS NEGRO KIT",
+          "serie": "359181550383405",
           "fecha_alta": "2024-04-24",
           "fecha_compra": "2024-04-24",
           "factura": "953684",
@@ -2925,7 +2913,7 @@
         {
           "codigo": "70022258",
           "nombre": "SENWA 4G VOLTE BLANCO/VERDE KIT",
-          "serie": "353144850545236",
+          "serie": "353144850537134",
           "fecha_alta": "2024-09-04",
           "fecha_compra": "2024-09-04",
           "factura": "1066323",
@@ -2937,7 +2925,7 @@
         {
           "codigo": "70022258",
           "nombre": "SENWA 4G VOLTE BLANCO/VERDE KIT",
-          "serie": "353144850537134",
+          "serie": "353144850545236",
           "fecha_alta": "2024-09-04",
           "fecha_compra": "2024-09-04",
           "factura": "1066323",
@@ -2961,7 +2949,7 @@
         {
           "codigo": "70023390",
           "nombre": "I MOBIL 4G IM421 128MB NEGRO KIT",
-          "serie": "358897660289338",
+          "serie": "358897660286797",
           "fecha_alta": "2025-01-22",
           "fecha_compra": "2025-01-22",
           "factura": "1213489",
@@ -2973,7 +2961,7 @@
         {
           "codigo": "70023390",
           "nombre": "I MOBIL 4G IM421 128MB NEGRO KIT",
-          "serie": "358897660286797",
+          "serie": "358897660289338",
           "fecha_alta": "2025-01-22",
           "fecha_compra": "2025-01-22",
           "factura": "1213489",
@@ -2995,15 +2983,15 @@
           "antiguedad": "1-3 años"
         },
         {
-          "codigo": "70020268",
-          "nombre": "SENWA 2G S301A DISCO NEGRO/AZUL KIT",
-          "serie": "356539405995306",
+          "codigo": "70011646",
+          "nombre": "DOPPIO GSM F1811 NEGRO KIT",
+          "serie": "351649645003855",
           "fecha_alta": "2025-02-26",
           "fecha_compra": "2025-02-26",
           "factura": "1245581",
           "dias": 432,
-          "costo": 162.33,
-          "lista_f": 0.0,
+          "costo": 180.43,
+          "lista_f": 101.99,
           "antiguedad": "1-3 años"
         },
         {
@@ -3019,15 +3007,15 @@
           "antiguedad": "1-3 años"
         },
         {
-          "codigo": "70011646",
-          "nombre": "DOPPIO GSM F1811 NEGRO KIT",
-          "serie": "351649645003855",
+          "codigo": "70020268",
+          "nombre": "SENWA 2G S301A DISCO NEGRO/AZUL KIT",
+          "serie": "356539405995306",
           "fecha_alta": "2025-02-26",
           "fecha_compra": "2025-02-26",
           "factura": "1245581",
           "dias": 432,
-          "costo": 180.43,
-          "lista_f": 101.99,
+          "costo": 162.33,
+          "lista_f": 0.0,
           "antiguedad": "1-3 años"
         },
         {
@@ -3069,6 +3057,30 @@
         {
           "codigo": "70016532",
           "nombre": "I MOBIL GSM IM220 NEGRO/VERDE KIT",
+          "serie": "355402119083110",
+          "fecha_alta": "2025-07-25",
+          "fecha_compra": "2025-07-25",
+          "factura": "1376730",
+          "dias": 283,
+          "costo": 180.43,
+          "lista_f": 0.0,
+          "antiguedad": "6-12 meses"
+        },
+        {
+          "codigo": "70016532",
+          "nombre": "I MOBIL GSM IM220 NEGRO/VERDE KIT",
+          "serie": "355402119078201",
+          "fecha_alta": "2025-07-25",
+          "fecha_compra": "2025-07-25",
+          "factura": "1376730",
+          "dias": 283,
+          "costo": 180.43,
+          "lista_f": 0.0,
+          "antiguedad": "6-12 meses"
+        },
+        {
+          "codigo": "70016532",
+          "nombre": "I MOBIL GSM IM220 NEGRO/VERDE KIT",
           "serie": "354785430093599",
           "fecha_alta": "2025-07-25",
           "fecha_compra": "2025-07-25",
@@ -3093,31 +3105,7 @@
         {
           "codigo": "70016532",
           "nombre": "I MOBIL GSM IM220 NEGRO/VERDE KIT",
-          "serie": "355402119078201",
-          "fecha_alta": "2025-07-25",
-          "fecha_compra": "2025-07-25",
-          "factura": "1376730",
-          "dias": 283,
-          "costo": 180.43,
-          "lista_f": 0.0,
-          "antiguedad": "6-12 meses"
-        },
-        {
-          "codigo": "70016532",
-          "nombre": "I MOBIL GSM IM220 NEGRO/VERDE KIT",
           "serie": "355402119083102",
-          "fecha_alta": "2025-07-25",
-          "fecha_compra": "2025-07-25",
-          "factura": "1376730",
-          "dias": 283,
-          "costo": 180.43,
-          "lista_f": 0.0,
-          "antiguedad": "6-12 meses"
-        },
-        {
-          "codigo": "70016532",
-          "nombre": "I MOBIL GSM IM220 NEGRO/VERDE KIT",
-          "serie": "355402119083110",
           "fecha_alta": "2025-07-25",
           "fecha_compra": "2025-07-25",
           "factura": "1376730",
@@ -3207,26 +3195,26 @@
       "costo_total": 16678.09,
       "items": [
         {
-          "codigo": "70015844",
-          "nombre": "I MOBIL GSM IM220 NEGRO/AZUL KIT",
-          "serie": "355402118026433",
+          "codigo": "70022261",
+          "nombre": "SENWA 4G VOLTE PLUS NEGRO KIT",
+          "serie": "359181550635630",
           "fecha_alta": "2025-02-16",
           "fecha_compra": "2025-02-16",
-          "factura": "1236335",
+          "factura": "1236341",
           "dias": 442,
-          "costo": 224.48,
+          "costo": 0.0,
           "lista_f": 0.0,
           "antiguedad": "1-3 años"
         },
         {
-          "codigo": "70023390",
-          "nombre": "I MOBIL 4G IM421 128MB NEGRO KIT",
-          "serie": "358897660287498",
+          "codigo": "70015844",
+          "nombre": "I MOBIL GSM IM220 NEGRO/AZUL KIT",
+          "serie": "354785430389294",
           "fecha_alta": "2025-02-16",
           "fecha_compra": "2025-02-16",
-          "factura": "1236343",
+          "factura": "1236335",
           "dias": 442,
-          "costo": 301.12,
+          "costo": 215.87,
           "lista_f": 0.0,
           "antiguedad": "1-3 años"
         },
@@ -3243,9 +3231,117 @@
           "antiguedad": "1-3 años"
         },
         {
+          "codigo": "70015844",
+          "nombre": "I MOBIL GSM IM220 NEGRO/AZUL KIT",
+          "serie": "355402118047983",
+          "fecha_alta": "2025-02-16",
+          "fecha_compra": "2025-02-16",
+          "factura": "1236335",
+          "dias": 442,
+          "costo": 224.48,
+          "lista_f": 0.0,
+          "antiguedad": "1-3 años"
+        },
+        {
+          "codigo": "70015844",
+          "nombre": "I MOBIL GSM IM220 NEGRO/AZUL KIT",
+          "serie": "354785430389237",
+          "fecha_alta": "2025-02-16",
+          "fecha_compra": "2025-02-16",
+          "factura": "1236335",
+          "dias": 442,
+          "costo": 210.6,
+          "lista_f": 0.0,
+          "antiguedad": "1-3 años"
+        },
+        {
+          "codigo": "70022261",
+          "nombre": "SENWA 4G VOLTE PLUS NEGRO KIT",
+          "serie": "359181550635192",
+          "fecha_alta": "2025-02-16",
+          "fecha_compra": "2025-02-16",
+          "factura": "1236341",
+          "dias": 442,
+          "costo": 0.0,
+          "lista_f": 0.0,
+          "antiguedad": "1-3 años"
+        },
+        {
+          "codigo": "70022261",
+          "nombre": "SENWA 4G VOLTE PLUS NEGRO KIT",
+          "serie": "359181550543743",
+          "fecha_alta": "2025-02-16",
+          "fecha_compra": "2025-02-16",
+          "factura": "1236338",
+          "dias": 442,
+          "costo": 0.0,
+          "lista_f": 0.0,
+          "antiguedad": "1-3 años"
+        },
+        {
+          "codigo": "70015844",
+          "nombre": "I MOBIL GSM IM220 NEGRO/AZUL KIT",
+          "serie": "354785430389245",
+          "fecha_alta": "2025-02-16",
+          "fecha_compra": "2025-02-16",
+          "factura": "1236335",
+          "dias": 442,
+          "costo": 215.87,
+          "lista_f": 0.0,
+          "antiguedad": "1-3 años"
+        },
+        {
+          "codigo": "70022261",
+          "nombre": "SENWA 4G VOLTE PLUS NEGRO KIT",
+          "serie": "359181550542000",
+          "fecha_alta": "2025-02-16",
+          "fecha_compra": "2025-02-16",
+          "factura": "1236338",
+          "dias": 442,
+          "costo": 0.0,
+          "lista_f": 0.0,
+          "antiguedad": "1-3 años"
+        },
+        {
+          "codigo": "70014658",
+          "nombre": "SAMSUNG LTE SM-A705MN GALAX A70 BLAN KIT",
+          "serie": "351781110363405",
+          "fecha_alta": "2025-02-16",
+          "fecha_compra": "2025-02-16",
+          "factura": "1236375",
+          "dias": 442,
+          "costo": 0.0,
+          "lista_f": 7012.42,
+          "antiguedad": "1-3 años"
+        },
+        {
+          "codigo": "70015844",
+          "nombre": "I MOBIL GSM IM220 NEGRO/AZUL KIT",
+          "serie": "355402118026433",
+          "fecha_alta": "2025-02-16",
+          "fecha_compra": "2025-02-16",
+          "factura": "1236335",
+          "dias": 442,
+          "costo": 224.48,
+          "lista_f": 0.0,
+          "antiguedad": "1-3 años"
+        },
+        {
+          "codigo": "70015844",
+          "nombre": "I MOBIL GSM IM220 NEGRO/AZUL KIT",
+          "serie": "354785430389997",
+          "fecha_alta": "2025-02-16",
+          "fecha_compra": "2025-02-16",
+          "factura": "1236335",
+          "dias": 442,
+          "costo": 215.87,
+          "lista_f": 0.0,
+          "antiguedad": "1-3 años"
+        },
+        {
           "codigo": "70023390",
           "nombre": "I MOBIL 4G IM421 128MB NEGRO KIT",
-          "serie": "358897660291326",
+          "serie": "358897660287498",
           "fecha_alta": "2025-02-16",
           "fecha_compra": "2025-02-16",
           "factura": "1236343",
@@ -3267,123 +3363,27 @@
           "antiguedad": "1-3 años"
         },
         {
-          "codigo": "70015844",
-          "nombre": "I MOBIL GSM IM220 NEGRO/AZUL KIT",
-          "serie": "354785430389245",
+          "codigo": "70023390",
+          "nombre": "I MOBIL 4G IM421 128MB NEGRO KIT",
+          "serie": "358897660291326",
           "fecha_alta": "2025-02-16",
           "fecha_compra": "2025-02-16",
-          "factura": "1236335",
+          "factura": "1236343",
           "dias": 442,
-          "costo": 215.87,
+          "costo": 301.12,
           "lista_f": 0.0,
           "antiguedad": "1-3 años"
         },
         {
-          "codigo": "70015844",
-          "nombre": "I MOBIL GSM IM220 NEGRO/AZUL KIT",
-          "serie": "354785430389997",
-          "fecha_alta": "2025-02-16",
-          "fecha_compra": "2025-02-16",
-          "factura": "1236335",
-          "dias": 442,
-          "costo": 215.87,
-          "lista_f": 0.0,
-          "antiguedad": "1-3 años"
-        },
-        {
-          "codigo": "70015844",
-          "nombre": "I MOBIL GSM IM220 NEGRO/AZUL KIT",
-          "serie": "354785430389237",
-          "fecha_alta": "2025-02-16",
-          "fecha_compra": "2025-02-16",
-          "factura": "1236335",
-          "dias": 442,
-          "costo": 210.6,
-          "lista_f": 0.0,
-          "antiguedad": "1-3 años"
-        },
-        {
-          "codigo": "70015844",
-          "nombre": "I MOBIL GSM IM220 NEGRO/AZUL KIT",
-          "serie": "355402118047983",
-          "fecha_alta": "2025-02-16",
-          "fecha_compra": "2025-02-16",
-          "factura": "1236335",
-          "dias": 442,
-          "costo": 224.48,
-          "lista_f": 0.0,
-          "antiguedad": "1-3 años"
-        },
-        {
-          "codigo": "70015844",
-          "nombre": "I MOBIL GSM IM220 NEGRO/AZUL KIT",
-          "serie": "354785430389294",
-          "fecha_alta": "2025-02-16",
-          "fecha_compra": "2025-02-16",
-          "factura": "1236335",
-          "dias": 442,
-          "costo": 215.87,
-          "lista_f": 0.0,
-          "antiguedad": "1-3 años"
-        },
-        {
-          "codigo": "70022261",
-          "nombre": "SENWA 4G VOLTE PLUS NEGRO KIT",
-          "serie": "359181550635630",
-          "fecha_alta": "2025-02-16",
-          "fecha_compra": "2025-02-16",
-          "factura": "1236341",
-          "dias": 442,
-          "costo": 0.0,
-          "lista_f": 0.0,
-          "antiguedad": "1-3 años"
-        },
-        {
-          "codigo": "70014658",
-          "nombre": "SAMSUNG LTE SM-A705MN GALAX A70 BLAN KIT",
-          "serie": "351781110363405",
-          "fecha_alta": "2025-02-16",
-          "fecha_compra": "2025-02-16",
-          "factura": "1236375",
-          "dias": 442,
-          "costo": 0.0,
-          "lista_f": 7012.42,
-          "antiguedad": "1-3 años"
-        },
-        {
-          "codigo": "70022261",
-          "nombre": "SENWA 4G VOLTE PLUS NEGRO KIT",
-          "serie": "359181550542000",
-          "fecha_alta": "2025-02-16",
-          "fecha_compra": "2025-02-16",
-          "factura": "1236338",
-          "dias": 442,
-          "costo": 0.0,
-          "lista_f": 0.0,
-          "antiguedad": "1-3 años"
-        },
-        {
-          "codigo": "70022261",
-          "nombre": "SENWA 4G VOLTE PLUS NEGRO KIT",
-          "serie": "359181550543743",
-          "fecha_alta": "2025-02-16",
-          "fecha_compra": "2025-02-16",
-          "factura": "1236338",
-          "dias": 442,
-          "costo": 0.0,
-          "lista_f": 0.0,
-          "antiguedad": "1-3 años"
-        },
-        {
-          "codigo": "70022261",
-          "nombre": "SENWA 4G VOLTE PLUS NEGRO KIT",
-          "serie": "359181550635192",
-          "fecha_alta": "2025-02-16",
-          "fecha_compra": "2025-02-16",
-          "factura": "1236341",
-          "dias": 442,
-          "costo": 0.0,
-          "lista_f": 0.0,
+          "codigo": "70011646",
+          "nombre": "DOPPIO GSM F1811 NEGRO KIT",
+          "serie": "351649645032631",
+          "fecha_alta": "2025-04-23",
+          "fecha_compra": "2025-04-23",
+          "factura": "1291533",
+          "dias": 376,
+          "costo": 162.33,
+          "lista_f": 101.99,
           "antiguedad": "1-3 años"
         },
         {
@@ -3423,16 +3423,40 @@
           "antiguedad": "1-3 años"
         },
         {
-          "codigo": "70011646",
-          "nombre": "DOPPIO GSM F1811 NEGRO KIT",
-          "serie": "351649645032631",
-          "fecha_alta": "2025-04-23",
-          "fecha_compra": "2025-04-23",
-          "factura": "1291533",
-          "dias": 376,
-          "costo": 162.33,
-          "lista_f": 101.99,
-          "antiguedad": "1-3 años"
+          "codigo": "70016532",
+          "nombre": "I MOBIL GSM IM220 NEGRO/VERDE KIT",
+          "serie": "354785430085421",
+          "fecha_alta": "2025-07-25",
+          "fecha_compra": "2025-07-25",
+          "factura": "1376940",
+          "dias": 283,
+          "costo": 180.43,
+          "lista_f": 0.0,
+          "antiguedad": "6-12 meses"
+        },
+        {
+          "codigo": "70016532",
+          "nombre": "I MOBIL GSM IM220 NEGRO/VERDE KIT",
+          "serie": "354785430093441",
+          "fecha_alta": "2025-07-25",
+          "fecha_compra": "2025-07-25",
+          "factura": "1376940",
+          "dias": 283,
+          "costo": 180.43,
+          "lista_f": 0.0,
+          "antiguedad": "6-12 meses"
+        },
+        {
+          "codigo": "70016532",
+          "nombre": "I MOBIL GSM IM220 NEGRO/VERDE KIT",
+          "serie": "354785430100253",
+          "fecha_alta": "2025-07-25",
+          "fecha_compra": "2025-07-25",
+          "factura": "1376940",
+          "dias": 283,
+          "costo": 180.43,
+          "lista_f": 0.0,
+          "antiguedad": "6-12 meses"
         },
         {
           "codigo": "70016532",
@@ -3461,43 +3485,7 @@
         {
           "codigo": "70016532",
           "nombre": "I MOBIL GSM IM220 NEGRO/VERDE KIT",
-          "serie": "354785430093441",
-          "fecha_alta": "2025-07-25",
-          "fecha_compra": "2025-07-25",
-          "factura": "1376940",
-          "dias": 283,
-          "costo": 180.43,
-          "lista_f": 0.0,
-          "antiguedad": "6-12 meses"
-        },
-        {
-          "codigo": "70016532",
-          "nombre": "I MOBIL GSM IM220 NEGRO/VERDE KIT",
           "serie": "354785430093474",
-          "fecha_alta": "2025-07-25",
-          "fecha_compra": "2025-07-25",
-          "factura": "1376940",
-          "dias": 283,
-          "costo": 180.43,
-          "lista_f": 0.0,
-          "antiguedad": "6-12 meses"
-        },
-        {
-          "codigo": "70016532",
-          "nombre": "I MOBIL GSM IM220 NEGRO/VERDE KIT",
-          "serie": "354785430100253",
-          "fecha_alta": "2025-07-25",
-          "fecha_compra": "2025-07-25",
-          "factura": "1376940",
-          "dias": 283,
-          "costo": 180.43,
-          "lista_f": 0.0,
-          "antiguedad": "6-12 meses"
-        },
-        {
-          "codigo": "70016532",
-          "nombre": "I MOBIL GSM IM220 NEGRO/VERDE KIT",
-          "serie": "354785430085421",
           "fecha_alta": "2025-07-25",
           "fecha_compra": "2025-07-25",
           "factura": "1376940",
@@ -3519,18 +3507,6 @@
           "antiguedad": "6-12 meses"
         },
         {
-          "codigo": "70017604",
-          "nombre": "ZTE LTE BLADE A51 64GB AZUL KIT",
-          "serie": "865959053169042",
-          "fecha_alta": "2025-09-11",
-          "fecha_compra": "2025-09-11",
-          "factura": "1425054",
-          "dias": 235,
-          "costo": 1615.73,
-          "lista_f": 0.0,
-          "antiguedad": "6-12 meses"
-        },
-        {
           "codigo": "70020186",
           "nombre": "MOTOROLA 5G XT2245-1 EDGE 30 NEO NEG KIT",
           "serie": "357398931086356",
@@ -3543,14 +3519,14 @@
           "antiguedad": "6-12 meses"
         },
         {
-          "codigo": "70016532",
-          "nombre": "I MOBIL GSM IM220 NEGRO/VERDE KIT",
-          "serie": "354785430039212",
-          "fecha_alta": "2025-09-15",
-          "fecha_compra": "2025-09-15",
-          "factura": "1428847",
-          "dias": 231,
-          "costo": 180.43,
+          "codigo": "70017604",
+          "nombre": "ZTE LTE BLADE A51 64GB AZUL KIT",
+          "serie": "865959053169042",
+          "fecha_alta": "2025-09-11",
+          "fecha_compra": "2025-09-11",
+          "factura": "1425054",
+          "dias": 235,
+          "costo": 1615.73,
           "lista_f": 0.0,
           "antiguedad": "6-12 meses"
         },
@@ -3579,9 +3555,21 @@
           "antiguedad": "6-12 meses"
         },
         {
-          "codigo": "70020268",
-          "nombre": "SENWA 2G S301A DISCO NEGRO/AZUL KIT",
-          "serie": "356539409272280",
+          "codigo": "70016532",
+          "nombre": "I MOBIL GSM IM220 NEGRO/VERDE KIT",
+          "serie": "354785430039212",
+          "fecha_alta": "2025-09-15",
+          "fecha_compra": "2025-09-15",
+          "factura": "1428847",
+          "dias": 231,
+          "costo": 180.43,
+          "lista_f": 0.0,
+          "antiguedad": "6-12 meses"
+        },
+        {
+          "codigo": "70020267",
+          "nombre": "SENWA 2G S301A DISCO NEGRO/ROJO KIT",
+          "serie": "356539408867353",
           "fecha_alta": "2026-04-15",
           "fecha_compra": "2026-04-15",
           "factura": "1652361",
@@ -3603,9 +3591,9 @@
           "antiguedad": "<1 mes"
         },
         {
-          "codigo": "70020267",
-          "nombre": "SENWA 2G S301A DISCO NEGRO/ROJO KIT",
-          "serie": "356539408867353",
+          "codigo": "70020268",
+          "nombre": "SENWA 2G S301A DISCO NEGRO/AZUL KIT",
+          "serie": "356539409272280",
           "fecha_alta": "2026-04-15",
           "fecha_compra": "2026-04-15",
           "factura": "1652361",
@@ -3625,7 +3613,7 @@
         {
           "codigo": "70022261",
           "nombre": "SENWA 4G VOLTE PLUS NEGRO KIT",
-          "serie": "359181550294727",
+          "serie": "359181550340520",
           "fecha_alta": "2024-05-13",
           "fecha_compra": "2024-05-13",
           "factura": "967500",
@@ -3637,7 +3625,7 @@
         {
           "codigo": "70022261",
           "nombre": "SENWA 4G VOLTE PLUS NEGRO KIT",
-          "serie": "359181550340520",
+          "serie": "359181550294727",
           "fecha_alta": "2024-05-13",
           "fecha_compra": "2024-05-13",
           "factura": "967500",
@@ -3719,45 +3707,21 @@
           "antiguedad": "1-3 años"
         },
         {
-          "codigo": "70020268",
-          "nombre": "SENWA 2G S301A DISCO NEGRO/AZUL KIT",
-          "serie": "356539406062148",
+          "codigo": "70011646",
+          "nombre": "DOPPIO GSM F1811 NEGRO KIT",
+          "serie": "351649644999426",
           "fecha_alta": "2025-02-26",
           "fecha_compra": "2025-02-26",
           "factura": "1246079",
           "dias": 432,
-          "costo": 162.33,
-          "lista_f": 0.0,
+          "costo": 180.43,
+          "lista_f": 101.99,
           "antiguedad": "1-3 años"
         },
         {
           "codigo": "70011646",
           "nombre": "DOPPIO GSM F1811 NEGRO KIT",
           "serie": "351649645000877",
-          "fecha_alta": "2025-02-26",
-          "fecha_compra": "2025-02-26",
-          "factura": "1246079",
-          "dias": 432,
-          "costo": 180.43,
-          "lista_f": 101.99,
-          "antiguedad": "1-3 años"
-        },
-        {
-          "codigo": "70011646",
-          "nombre": "DOPPIO GSM F1811 NEGRO KIT",
-          "serie": "351649644998709",
-          "fecha_alta": "2025-02-26",
-          "fecha_compra": "2025-02-26",
-          "factura": "1246079",
-          "dias": 432,
-          "costo": 180.43,
-          "lista_f": 101.99,
-          "antiguedad": "1-3 años"
-        },
-        {
-          "codigo": "70011646",
-          "nombre": "DOPPIO GSM F1811 NEGRO KIT",
-          "serie": "351649644999426",
           "fecha_alta": "2025-02-26",
           "fecha_compra": "2025-02-26",
           "factura": "1246079",
@@ -3781,7 +3745,31 @@
         {
           "codigo": "70011646",
           "nombre": "DOPPIO GSM F1811 NEGRO KIT",
-          "serie": "351649645026252",
+          "serie": "351649644998709",
+          "fecha_alta": "2025-02-26",
+          "fecha_compra": "2025-02-26",
+          "factura": "1246079",
+          "dias": 432,
+          "costo": 180.43,
+          "lista_f": 101.99,
+          "antiguedad": "1-3 años"
+        },
+        {
+          "codigo": "70020268",
+          "nombre": "SENWA 2G S301A DISCO NEGRO/AZUL KIT",
+          "serie": "356539406062148",
+          "fecha_alta": "2025-02-26",
+          "fecha_compra": "2025-02-26",
+          "factura": "1246079",
+          "dias": 432,
+          "costo": 162.33,
+          "lista_f": 0.0,
+          "antiguedad": "1-3 años"
+        },
+        {
+          "codigo": "70011646",
+          "nombre": "DOPPIO GSM F1811 NEGRO KIT",
+          "serie": "351649645024877",
           "fecha_alta": "2025-04-23",
           "fecha_compra": "2025-04-23",
           "factura": "1291607",
@@ -3805,7 +3793,7 @@
         {
           "codigo": "70011646",
           "nombre": "DOPPIO GSM F1811 NEGRO KIT",
-          "serie": "351649645004028",
+          "serie": "351649645026252",
           "fecha_alta": "2025-04-23",
           "fecha_compra": "2025-04-23",
           "factura": "1291607",
@@ -3817,7 +3805,7 @@
         {
           "codigo": "70011646",
           "nombre": "DOPPIO GSM F1811 NEGRO KIT",
-          "serie": "351649645024877",
+          "serie": "351649645004028",
           "fecha_alta": "2025-04-23",
           "fecha_compra": "2025-04-23",
           "factura": "1291607",
@@ -3925,7 +3913,7 @@
         {
           "codigo": "70020267",
           "nombre": "SENWA 2G S301A DISCO NEGRO/ROJO KIT",
-          "serie": "356539408164280",
+          "serie": "356539408164082",
           "fecha_alta": "2026-04-29",
           "fecha_compra": "2026-04-29",
           "factura": "1667468",
@@ -3949,7 +3937,7 @@
         {
           "codigo": "70020267",
           "nombre": "SENWA 2G S301A DISCO NEGRO/ROJO KIT",
-          "serie": "356539408164793",
+          "serie": "356539408164280",
           "fecha_alta": "2026-04-29",
           "fecha_compra": "2026-04-29",
           "factura": "1667468",
@@ -3961,7 +3949,7 @@
         {
           "codigo": "70020267",
           "nombre": "SENWA 2G S301A DISCO NEGRO/ROJO KIT",
-          "serie": "356539408164082",
+          "serie": "356539408164793",
           "fecha_alta": "2026-04-29",
           "fecha_compra": "2026-04-29",
           "factura": "1667468",
@@ -4095,18 +4083,6 @@
       "costo_total": 12384.43,
       "items": [
         {
-          "codigo": "70013976",
-          "nombre": "NYX MOBILE LTE CLICK GRIS OBSCURO KIT",
-          "serie": "351781090030461",
-          "fecha_alta": "2025-01-13",
-          "fecha_compra": "2025-01-13",
-          "factura": "1204702",
-          "dias": 476,
-          "costo": 285.03,
-          "lista_f": 309.83,
-          "antiguedad": "1-3 años"
-        },
-        {
           "codigo": "70011646",
           "nombre": "DOPPIO GSM F1811 NEGRO KIT",
           "serie": "351649642632565",
@@ -4119,33 +4095,21 @@
           "antiguedad": "1-3 años"
         },
         {
-          "codigo": "70012667",
-          "nombre": "SENWA 3-G S319T FUSION NEGRO KIT",
-          "serie": "352308092941005",
+          "codigo": "70013976",
+          "nombre": "NYX MOBILE LTE CLICK GRIS OBSCURO KIT",
+          "serie": "351781090030461",
           "fecha_alta": "2025-01-13",
           "fecha_compra": "2025-01-13",
           "factura": "1204702",
           "dias": 476,
-          "costo": 406.38,
-          "lista_f": 286.04,
+          "costo": 285.03,
+          "lista_f": 309.83,
           "antiguedad": "1-3 años"
         },
         {
           "codigo": "70016532",
           "nombre": "I MOBIL GSM IM220 NEGRO/VERDE KIT",
-          "serie": "355402119238458",
-          "fecha_alta": "2025-01-13",
-          "fecha_compra": "2025-01-13",
-          "factura": "1204702",
-          "dias": 476,
-          "costo": 180.43,
-          "lista_f": 0.0,
-          "antiguedad": "1-3 años"
-        },
-        {
-          "codigo": "70016532",
-          "nombre": "I MOBIL GSM IM220 NEGRO/VERDE KIT",
-          "serie": "355402119266657",
+          "serie": "355402119248085",
           "fecha_alta": "2025-01-13",
           "fecha_compra": "2025-01-13",
           "factura": "1204702",
@@ -4169,7 +4133,7 @@
         {
           "codigo": "70016532",
           "nombre": "I MOBIL GSM IM220 NEGRO/VERDE KIT",
-          "serie": "355402119248085",
+          "serie": "355402119266657",
           "fecha_alta": "2025-01-13",
           "fecha_compra": "2025-01-13",
           "factura": "1204702",
@@ -4203,6 +4167,18 @@
           "antiguedad": "1-3 años"
         },
         {
+          "codigo": "70012667",
+          "nombre": "SENWA 3-G S319T FUSION NEGRO KIT",
+          "serie": "352308092941005",
+          "fecha_alta": "2025-01-13",
+          "fecha_compra": "2025-01-13",
+          "factura": "1204702",
+          "dias": 476,
+          "costo": 406.38,
+          "lista_f": 286.04,
+          "antiguedad": "1-3 años"
+        },
+        {
           "codigo": "70016532",
           "nombre": "I MOBIL GSM IM220 NEGRO/VERDE KIT",
           "serie": "355402119085917",
@@ -4218,6 +4194,18 @@
           "codigo": "70016532",
           "nombre": "I MOBIL GSM IM220 NEGRO/VERDE KIT",
           "serie": "355402119238409",
+          "fecha_alta": "2025-01-13",
+          "fecha_compra": "2025-01-13",
+          "factura": "1204702",
+          "dias": 476,
+          "costo": 180.43,
+          "lista_f": 0.0,
+          "antiguedad": "1-3 años"
+        },
+        {
+          "codigo": "70016532",
+          "nombre": "I MOBIL GSM IM220 NEGRO/VERDE KIT",
+          "serie": "355402119238458",
           "fecha_alta": "2025-01-13",
           "fecha_compra": "2025-01-13",
           "factura": "1204702",
@@ -4251,54 +4239,6 @@
           "antiguedad": "1-3 años"
         },
         {
-          "codigo": "70015805",
-          "nombre": "ALCATEL LTE 5028A 1S GRIS KIT",
-          "serie": "351548110967083",
-          "fecha_alta": "2025-02-08",
-          "fecha_compra": "2025-02-08",
-          "factura": "1228882",
-          "dias": 450,
-          "costo": 856.23,
-          "lista_f": 0.0,
-          "antiguedad": "1-3 años"
-        },
-        {
-          "codigo": "70022261",
-          "nombre": "SENWA 4G VOLTE PLUS NEGRO KIT",
-          "serie": "359181550542588",
-          "fecha_alta": "2025-02-08",
-          "fecha_compra": "2025-02-08",
-          "factura": "1228882",
-          "dias": 450,
-          "costo": 393.75,
-          "lista_f": 0.0,
-          "antiguedad": "1-3 años"
-        },
-        {
-          "codigo": "70022261",
-          "nombre": "SENWA 4G VOLTE PLUS NEGRO KIT",
-          "serie": "359181550284744",
-          "fecha_alta": "2025-02-08",
-          "fecha_compra": "2025-02-08",
-          "factura": "1228882",
-          "dias": 450,
-          "costo": 393.75,
-          "lista_f": 0.0,
-          "antiguedad": "1-3 años"
-        },
-        {
-          "codigo": "70022261",
-          "nombre": "SENWA 4G VOLTE PLUS NEGRO KIT",
-          "serie": "359181550284645",
-          "fecha_alta": "2025-02-08",
-          "fecha_compra": "2025-02-08",
-          "factura": "1228882",
-          "dias": 450,
-          "costo": 393.75,
-          "lista_f": 0.0,
-          "antiguedad": "1-3 años"
-        },
-        {
           "codigo": "70016532",
           "nombre": "I MOBIL GSM IM220 NEGRO/VERDE KIT",
           "serie": "355402119248044",
@@ -4307,18 +4247,6 @@
           "factura": "1228882",
           "dias": 450,
           "costo": 180.43,
-          "lista_f": 0.0,
-          "antiguedad": "1-3 años"
-        },
-        {
-          "codigo": "70022261",
-          "nombre": "SENWA 4G VOLTE PLUS NEGRO KIT",
-          "serie": "359181550543784",
-          "fecha_alta": "2025-02-08",
-          "fecha_compra": "2025-02-08",
-          "factura": "1228882",
-          "dias": 450,
-          "costo": 393.75,
           "lista_f": 0.0,
           "antiguedad": "1-3 años"
         },
@@ -4337,7 +4265,31 @@
         {
           "codigo": "70022261",
           "nombre": "SENWA 4G VOLTE PLUS NEGRO KIT",
-          "serie": "359181550285931",
+          "serie": "359181550284553",
+          "fecha_alta": "2025-02-08",
+          "fecha_compra": "2025-02-08",
+          "factura": "1228882",
+          "dias": 450,
+          "costo": 393.75,
+          "lista_f": 0.0,
+          "antiguedad": "1-3 años"
+        },
+        {
+          "codigo": "70015805",
+          "nombre": "ALCATEL LTE 5028A 1S GRIS KIT",
+          "serie": "351548110967083",
+          "fecha_alta": "2025-02-08",
+          "fecha_compra": "2025-02-08",
+          "factura": "1228882",
+          "dias": 450,
+          "costo": 856.23,
+          "lista_f": 0.0,
+          "antiguedad": "1-3 años"
+        },
+        {
+          "codigo": "70022261",
+          "nombre": "SENWA 4G VOLTE PLUS NEGRO KIT",
+          "serie": "359181550284694",
           "fecha_alta": "2025-02-08",
           "fecha_compra": "2025-02-08",
           "factura": "1228882",
@@ -4361,7 +4313,7 @@
         {
           "codigo": "70022261",
           "nombre": "SENWA 4G VOLTE PLUS NEGRO KIT",
-          "serie": "359181550284694",
+          "serie": "359181550285931",
           "fecha_alta": "2025-02-08",
           "fecha_compra": "2025-02-08",
           "factura": "1228882",
@@ -4373,7 +4325,43 @@
         {
           "codigo": "70022261",
           "nombre": "SENWA 4G VOLTE PLUS NEGRO KIT",
-          "serie": "359181550284553",
+          "serie": "359181550543784",
+          "fecha_alta": "2025-02-08",
+          "fecha_compra": "2025-02-08",
+          "factura": "1228882",
+          "dias": 450,
+          "costo": 393.75,
+          "lista_f": 0.0,
+          "antiguedad": "1-3 años"
+        },
+        {
+          "codigo": "70022261",
+          "nombre": "SENWA 4G VOLTE PLUS NEGRO KIT",
+          "serie": "359181550284645",
+          "fecha_alta": "2025-02-08",
+          "fecha_compra": "2025-02-08",
+          "factura": "1228882",
+          "dias": 450,
+          "costo": 393.75,
+          "lista_f": 0.0,
+          "antiguedad": "1-3 años"
+        },
+        {
+          "codigo": "70022261",
+          "nombre": "SENWA 4G VOLTE PLUS NEGRO KIT",
+          "serie": "359181550284744",
+          "fecha_alta": "2025-02-08",
+          "fecha_compra": "2025-02-08",
+          "factura": "1228882",
+          "dias": 450,
+          "costo": 393.75,
+          "lista_f": 0.0,
+          "antiguedad": "1-3 años"
+        },
+        {
+          "codigo": "70022261",
+          "nombre": "SENWA 4G VOLTE PLUS NEGRO KIT",
+          "serie": "359181550542588",
           "fecha_alta": "2025-02-08",
           "fecha_compra": "2025-02-08",
           "factura": "1228882",
@@ -4457,7 +4445,19 @@
         {
           "codigo": "70016532",
           "nombre": "I MOBIL GSM IM220 NEGRO/VERDE KIT",
-          "serie": "354785430068252",
+          "serie": "354785430030948",
+          "fecha_alta": "2025-07-25",
+          "fecha_compra": "2025-07-25",
+          "factura": "1376764",
+          "dias": 283,
+          "costo": 180.43,
+          "lista_f": 0.0,
+          "antiguedad": "6-12 meses"
+        },
+        {
+          "codigo": "70016532",
+          "nombre": "I MOBIL GSM IM220 NEGRO/VERDE KIT",
+          "serie": "354785430068229",
           "fecha_alta": "2025-07-25",
           "fecha_compra": "2025-07-25",
           "factura": "1376764",
@@ -4470,6 +4470,30 @@
           "codigo": "70016532",
           "nombre": "I MOBIL GSM IM220 NEGRO/VERDE KIT",
           "serie": "354785430068278",
+          "fecha_alta": "2025-07-25",
+          "fecha_compra": "2025-07-25",
+          "factura": "1376764",
+          "dias": 283,
+          "costo": 180.43,
+          "lista_f": 0.0,
+          "antiguedad": "6-12 meses"
+        },
+        {
+          "codigo": "70016532",
+          "nombre": "I MOBIL GSM IM220 NEGRO/VERDE KIT",
+          "serie": "354785430068252",
+          "fecha_alta": "2025-07-25",
+          "fecha_compra": "2025-07-25",
+          "factura": "1376764",
+          "dias": 283,
+          "costo": 180.43,
+          "lista_f": 0.0,
+          "antiguedad": "6-12 meses"
+        },
+        {
+          "codigo": "70016532",
+          "nombre": "I MOBIL GSM IM220 NEGRO/VERDE KIT",
+          "serie": "354785430068260",
           "fecha_alta": "2025-07-25",
           "fecha_compra": "2025-07-25",
           "factura": "1376764",
@@ -4505,35 +4529,11 @@
         {
           "codigo": "70016532",
           "nombre": "I MOBIL GSM IM220 NEGRO/VERDE KIT",
-          "serie": "354785430068229",
-          "fecha_alta": "2025-07-25",
-          "fecha_compra": "2025-07-25",
-          "factura": "1376764",
-          "dias": 283,
-          "costo": 180.43,
-          "lista_f": 0.0,
-          "antiguedad": "6-12 meses"
-        },
-        {
-          "codigo": "70016532",
-          "nombre": "I MOBIL GSM IM220 NEGRO/VERDE KIT",
-          "serie": "354785430068260",
-          "fecha_alta": "2025-07-25",
-          "fecha_compra": "2025-07-25",
-          "factura": "1376764",
-          "dias": 283,
-          "costo": 180.43,
-          "lista_f": 0.0,
-          "antiguedad": "6-12 meses"
-        },
-        {
-          "codigo": "70016532",
-          "nombre": "I MOBIL GSM IM220 NEGRO/VERDE KIT",
-          "serie": "354785430030948",
-          "fecha_alta": "2025-07-25",
-          "fecha_compra": "2025-07-25",
-          "factura": "1376764",
-          "dias": 283,
+          "serie": "354785430092112",
+          "fecha_alta": "2025-10-08",
+          "fecha_compra": "2025-10-08",
+          "factura": "1453089",
+          "dias": 208,
           "costo": 180.43,
           "lista_f": 0.0,
           "antiguedad": "6-12 meses"
@@ -4551,30 +4551,6 @@
           "antiguedad": "6-12 meses"
         },
         {
-          "codigo": "70016532",
-          "nombre": "I MOBIL GSM IM220 NEGRO/VERDE KIT",
-          "serie": "354785430100386",
-          "fecha_alta": "2025-10-08",
-          "fecha_compra": "2025-10-08",
-          "factura": "1453089",
-          "dias": 208,
-          "costo": 180.43,
-          "lista_f": 0.0,
-          "antiguedad": "6-12 meses"
-        },
-        {
-          "codigo": "70016532",
-          "nombre": "I MOBIL GSM IM220 NEGRO/VERDE KIT",
-          "serie": "354785430092112",
-          "fecha_alta": "2025-10-08",
-          "fecha_compra": "2025-10-08",
-          "factura": "1453089",
-          "dias": 208,
-          "costo": 180.43,
-          "lista_f": 0.0,
-          "antiguedad": "6-12 meses"
-        },
-        {
           "codigo": "70023629",
           "nombre": "HUAWEI 4G B320-523 BLANCO KIT",
           "serie": "868940061098123",
@@ -4583,6 +4559,18 @@
           "factura": "1453089",
           "dias": 208,
           "costo": 1053.23,
+          "lista_f": 0.0,
+          "antiguedad": "6-12 meses"
+        },
+        {
+          "codigo": "70016532",
+          "nombre": "I MOBIL GSM IM220 NEGRO/VERDE KIT",
+          "serie": "354785430100386",
+          "fecha_alta": "2025-10-08",
+          "fecha_compra": "2025-10-08",
+          "factura": "1453089",
+          "dias": 208,
+          "costo": 180.43,
           "lista_f": 0.0,
           "antiguedad": "6-12 meses"
         },
@@ -4609,31 +4597,7 @@
         {
           "codigo": "70022261",
           "nombre": "SENWA 4G VOLTE PLUS NEGRO KIT",
-          "serie": "359181550548809",
-          "fecha_alta": "2025-10-06",
-          "fecha_compra": "2025-10-06",
-          "factura": "1450651",
-          "dias": 210,
-          "costo": 393.75,
-          "lista_f": 0.0,
-          "antiguedad": "6-12 meses"
-        },
-        {
-          "codigo": "70022261",
-          "nombre": "SENWA 4G VOLTE PLUS NEGRO KIT",
-          "serie": "359181550548791",
-          "fecha_alta": "2025-10-06",
-          "fecha_compra": "2025-10-06",
-          "factura": "1450651",
-          "dias": 210,
-          "costo": 393.75,
-          "lista_f": 0.0,
-          "antiguedad": "6-12 meses"
-        },
-        {
-          "codigo": "70022261",
-          "nombre": "SENWA 4G VOLTE PLUS NEGRO KIT",
-          "serie": "359181550549732",
+          "serie": "359181550548700",
           "fecha_alta": "2025-10-06",
           "fecha_compra": "2025-10-06",
           "factura": "1450651",
@@ -4657,6 +4621,18 @@
         {
           "codigo": "70022261",
           "nombre": "SENWA 4G VOLTE PLUS NEGRO KIT",
+          "serie": "359181550548809",
+          "fecha_alta": "2025-10-06",
+          "fecha_compra": "2025-10-06",
+          "factura": "1450651",
+          "dias": 210,
+          "costo": 393.75,
+          "lista_f": 0.0,
+          "antiguedad": "6-12 meses"
+        },
+        {
+          "codigo": "70022261",
+          "nombre": "SENWA 4G VOLTE PLUS NEGRO KIT",
           "serie": "359181550549542",
           "fecha_alta": "2025-10-06",
           "fecha_compra": "2025-10-06",
@@ -4669,7 +4645,7 @@
         {
           "codigo": "70022261",
           "nombre": "SENWA 4G VOLTE PLUS NEGRO KIT",
-          "serie": "359181550548700",
+          "serie": "359181550548791",
           "fecha_alta": "2025-10-06",
           "fecha_compra": "2025-10-06",
           "factura": "1450651",
@@ -4693,18 +4669,6 @@
         {
           "codigo": "70022261",
           "nombre": "SENWA 4G VOLTE PLUS NEGRO KIT",
-          "serie": "359181550548718",
-          "fecha_alta": "2025-10-06",
-          "fecha_compra": "2025-10-06",
-          "factura": "1450651",
-          "dias": 210,
-          "costo": 393.75,
-          "lista_f": 0.0,
-          "antiguedad": "6-12 meses"
-        },
-        {
-          "codigo": "70022261",
-          "nombre": "SENWA 4G VOLTE PLUS NEGRO KIT",
           "serie": "359181550548205",
           "fecha_alta": "2025-10-06",
           "fecha_compra": "2025-10-06",
@@ -4717,7 +4681,31 @@
         {
           "codigo": "70022261",
           "nombre": "SENWA 4G VOLTE PLUS NEGRO KIT",
+          "serie": "359181550548718",
+          "fecha_alta": "2025-10-06",
+          "fecha_compra": "2025-10-06",
+          "factura": "1450651",
+          "dias": 210,
+          "costo": 393.75,
+          "lista_f": 0.0,
+          "antiguedad": "6-12 meses"
+        },
+        {
+          "codigo": "70022261",
+          "nombre": "SENWA 4G VOLTE PLUS NEGRO KIT",
           "serie": "359181550548254",
+          "fecha_alta": "2025-10-06",
+          "fecha_compra": "2025-10-06",
+          "factura": "1450651",
+          "dias": 210,
+          "costo": 393.75,
+          "lista_f": 0.0,
+          "antiguedad": "6-12 meses"
+        },
+        {
+          "codigo": "70022261",
+          "nombre": "SENWA 4G VOLTE PLUS NEGRO KIT",
+          "serie": "359181550549732",
           "fecha_alta": "2025-10-06",
           "fecha_compra": "2025-10-06",
           "factura": "1450651",
@@ -4893,31 +4881,7 @@
         {
           "codigo": "70022261",
           "nombre": "SENWA 4G VOLTE PLUS NEGRO KIT",
-          "serie": "359181550542760",
-          "fecha_alta": "2024-05-10",
-          "fecha_compra": "2024-05-10",
-          "factura": "965068",
-          "dias": 724,
-          "costo": 393.75,
-          "lista_f": 0.0,
-          "antiguedad": "1-3 años"
-        },
-        {
-          "codigo": "70022261",
-          "nombre": "SENWA 4G VOLTE PLUS NEGRO KIT",
           "serie": "359181550541200",
-          "fecha_alta": "2024-05-10",
-          "fecha_compra": "2024-05-10",
-          "factura": "965068",
-          "dias": 724,
-          "costo": 393.75,
-          "lista_f": 0.0,
-          "antiguedad": "1-3 años"
-        },
-        {
-          "codigo": "70022261",
-          "nombre": "SENWA 4G VOLTE PLUS NEGRO KIT",
-          "serie": "359181550544923",
           "fecha_alta": "2024-05-10",
           "fecha_compra": "2024-05-10",
           "factura": "965068",
@@ -4941,6 +4905,42 @@
         {
           "codigo": "70022261",
           "nombre": "SENWA 4G VOLTE PLUS NEGRO KIT",
+          "serie": "359181550544923",
+          "fecha_alta": "2024-05-10",
+          "fecha_compra": "2024-05-10",
+          "factura": "965068",
+          "dias": 724,
+          "costo": 393.75,
+          "lista_f": 0.0,
+          "antiguedad": "1-3 años"
+        },
+        {
+          "codigo": "70022261",
+          "nombre": "SENWA 4G VOLTE PLUS NEGRO KIT",
+          "serie": "359181550542760",
+          "fecha_alta": "2024-05-10",
+          "fecha_compra": "2024-05-10",
+          "factura": "965068",
+          "dias": 724,
+          "costo": 393.75,
+          "lista_f": 0.0,
+          "antiguedad": "1-3 años"
+        },
+        {
+          "codigo": "70022261",
+          "nombre": "SENWA 4G VOLTE PLUS NEGRO KIT",
+          "serie": "359181550287408",
+          "fecha_alta": "2024-06-26",
+          "fecha_compra": "2024-06-26",
+          "factura": "1002145",
+          "dias": 677,
+          "costo": 393.75,
+          "lista_f": 0.0,
+          "antiguedad": "1-3 años"
+        },
+        {
+          "codigo": "70022261",
+          "nombre": "SENWA 4G VOLTE PLUS NEGRO KIT",
           "serie": "359181550281104",
           "fecha_alta": "2024-06-26",
           "fecha_compra": "2024-06-26",
@@ -4953,19 +4953,7 @@
         {
           "codigo": "70022261",
           "nombre": "SENWA 4G VOLTE PLUS NEGRO KIT",
-          "serie": "359181550293976",
-          "fecha_alta": "2024-06-26",
-          "fecha_compra": "2024-06-26",
-          "factura": "1002145",
-          "dias": 677,
-          "costo": 393.75,
-          "lista_f": 0.0,
-          "antiguedad": "1-3 años"
-        },
-        {
-          "codigo": "70022261",
-          "nombre": "SENWA 4G VOLTE PLUS NEGRO KIT",
-          "serie": "359181550287408",
+          "serie": "359181550294214",
           "fecha_alta": "2024-06-26",
           "fecha_compra": "2024-06-26",
           "factura": "1002145",
@@ -4989,7 +4977,7 @@
         {
           "codigo": "70022261",
           "nombre": "SENWA 4G VOLTE PLUS NEGRO KIT",
-          "serie": "359181550294214",
+          "serie": "359181550293976",
           "fecha_alta": "2024-06-26",
           "fecha_compra": "2024-06-26",
           "factura": "1002145",
@@ -5013,18 +5001,6 @@
         {
           "codigo": "70016532",
           "nombre": "I MOBIL GSM IM220 NEGRO/VERDE KIT",
-          "serie": "355402119097789",
-          "fecha_alta": "2025-07-25",
-          "fecha_compra": "2025-07-25",
-          "factura": "1376918",
-          "dias": 283,
-          "costo": 180.43,
-          "lista_f": 0.0,
-          "antiguedad": "6-12 meses"
-        },
-        {
-          "codigo": "70016532",
-          "nombre": "I MOBIL GSM IM220 NEGRO/VERDE KIT",
           "serie": "354785430093458",
           "fecha_alta": "2025-07-25",
           "fecha_compra": "2025-07-25",
@@ -5037,7 +5013,7 @@
         {
           "codigo": "70016532",
           "nombre": "I MOBIL GSM IM220 NEGRO/VERDE KIT",
-          "serie": "355402119994126",
+          "serie": "355402119097789",
           "fecha_alta": "2025-07-25",
           "fecha_compra": "2025-07-25",
           "factura": "1376918",
@@ -5050,6 +5026,18 @@
           "codigo": "70016532",
           "nombre": "I MOBIL GSM IM220 NEGRO/VERDE KIT",
           "serie": "355402119090503",
+          "fecha_alta": "2025-07-25",
+          "fecha_compra": "2025-07-25",
+          "factura": "1376918",
+          "dias": 283,
+          "costo": 180.43,
+          "lista_f": 0.0,
+          "antiguedad": "6-12 meses"
+        },
+        {
+          "codigo": "70016532",
+          "nombre": "I MOBIL GSM IM220 NEGRO/VERDE KIT",
+          "serie": "355402119994126",
           "fecha_alta": "2025-07-25",
           "fecha_compra": "2025-07-25",
           "factura": "1376918",
@@ -5153,7 +5141,7 @@
         {
           "codigo": "70011646",
           "nombre": "DOPPIO GSM F1811 NEGRO KIT",
-          "serie": "351649645028795",
+          "serie": "351649645027508",
           "fecha_alta": "2025-04-24",
           "fecha_compra": "2025-04-24",
           "factura": "1291826",
@@ -5165,7 +5153,7 @@
         {
           "codigo": "70011646",
           "nombre": "DOPPIO GSM F1811 NEGRO KIT",
-          "serie": "351649645027508",
+          "serie": "351649645028795",
           "fecha_alta": "2025-04-24",
           "fecha_compra": "2025-04-24",
           "factura": "1291826",
@@ -5257,7 +5245,7 @@
         {
           "codigo": "70023390",
           "nombre": "I MOBIL 4G IM421 128MB NEGRO KIT",
-          "serie": "358897660269942",
+          "serie": "358897660293405",
           "fecha_alta": "2025-01-22",
           "fecha_compra": "2025-01-22",
           "factura": "1213469",
@@ -5269,7 +5257,7 @@
         {
           "codigo": "70023390",
           "nombre": "I MOBIL 4G IM421 128MB NEGRO KIT",
-          "serie": "358897660281905",
+          "serie": "358897660269025",
           "fecha_alta": "2025-01-22",
           "fecha_compra": "2025-01-22",
           "factura": "1213469",
@@ -5293,7 +5281,7 @@
         {
           "codigo": "70023390",
           "nombre": "I MOBIL 4G IM421 128MB NEGRO KIT",
-          "serie": "358897660293405",
+          "serie": "358897660281905",
           "fecha_alta": "2025-01-22",
           "fecha_compra": "2025-01-22",
           "factura": "1213469",
@@ -5305,7 +5293,7 @@
         {
           "codigo": "70023390",
           "nombre": "I MOBIL 4G IM421 128MB NEGRO KIT",
-          "serie": "358897660269025",
+          "serie": "358897660269942",
           "fecha_alta": "2025-01-22",
           "fecha_compra": "2025-01-22",
           "factura": "1213469",
@@ -5329,18 +5317,6 @@
         {
           "codigo": "70016532",
           "nombre": "I MOBIL GSM IM220 NEGRO/VERDE KIT",
-          "serie": "355402119110285",
-          "fecha_alta": "2025-07-25",
-          "fecha_compra": "2025-07-25",
-          "factura": "1376888",
-          "dias": 283,
-          "costo": 180.43,
-          "lista_f": 0.0,
-          "antiguedad": "6-12 meses"
-        },
-        {
-          "codigo": "70016532",
-          "nombre": "I MOBIL GSM IM220 NEGRO/VERDE KIT",
           "serie": "355402119110277",
           "fecha_alta": "2025-07-25",
           "fecha_compra": "2025-07-25",
@@ -5354,6 +5330,18 @@
           "codigo": "70016532",
           "nombre": "I MOBIL GSM IM220 NEGRO/VERDE KIT",
           "serie": "355402119110269",
+          "fecha_alta": "2025-07-25",
+          "fecha_compra": "2025-07-25",
+          "factura": "1376888",
+          "dias": 283,
+          "costo": 180.43,
+          "lista_f": 0.0,
+          "antiguedad": "6-12 meses"
+        },
+        {
+          "codigo": "70016532",
+          "nombre": "I MOBIL GSM IM220 NEGRO/VERDE KIT",
+          "serie": "355402119110285",
           "fecha_alta": "2025-07-25",
           "fecha_compra": "2025-07-25",
           "factura": "1376888",
@@ -5387,18 +5375,6 @@
           "antiguedad": "<1 mes"
         },
         {
-          "codigo": "70020267",
-          "nombre": "SENWA 2G S301A DISCO NEGRO/ROJO KIT",
-          "serie": "356539408854427",
-          "fecha_alta": "2026-04-29",
-          "fecha_compra": "2026-04-29",
-          "factura": "1667061",
-          "dias": 5,
-          "costo": 162.33,
-          "lista_f": 0.0,
-          "antiguedad": "<1 mes"
-        },
-        {
           "codigo": "70015844",
           "nombre": "I MOBIL GSM IM220 NEGRO/AZUL KIT",
           "serie": "354785433326855",
@@ -5421,6 +5397,18 @@
           "costo": 162.33,
           "lista_f": 0.0,
           "antiguedad": "<1 mes"
+        },
+        {
+          "codigo": "70020267",
+          "nombre": "SENWA 2G S301A DISCO NEGRO/ROJO KIT",
+          "serie": "356539408854427",
+          "fecha_alta": "2026-04-29",
+          "fecha_compra": "2026-04-29",
+          "factura": "1667061",
+          "dias": 5,
+          "costo": 162.33,
+          "lista_f": 0.0,
+          "antiguedad": "<1 mes"
         }
       ]
     },
@@ -5430,18 +5418,6 @@
       "modelos_distintos": 6,
       "costo_total": 7301.31,
       "items": [
-        {
-          "codigo": "70024102",
-          "nombre": "REALME 4G RMX3834 NOTE 50 AZUL KIT",
-          "serie": "867564070231730",
-          "fecha_alta": "2026-03-08",
-          "fecha_compra": "2026-03-08",
-          "factura": "1615373",
-          "dias": 57,
-          "costo": 2068.27,
-          "lista_f": 2068.27,
-          "antiguedad": "1-3 meses"
-        },
         {
           "codigo": "70015844",
           "nombre": "I MOBIL GSM IM220 NEGRO/AZUL KIT",
@@ -5467,15 +5443,15 @@
           "antiguedad": "1-3 meses"
         },
         {
-          "codigo": "70015844",
-          "nombre": "I MOBIL GSM IM220 NEGRO/AZUL KIT",
-          "serie": "354785432385803",
+          "codigo": "70024102",
+          "nombre": "REALME 4G RMX3834 NOTE 50 AZUL KIT",
+          "serie": "867564070231730",
           "fecha_alta": "2026-03-08",
           "fecha_compra": "2026-03-08",
           "factura": "1615373",
           "dias": 57,
-          "costo": 162.33,
-          "lista_f": 0.0,
+          "costo": 2068.27,
+          "lista_f": 2068.27,
           "antiguedad": "1-3 meses"
         },
         {
@@ -5499,6 +5475,18 @@
           "factura": "1615373",
           "dias": 57,
           "costo": 1930.34,
+          "lista_f": 0.0,
+          "antiguedad": "1-3 meses"
+        },
+        {
+          "codigo": "70015844",
+          "nombre": "I MOBIL GSM IM220 NEGRO/AZUL KIT",
+          "serie": "354785432385803",
+          "fecha_alta": "2026-03-08",
+          "fecha_compra": "2026-03-08",
+          "factura": "1615373",
+          "dias": 57,
+          "costo": 162.33,
           "lista_f": 0.0,
           "antiguedad": "1-3 meses"
         },
@@ -5573,18 +5561,6 @@
         {
           "codigo": "70011646",
           "nombre": "DOPPIO GSM F1811 NEGRO KIT",
-          "serie": "353761325136281",
-          "fecha_alta": "2023-02-01",
-          "fecha_compra": "2023-02-01",
-          "factura": "661672",
-          "dias": 1188,
-          "costo": 222.67,
-          "lista_f": 101.99,
-          "antiguedad": "3-5 años"
-        },
-        {
-          "codigo": "70011646",
-          "nombre": "DOPPIO GSM F1811 NEGRO KIT",
           "serie": "353761325138923",
           "fecha_alta": "2023-02-01",
           "fecha_compra": "2023-02-01",
@@ -5597,7 +5573,19 @@
         {
           "codigo": "70011646",
           "nombre": "DOPPIO GSM F1811 NEGRO KIT",
-          "serie": "351649640036926",
+          "serie": "353761325136281",
+          "fecha_alta": "2023-02-01",
+          "fecha_compra": "2023-02-01",
+          "factura": "661672",
+          "dias": 1188,
+          "costo": 222.67,
+          "lista_f": 101.99,
+          "antiguedad": "3-5 años"
+        },
+        {
+          "codigo": "70011646",
+          "nombre": "DOPPIO GSM F1811 NEGRO KIT",
+          "serie": "351649640084736",
           "fecha_alta": "2023-03-02",
           "fecha_compra": "2023-03-02",
           "factura": "674591",
@@ -5609,7 +5597,7 @@
         {
           "codigo": "70011646",
           "nombre": "DOPPIO GSM F1811 NEGRO KIT",
-          "serie": "351649640084736",
+          "serie": "351649640036926",
           "fecha_alta": "2023-03-02",
           "fecha_compra": "2023-03-02",
           "factura": "674591",
@@ -5645,7 +5633,7 @@
         {
           "codigo": "70011646",
           "nombre": "DOPPIO GSM F1811 NEGRO KIT",
-          "serie": "351649642819337",
+          "serie": "351649642820830",
           "fecha_alta": "2024-06-19",
           "fecha_compra": "2024-06-19",
           "factura": "996215",
@@ -5657,7 +5645,7 @@
         {
           "codigo": "70011646",
           "nombre": "DOPPIO GSM F1811 NEGRO KIT",
-          "serie": "351649642820830",
+          "serie": "351649642819337",
           "fecha_alta": "2024-06-19",
           "fecha_compra": "2024-06-19",
           "factura": "996215",
@@ -5829,19 +5817,7 @@
         {
           "codigo": "70015844",
           "nombre": "I MOBIL GSM IM220 NEGRO/AZUL KIT",
-          "serie": "355402119783719",
-          "fecha_alta": "2026-03-21",
-          "fecha_compra": "2026-03-21",
-          "factura": "1629240",
-          "dias": 44,
-          "costo": 215.87,
-          "lista_f": 0.0,
-          "antiguedad": "1-3 meses"
-        },
-        {
-          "codigo": "70015844",
-          "nombre": "I MOBIL GSM IM220 NEGRO/AZUL KIT",
-          "serie": "354785430403806",
+          "serie": "355402119934445",
           "fecha_alta": "2026-03-21",
           "fecha_compra": "2026-03-21",
           "factura": "1629240",
@@ -5865,7 +5841,19 @@
         {
           "codigo": "70015844",
           "nombre": "I MOBIL GSM IM220 NEGRO/AZUL KIT",
-          "serie": "355402119781267",
+          "serie": "355402119765419",
+          "fecha_alta": "2026-03-21",
+          "fecha_compra": "2026-03-21",
+          "factura": "1629240",
+          "dias": 44,
+          "costo": 215.87,
+          "lista_f": 0.0,
+          "antiguedad": "1-3 meses"
+        },
+        {
+          "codigo": "70015844",
+          "nombre": "I MOBIL GSM IM220 NEGRO/AZUL KIT",
+          "serie": "354785430403806",
           "fecha_alta": "2026-03-21",
           "fecha_compra": "2026-03-21",
           "factura": "1629240",
@@ -5889,6 +5877,18 @@
         {
           "codigo": "70015844",
           "nombre": "I MOBIL GSM IM220 NEGRO/AZUL KIT",
+          "serie": "355402119781267",
+          "fecha_alta": "2026-03-21",
+          "fecha_compra": "2026-03-21",
+          "factura": "1629240",
+          "dias": 44,
+          "costo": 215.87,
+          "lista_f": 0.0,
+          "antiguedad": "1-3 meses"
+        },
+        {
+          "codigo": "70015844",
+          "nombre": "I MOBIL GSM IM220 NEGRO/AZUL KIT",
           "serie": "355402119781309",
           "fecha_alta": "2026-03-21",
           "fecha_compra": "2026-03-21",
@@ -5901,19 +5901,7 @@
         {
           "codigo": "70015844",
           "nombre": "I MOBIL GSM IM220 NEGRO/AZUL KIT",
-          "serie": "355402119934445",
-          "fecha_alta": "2026-03-21",
-          "fecha_compra": "2026-03-21",
-          "factura": "1629240",
-          "dias": 44,
-          "costo": 215.87,
-          "lista_f": 0.0,
-          "antiguedad": "1-3 meses"
-        },
-        {
-          "codigo": "70015844",
-          "nombre": "I MOBIL GSM IM220 NEGRO/AZUL KIT",
-          "serie": "355402119765419",
+          "serie": "355402119783719",
           "fecha_alta": "2026-03-21",
           "fecha_compra": "2026-03-21",
           "factura": "1629240",
@@ -5979,18 +5967,6 @@
           "antiguedad": "6-12 meses"
         },
         {
-          "codigo": "70015805",
-          "nombre": "ALCATEL LTE 5028A 1S GRIS KIT",
-          "serie": "351548110964726",
-          "fecha_alta": "2025-07-27",
-          "fecha_compra": "2025-07-27",
-          "factura": "1379073",
-          "dias": 281,
-          "costo": 2404.66,
-          "lista_f": 0.0,
-          "antiguedad": "6-12 meses"
-        },
-        {
           "codigo": "70011646",
           "nombre": "DOPPIO GSM F1811 NEGRO KIT",
           "serie": "351649645095372",
@@ -6000,6 +5976,18 @@
           "dias": 281,
           "costo": 162.33,
           "lista_f": 101.99,
+          "antiguedad": "6-12 meses"
+        },
+        {
+          "codigo": "70015805",
+          "nombre": "ALCATEL LTE 5028A 1S GRIS KIT",
+          "serie": "351548110964726",
+          "fecha_alta": "2025-07-27",
+          "fecha_compra": "2025-07-27",
+          "factura": "1379073",
+          "dias": 281,
+          "costo": 2404.66,
+          "lista_f": 0.0,
           "antiguedad": "6-12 meses"
         },
         {
@@ -6027,18 +6015,6 @@
           "antiguedad": "<1 mes"
         },
         {
-          "codigo": "70020267",
-          "nombre": "SENWA 2G S301A DISCO NEGRO/ROJO KIT",
-          "serie": "356539408817317",
-          "fecha_alta": "2026-04-16",
-          "fecha_compra": "2026-04-16",
-          "factura": "1653000",
-          "dias": 18,
-          "costo": 162.33,
-          "lista_f": 0.0,
-          "antiguedad": "<1 mes"
-        },
-        {
           "codigo": "70020268",
           "nombre": "SENWA 2G S301A DISCO NEGRO/AZUL KIT",
           "serie": "356539409334080",
@@ -6053,7 +6029,7 @@
         {
           "codigo": "70020267",
           "nombre": "SENWA 2G S301A DISCO NEGRO/ROJO KIT",
-          "serie": "356539408814959",
+          "serie": "356539408817317",
           "fecha_alta": "2026-04-16",
           "fecha_compra": "2026-04-16",
           "factura": "1653000",
@@ -6085,6 +6061,18 @@
           "costo": 162.33,
           "lista_f": 0.0,
           "antiguedad": "<1 mes"
+        },
+        {
+          "codigo": "70020267",
+          "nombre": "SENWA 2G S301A DISCO NEGRO/ROJO KIT",
+          "serie": "356539408814959",
+          "fecha_alta": "2026-04-16",
+          "fecha_compra": "2026-04-16",
+          "factura": "1653000",
+          "dias": 18,
+          "costo": 162.33,
+          "lista_f": 0.0,
+          "antiguedad": "<1 mes"
         }
       ]
     },
@@ -6094,18 +6082,6 @@
       "modelos_distintos": 7,
       "costo_total": 5455.82,
       "items": [
-        {
-          "codigo": "70012667",
-          "nombre": "SENWA 3-G S319T FUSION NEGRO KIT",
-          "serie": "352308092966697",
-          "fecha_alta": "2026-06-23",
-          "fecha_compra": "2026-06-23",
-          "factura": "1723810",
-          "dias": 2434,
-          "costo": 406.38,
-          "lista_f": 286.04,
-          "antiguedad": ">5 años"
-        },
         {
           "codigo": "70012667",
           "nombre": "SENWA 3-G S319T FUSION NEGRO KIT",
@@ -6122,6 +6098,18 @@
           "codigo": "70012667",
           "nombre": "SENWA 3-G S319T FUSION NEGRO KIT",
           "serie": "352308092972752",
+          "fecha_alta": "2026-06-23",
+          "fecha_compra": "2026-06-23",
+          "factura": "1723810",
+          "dias": 2434,
+          "costo": 406.38,
+          "lista_f": 286.04,
+          "antiguedad": ">5 años"
+        },
+        {
+          "codigo": "70012667",
+          "nombre": "SENWA 3-G S319T FUSION NEGRO KIT",
+          "serie": "352308092966697",
           "fecha_alta": "2026-06-23",
           "fecha_compra": "2026-06-23",
           "factura": "1723810",
@@ -6181,7 +6169,7 @@
         {
           "codigo": "70011332",
           "nombre": "DOPPIO GSM F1811 KIT",
-          "serie": "351649646440106",
+          "serie": "351649646440163",
           "fecha_alta": "2026-03-11",
           "fecha_compra": "2026-03-11",
           "factura": "1618647",
@@ -6193,7 +6181,7 @@
         {
           "codigo": "70011332",
           "nombre": "DOPPIO GSM F1811 KIT",
-          "serie": "351649646440163",
+          "serie": "351649646440106",
           "fecha_alta": "2026-03-11",
           "fecha_compra": "2026-03-11",
           "factura": "1618647",
@@ -6387,9 +6375,9 @@
           "antiguedad": "3-6 meses"
         },
         {
-          "codigo": "70020267",
-          "nombre": "SENWA 2G S301A DISCO NEGRO/ROJO KIT",
-          "serie": "356539408816889",
+          "codigo": "70020268",
+          "nombre": "SENWA 2G S301A DISCO NEGRO/AZUL KIT",
+          "serie": "356539409204861",
           "fecha_alta": "2026-04-18",
           "fecha_compra": "2026-04-18",
           "factura": "1654880",
@@ -6411,9 +6399,9 @@
           "antiguedad": "<1 mes"
         },
         {
-          "codigo": "70020268",
-          "nombre": "SENWA 2G S301A DISCO NEGRO/AZUL KIT",
-          "serie": "356539409204861",
+          "codigo": "70020267",
+          "nombre": "SENWA 2G S301A DISCO NEGRO/ROJO KIT",
+          "serie": "356539408816889",
           "fecha_alta": "2026-04-18",
           "fecha_compra": "2026-04-18",
           "factura": "1654880",
@@ -6493,7 +6481,7 @@
         {
           "codigo": "70020267",
           "nombre": "SENWA 2G S301A DISCO NEGRO/ROJO KIT",
-          "serie": "356539408815014",
+          "serie": "356539408817291",
           "fecha_alta": "2026-04-16",
           "fecha_compra": "2026-04-16",
           "factura": "1653113",
@@ -6505,7 +6493,7 @@
         {
           "codigo": "70020267",
           "nombre": "SENWA 2G S301A DISCO NEGRO/ROJO KIT",
-          "serie": "356539408817291",
+          "serie": "356539408815014",
           "fecha_alta": "2026-04-16",
           "fecha_compra": "2026-04-16",
           "factura": "1653113",
