@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-23T07:00:12.805383",
-  "total_unidades": 411,
-  "total_costo": 308575.09,
+  "generated_at": "2026-11-23T13:00:09.002717",
+  "total_unidades": 410,
+  "total_costo": 308273.97,
   "num_sucursales": 27,
   "stores": [
     {
@@ -1446,9 +1446,9 @@
     },
     {
       "sucursal": "TAMAZULA RC",
-      "unidades": 7,
+      "unidades": 6,
       "modelos_distintos": 6,
-      "costo_total": 23954.07,
+      "costo_total": 23652.95,
       "items": [
         {
           "codigo": "70019768",
@@ -1508,18 +1508,6 @@
           "dias": 235,
           "costo": 2482.07,
           "lista_f": 2482.07,
-          "antiguedad": "6-12 meses"
-        },
-        {
-          "codigo": "70023390",
-          "nombre": "I MOBIL 4G IM421 128MB NEGRO KIT",
-          "serie": "358897660359628",
-          "fecha_alta": "2025-09-15",
-          "fecha_compra": "2025-09-15",
-          "factura": "1428924",
-          "dias": 231,
-          "costo": 301.12,
-          "lista_f": 0.0,
           "antiguedad": "6-12 meses"
         },
         {
